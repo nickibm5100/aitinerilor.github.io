@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(Raleway/static/Raleway-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(Raleway/static/Raleway-Medium.ttf) format(truetype);
+}
+@font-face {
+    font-family: Raleway-SemiBold;
+    src: url(Raleway/static/Raleway-SemiBold.ttf) format(truetype);
+}
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(Raleway/static/Raleway-Bold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: League Spartan-Bold;
+    src: url(League-Spartan/static/LeagueSpartan-Bold.ttf) format(truetype);
+}

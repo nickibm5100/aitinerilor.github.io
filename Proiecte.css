@@ -1,0 +1,646 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+.proiecte {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 120px;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .proiecte .hero-section {
+    position: relative;
+    width: 1192px;
+    height: 1037px;
+  }
+  
+  .proiecte .proiect-section {
+    position: absolute;
+    width: 1192px;
+    height: 866px;
+    top: 171px;
+    left: 0;
+  }
+  
+  .proiecte .vezi-proiectele {
+    position: absolute;
+    width: 714px;
+    height: 120px;
+    top: -1px;
+    left: 0;
+    font-family: var(--h-2-font-family);
+    font-weight: var(--h-2-font-weight);
+    color: var(--h1-color);
+    font-size: var(--h-2-font-size);
+    letter-spacing: var(--h-2-letter-spacing);
+    line-height: var(--h-2-line-height);
+    font-style: var(--h-2-font-style);
+  }
+  
+  .proiecte .category-section {
+    position: absolute;
+    width: 1192px;
+    height: 686px;
+    top: 180px;
+    left: 0;
+  }
+  
+  .proiecte .earring {
+    position: absolute;
+    width: 478px;
+    height: 398px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/earing-img.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .proiecte .frame {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 32px;
+    position: absolute;
+    top: 217px;
+    left: 128px;
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+  
+  .proiecte .cite-te-mai-mult {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: -0.36px;
+    line-height: 27px;
+    white-space: nowrap;
+  }
+  
+  .proiecte .overlap-group {
+    position: absolute;
+    width: 234px;
+    height: 83px;
+    top: 108px;
+    left: 122px;
+  }
+  
+  .proiecte .ear {
+    position: absolute;
+    width: 234px;
+    height: 83px;
+    top: 0;
+    left: 0;
+    background-color: #3265b399;
+    filter: blur(50px);
+    opacity: 0.8;
+  }
+  
+  .proiecte .text-wrapper {
+    position: absolute;
+    height: 47px;
+    top: 14px;
+    left: 29px;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--text);
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .proiecte .bracelets {
+    position: absolute;
+    width: 478px;
+    height: 253px;
+    top: 430px;
+    left: 0;
+    background-image: url(./img/bra-imag.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .proiecte .overlap {
+    position: relative;
+    width: 258px;
+    height: 83px;
+    top: 85px;
+    left: 110px;
+  }
+  
+  .proiecte .bracelet {
+    position: absolute;
+    width: 258px;
+    height: 83px;
+    top: 0;
+    left: 0;
+    background-color: #3265b399;
+    filter: blur(50px);
+    opacity: 0.8;
+  }
+  
+  .proiecte .div {
+    position: absolute;
+    height: 47px;
+    top: 17px;
+    left: 29px;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--text);
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .proiecte .set {
+    position: absolute;
+    width: 325px;
+    height: 316px;
+    top: 370px;
+    left: 510px;
+    background-image: url(./img/set-img.png);
+    background-size: 100% 100%;
+  }
+  
+  .proiecte .overlap-2 {
+    position: relative;
+    width: 177px;
+    height: 83px;
+    top: 116px;
+    left: 76px;
+  }
+  
+  .proiecte .se {
+    position: absolute;
+    width: 177px;
+    height: 83px;
+    top: 0;
+    left: 0;
+    background-color: #3265b399;
+    filter: blur(50px);
+    opacity: 0.8;
+  }
+  
+  .proiecte .text-wrapper-2 {
+    position: absolute;
+    height: 47px;
+    top: 17px;
+    left: 45px;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--text);
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .proiecte .ring {
+    position: absolute;
+    width: 325px;
+    height: 316px;
+    top: 370px;
+    left: 867px;
+    background-image: url(./img/ring-img.png);
+    background-size: 100% 100%;
+  }
+  
+  .proiecte .overlap-3 {
+    position: relative;
+    width: 196px;
+    height: 83px;
+    top: 116px;
+    left: 62px;
+  }
+  
+  .proiecte .ring-2 {
+    position: absolute;
+    width: 196px;
+    height: 83px;
+    top: 0;
+    left: 0;
+    background-color: #3265b399;
+    filter: blur(50px);
+    opacity: 0.8;
+  }
+  
+  .proiecte .necklace {
+    width: 681px;
+    height: 338px;
+    left: 510px;
+    background-image: url(./img/neck-img.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+  }
+  
+  .proiecte .overlap-4 {
+    position: relative;
+    width: 290px;
+    height: 83px;
+    top: 129px;
+    left: 210px;
+  }
+  
+  .proiecte .necklace-2 {
+    width: 290px;
+    height: 83px;
+    left: 0;
+    background-color: #3265b399;
+    filter: blur(50px);
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+  }
+  
+  .proiecte .text-wrapper-3 {
+    position: absolute;
+    height: 47px;
+    top: 17px;
+    left: 40px;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--text);
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .proiecte .meniu {
+    position: absolute;
+    width: 1192px;
+    height: 57px;
+    top: 40px;
+    left: 0;
+  }
+  
+  .proiecte .navbar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 36px;
+    position: absolute;
+    top: 17px;
+    left: 288px;
+  }
+  
+  .proiecte .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--meniu-text-font-family);
+    font-weight: var(--meniu-text-font-weight);
+    color: var(--paragraph-color);
+    font-size: var(--meniu-text-font-size);
+    letter-spacing: var(--meniu-text-letter-spacing);
+    line-height: var(--meniu-text-line-height);
+    white-space: nowrap;
+    font-style: var(--meniu-text-font-style);
+  }
+  
+  .proiecte .text-wrapper-5 {
+    color: var(--h1-color);
+    text-decoration: underline;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .proiecte .text-wrapper-6 {
+    color: #000000;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--meniu-text-font-family);
+    font-weight: var(--meniu-text-font-weight);
+    font-size: var(--meniu-text-font-size);
+    letter-spacing: var(--meniu-text-letter-spacing);
+    line-height: var(--meniu-text-line-height);
+    white-space: nowrap;
+    font-style: var(--meniu-text-font-style);
+  }
+  
+  .proiecte .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    position: absolute;
+    top: 19px;
+    left: 1117px;
+  }
+  
+  .proiecte .uiw-login {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .proiecte .text-wrapper-7 {
+    position: relative;
+    width: 49px;
+    margin-top: -0.5px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .proiecte .mi-search {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 17px;
+    left: 1069px;
+  }
+  
+  .proiecte .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .proiecte .logoait {
+    position: relative;
+    width: 46px;
+    height: 55px;
+    object-fit: cover;
+  }
+  
+  .proiecte .asocia-ia-interna {
+    position: relative;
+    width: 80px;
+    height: 59px;
+    margin-top: -1px;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--h1-color);
+    font-size: 8px;
+    letter-spacing: 0.72px;
+    line-height: 8px;
+  }
+  
+  .proiecte .footer {
+    position: relative;
+    width: 1600px;
+    height: 478px;
+    background-color: var(--h1-color);
+  }
+  
+  .proiecte .footer-2 {
+    position: absolute;
+    width: 1097px;
+    height: 310px;
+    top: 27px;
+    left: 51px;
+  }
+  
+  .proiecte .footer-text {
+    position: absolute;
+    width: 791px;
+    height: 310px;
+    top: 0;
+    left: 306px;
+  }
+  
+  .proiecte .navigare {
+    width: 110px;
+    height: 310px;
+    top: 0;
+    position: absolute;
+    left: 0;
+  }
+  
+  .proiecte .text-wrapper-8 {
+    height: 30px;
+    top: -1px;
+    font-family: var(--footer-name-font-family);
+    font-weight: var(--footer-name-font-weight);
+    color: #ffffff;
+    font-size: var(--footer-name-font-size);
+    letter-spacing: var(--footer-name-letter-spacing);
+    line-height: var(--footer-name-line-height);
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+    font-style: var(--footer-name-font-style);
+  }
+  
+  .proiecte .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+  
+  .proiecte .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .proiecte .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .proiecte .urmrete {
+    position: absolute;
+    width: 247px;
+    height: 218px;
+    top: 0;
+    left: 205px;
+  }
+  
+  .proiecte .frame-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+  
+  .proiecte .frame-5 {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .proiecte .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .proiecte .text-wrapper-11 {
+    position: relative;
+    width: 93px;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .proiecte .contact {
+    position: absolute;
+    width: 281px;
+    height: 193px;
+    top: 0;
+    left: 510px;
+  }
+  
+  .proiecte .text-wrapper-12 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    white-space: nowrap;
+  }
+  
+  .proiecte .frame-6 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .proiecte .p {
+    position: relative;
+    width: 241px;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .proiecte .logo-slogan {
+    width: 204px;
+    height: 154px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .proiecte .text-wrapper-13 {
+    position: absolute;
+    width: 204px;
+    top: 105px;
+    left: 0;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--bg-color);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .proiecte .logo-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .proiecte .logoait-2 {
+    position: relative;
+    width: 74px;
+    height: 88.01px;
+    object-fit: cover;
+  }
+  
+  .proiecte .asocia-ia-interna-2 {
+    position: relative;
+    width: 125px;
+    height: 38px;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1.33px;
+    line-height: 12px;
+  }
+  
+  .proiecte .line {
+    position: absolute;
+    width: 1192px;
+    height: 1px;
+    top: 377px;
+    left: 204px;
+    object-fit: cover;
+  }
+  
+  .proiecte .toate-drepturile {
+    position: absolute;
+    height: 21px;
+    top: 416px;
+    left: 302px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  

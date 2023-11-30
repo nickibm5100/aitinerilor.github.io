@@ -1,0 +1,589 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+.evenimente {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 120px;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .evenimente .evenimente-articole {
+    position: relative;
+    width: 1192px;
+    height: 1770px;
+    overflow: hidden;
+  }
+  
+  .evenimente .evenimente-i-activit {
+    position: absolute;
+    top: 166px;
+    left: 4px;
+    font-family: var(--h-2-font-family);
+    font-weight: var(--h-2-font-weight);
+    color: var(--h1-color);
+    font-size: var(--h-2-font-size);
+    letter-spacing: var(--h-2-letter-spacing);
+    line-height: var(--h-2-line-height);
+    white-space: nowrap;
+    font-style: var(--h-2-font-style);
+  }
+  
+  .evenimente .frame {
+    position: absolute;
+    width: 580px;
+    height: 434px;
+    top: 281px;
+    left: 612px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .evenimente .img-articol {
+    position: absolute;
+    width: 274px;
+    height: 434px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .evenimente .text {
+    top: 41px;
+    left: 306px;
+    position: absolute;
+    width: 233px;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--paragraph-color);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .evenimente .text-wrapper {
+    position: absolute;
+    width: 241px;
+    top: 135px;
+    left: 306px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+  }
+  
+  .evenimente .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 28px;
+    position: absolute;
+    top: 334px;
+    left: 306px;
+    background-color: var(--h1-color);
+    border-radius: 15px;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .evenimente .div {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .evenimente .frame-2 {
+    position: absolute;
+    width: 580px;
+    height: 434px;
+    top: 769px;
+    left: 612px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .evenimente .frame-3 {
+    position: absolute;
+    width: 580px;
+    height: 434px;
+    top: 1257px;
+    left: 608px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .evenimente .articol-homepage {
+    position: absolute;
+    width: 580px;
+    height: 434px;
+    top: 281px;
+    left: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .evenimente .img {
+    position: absolute;
+    width: 274px;
+    height: 434px;
+    top: 0;
+    left: 0;
+  }
+  
+  .evenimente .overlap-group {
+    position: absolute;
+    width: 233px;
+    height: 54px;
+    top: 41px;
+    left: 306px;
+  }
+  
+  .evenimente .text-wrapper-2 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 233px;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--paragraph-color);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .evenimente .articol-homepage-2 {
+    top: 769px;
+    left: 4px;
+    position: absolute;
+    width: 580px;
+    height: 434px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .evenimente .articol-homepage-3 {
+    top: 1257px;
+    left: 0;
+    position: absolute;
+    width: 580px;
+    height: 434px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .evenimente .meniu {
+    position: absolute;
+    width: 1192px;
+    height: 57px;
+    top: 40px;
+    left: 0;
+  }
+  
+  .evenimente .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    top: -2px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .evenimente .logoait {
+    position: relative;
+    width: 46px;
+    height: 55px;
+    object-fit: cover;
+  }
+  
+  .evenimente .asocia-ia-interna {
+    position: relative;
+    width: 80px;
+    height: 59px;
+    margin-top: -1px;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--h1-color);
+    font-size: 8px;
+    letter-spacing: 0.72px;
+    line-height: 8px;
+  }
+  
+  .evenimente .navbar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 36px;
+    position: absolute;
+    top: 15px;
+    left: 288px;
+  }
+  
+  .evenimente .text-wrapper-3 {
+    color: var(--paragraph-color);
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--meniu-text-font-family);
+    font-weight: var(--meniu-text-font-weight);
+    font-size: var(--meniu-text-font-size);
+    letter-spacing: var(--meniu-text-letter-spacing);
+    line-height: var(--meniu-text-line-height);
+    white-space: nowrap;
+    font-style: var(--meniu-text-font-style);
+  }
+  
+  .evenimente .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--meniu-text-font-family);
+    font-weight: var(--meniu-text-font-weight);
+    color: #000000;
+    font-size: var(--meniu-text-font-size);
+    letter-spacing: var(--meniu-text-letter-spacing);
+    line-height: var(--meniu-text-line-height);
+    white-space: nowrap;
+    font-style: var(--meniu-text-font-style);
+  }
+  
+  .evenimente .text-wrapper-5 {
+    color: var(--h1-color);
+    text-decoration: underline;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .evenimente .frame-4 {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    position: absolute;
+    top: 17px;
+    left: 1117px;
+  }
+  
+  .evenimente .uiw-login {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .evenimente .text-wrapper-6 {
+    position: relative;
+    width: 49px;
+    margin-top: -0.5px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .evenimente .mi-search {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 15px;
+    left: 1069px;
+  }
+  
+  .evenimente .arrow {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: absolute;
+    top: 1741px;
+    left: 513px;
+  }
+  
+  .evenimente .streamline-interface {
+    position: relative;
+    width: 30px;
+    height: 29px;
+  }
+  
+  .evenimente .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .evenimente .footer {
+    position: relative;
+    width: 1600px;
+    height: 478px;
+    background-color: var(--h1-color);
+  }
+  
+  .evenimente .footer-2 {
+    position: absolute;
+    width: 1097px;
+    height: 310px;
+    top: 27px;
+    left: 51px;
+  }
+  
+  .evenimente .footer-text {
+    position: absolute;
+    width: 791px;
+    height: 310px;
+    top: 0;
+    left: 306px;
+  }
+  
+  .evenimente .navigare {
+    width: 110px;
+    height: 310px;
+    top: 0;
+    position: absolute;
+    left: 0;
+  }
+  
+  .evenimente .text-wrapper-8 {
+    height: 30px;
+    top: -1px;
+    font-family: var(--footer-name-font-family);
+    font-weight: var(--footer-name-font-weight);
+    color: #ffffff;
+    font-size: var(--footer-name-font-size);
+    letter-spacing: var(--footer-name-letter-spacing);
+    line-height: var(--footer-name-line-height);
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+    font-style: var(--footer-name-font-style);
+  }
+  
+  .evenimente .frame-5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+  
+  .evenimente .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .evenimente .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .evenimente .urmrete {
+    position: absolute;
+    width: 247px;
+    height: 218px;
+    top: 0;
+    left: 205px;
+  }
+  
+  .evenimente .frame-6 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+  
+  .evenimente .frame-7 {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .evenimente .img-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .evenimente .text-wrapper-11 {
+    position: relative;
+    width: 93px;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .evenimente .contact {
+    position: absolute;
+    width: 281px;
+    height: 193px;
+    top: 0;
+    left: 510px;
+  }
+  
+  .evenimente .text-wrapper-12 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    white-space: nowrap;
+  }
+  
+  .evenimente .frame-8 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .evenimente .p {
+    position: relative;
+    width: 241px;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .evenimente .logo-slogan {
+    width: 204px;
+    height: 154px;
+    top: 0;
+    position: absolute;
+    left: 0;
+  }
+  
+  .evenimente .text-wrapper-13 {
+    position: absolute;
+    width: 204px;
+    top: 105px;
+    left: 0;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--bg-color);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .evenimente .logo-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    top: 0;
+    position: absolute;
+    left: 0;
+  }
+  
+  .evenimente .logoait-2 {
+    position: relative;
+    width: 74px;
+    height: 88.01px;
+    object-fit: cover;
+  }
+  
+  .evenimente .asocia-ia-interna-2 {
+    position: relative;
+    width: 125px;
+    height: 38px;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1.33px;
+    line-height: 12px;
+  }
+  
+  .evenimente .line {
+    position: absolute;
+    width: 1192px;
+    height: 1px;
+    top: 377px;
+    left: 204px;
+    object-fit: cover;
+  }
+  
+  .evenimente .toate-drepturile {
+    position: absolute;
+    height: 21px;
+    top: 416px;
+    left: 302px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  

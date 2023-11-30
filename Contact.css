@@ -1,0 +1,690 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+.contacte {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 120px;
+    position: relative;
+    background-color: var(--bg-color);
+  }
+  
+  .contacte .hero-section {
+    position: relative;
+    left: -186px;
+    width: 1600px;
+    height: 492px;
+    background-color: var(--bg-color);
+  }
+  
+  .contacte .meniu {
+    position: absolute;
+    width: 1192px;
+    height: 57px;
+    top: 40px;
+    left: 204px;
+  }
+  
+  .contacte .navbar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 36px;
+    position: absolute;
+    top: 17px;
+    left: 288px;
+  }
+  
+  .contacte .text-wrapper {
+    color: var(--paragraph-color);
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--meniu-text-font-family);
+    font-weight: var(--meniu-text-font-weight);
+    font-size: var(--meniu-text-font-size);
+    letter-spacing: var(--meniu-text-letter-spacing);
+    line-height: var(--meniu-text-line-height);
+    white-space: nowrap;
+    font-style: var(--meniu-text-font-style);
+  }
+  
+  .contacte .div {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--meniu-text-font-family);
+    font-weight: var(--meniu-text-font-weight);
+    color: #000000;
+    font-size: var(--meniu-text-font-size);
+    letter-spacing: var(--meniu-text-letter-spacing);
+    line-height: var(--meniu-text-line-height);
+    white-space: nowrap;
+    font-style: var(--meniu-text-font-style);
+  }
+  
+  .contacte .text-wrapper-2 {
+    color: var(--h1-color);
+    text-decoration: underline;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .contacte .frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    position: absolute;
+    top: 19px;
+    left: 1117px;
+  }
+  
+  .contacte .uiw-login {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .contacte .text-wrapper-3 {
+    position: relative;
+    width: 49px;
+    margin-top: -0.5px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .contacte .mi-search {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 17px;
+    left: 1069px;
+  }
+  
+  .contacte .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .contacte .logoait {
+    position: relative;
+    width: 46px;
+    height: 55px;
+    object-fit: cover;
+  }
+  
+  .contacte .asocia-ia-interna {
+    position: relative;
+    width: 80px;
+    height: 59px;
+    margin-top: -1px;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--h1-color);
+    font-size: 8px;
+    letter-spacing: 0.72px;
+    line-height: 8px;
+  }
+  
+  .contacte .contacteaz-asocia-ia {
+    width: 715px;
+    height: 120px;
+    top: 146px;
+    left: 204px;
+    font-family: var(--h-2-font-family);
+    font-weight: var(--h-2-font-weight);
+    color: var(--h1-color);
+    font-size: var(--h-2-font-size);
+    line-height: var(--h-2-line-height);
+    position: absolute;
+    letter-spacing: var(--h-2-letter-spacing);
+    font-style: var(--h-2-font-style);
+  }
+  
+  .contacte .contact {
+    position: absolute;
+    width: 1192px;
+    height: 135px;
+    top: 357px;
+    left: 204px;
+  }
+  
+  .contacte .frame-2 {
+    display: flex;
+    width: 376px;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .contacte .img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .contacte .p {
+    color: var(--h1-color);
+    font-size: 30px;
+    line-height: 45px;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .contacte .frame-3 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 0;
+    left: 408px;
+  }
+  
+  .contacte .text-wrapper-4 {
+    width: 320px;
+    color: var(--h1-color);
+    font-size: 28px;
+    line-height: 42px;
+    position: relative;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .contacte .frame-4 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 0;
+    left: 816px;
+  }
+  
+  .contacte .text-wrapper-5 {
+    position: relative;
+    width: 320px;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--h1-color);
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 45px;
+  }
+  
+  .contacte .overlap-wrapper {
+    position: relative;
+    width: 1600px;
+    height: 614px;
+  }
+  
+  .contacte .overlap {
+    height: 613px;
+    background-image: url(./img/rectangle-6.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .contacte .overlap-group-wrapper {
+    position: relative;
+    width: 1192px;
+    height: 433px;
+    top: 90px;
+    left: 204px;
+  }
+  
+  .contacte .overlap-group {
+    position: relative;
+    left: -186px;
+    height: 433px;
+  }
+  
+  .contacte .rectangle {
+    position: absolute;
+    width: 1192px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-color);
+    border-radius: 0px 80px 80px 80px;
+  }
+  
+  .contacte .frame-5 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 40px;
+    position: absolute;
+    top: 368px;
+    left: 502px;
+    background-color: var(--button-coloraccent);
+    border-radius: 0px 16px 16px 16px;
+  }
+  
+  .contacte .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 33px;
+    white-space: nowrap;
+  }
+  
+  .contacte .solar-arrow-up {
+    position: relative;
+    width: 28px;
+    height: 28px;
+  }
+  
+  .contacte .frame-6 {
+    position: absolute;
+    width: 1122px;
+    height: 218px;
+    top: 89px;
+    left: 35px;
+  }
+  
+  .contacte .newsletter-homepage {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    position: absolute;
+    top: 0;
+    left: 646px;
+  }
+  
+  .contacte .text-wrapper-7 {
+    color: #000000;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--paragraph-font-family);
+    font-weight: var(--paragraph-font-weight);
+    font-size: var(--paragraph-font-size);
+    letter-spacing: var(--paragraph-letter-spacing);
+    line-height: var(--paragraph-line-height);
+    white-space: nowrap;
+    font-style: var(--paragraph-font-style);
+  }
+  
+  .contacte .div-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 16px 396px 137px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .contacte .text-wrapper-8 {
+    color: #818893;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--paragraph-font-family);
+    font-weight: var(--paragraph-font-weight);
+    font-size: var(--paragraph-font-size);
+    letter-spacing: var(--paragraph-letter-spacing);
+    line-height: var(--paragraph-line-height);
+    white-space: nowrap;
+    font-style: var(--paragraph-font-style);
+  }
+  
+  .contacte .frame-7 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .contacte .frame-8 {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .contacte .text-wrapper-9 {
+    color: #808792;
+    position: relative;
+    width: fit-content;
+    font-family: var(--paragraph-font-family);
+    font-weight: var(--paragraph-font-weight);
+    font-size: var(--paragraph-font-size);
+    letter-spacing: var(--paragraph-letter-spacing);
+    line-height: var(--paragraph-line-height);
+    white-space: nowrap;
+    font-style: var(--paragraph-font-style);
+  }
+  
+  .contacte .frame-9 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    position: absolute;
+    top: 121px;
+    left: 0;
+  }
+  
+  .contacte .frame-10 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 16px 390px 16px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .contacte .frame-11 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    position: absolute;
+    top: 0;
+    left: 323px;
+  }
+  
+  .contacte .trimite-i-un-mesaj {
+    position: absolute;
+    height: 30px;
+    top: 35px;
+    left: 496px;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--paragraph-color);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .contacte .footer {
+    position: relative;
+    width: 1600px;
+    height: 478px;
+    background-color: var(--h1-color);
+  }
+  
+  .contacte .footer-2 {
+    position: absolute;
+    width: 1097px;
+    height: 310px;
+    top: 27px;
+    left: 51px;
+  }
+  
+  .contacte .footer-text {
+    position: absolute;
+    width: 791px;
+    height: 310px;
+    top: 0;
+    left: 306px;
+  }
+  
+  .contacte .navigare {
+    width: 110px;
+    height: 310px;
+    top: 0;
+    position: absolute;
+    left: 0;
+  }
+  
+  .contacte .text-wrapper-10 {
+    height: 30px;
+    top: -1px;
+    font-family: var(--footer-name-font-family);
+    font-weight: var(--footer-name-font-weight);
+    color: #ffffff;
+    font-size: var(--footer-name-font-size);
+    letter-spacing: var(--footer-name-letter-spacing);
+    line-height: var(--footer-name-line-height);
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+    font-style: var(--footer-name-font-style);
+  }
+  
+  .contacte .frame-12 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+  
+  .contacte .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .contacte .text-wrapper-12 {
+    position: relative;
+    width: fit-content;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .contacte .urmrete {
+    position: absolute;
+    width: 247px;
+    height: 218px;
+    top: 0;
+    left: 205px;
+  }
+  
+  .contacte .frame-13 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+  
+  .contacte .frame-14 {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .contacte .img-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .contacte .text-wrapper-13 {
+    position: relative;
+    width: 93px;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .contacte .contact-2 {
+    position: absolute;
+    width: 281px;
+    height: 193px;
+    top: 0;
+    left: 510px;
+  }
+  
+  .contacte .text-wrapper-14 {
+    width: fit-content;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 27px;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .contacte .frame-15 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .contacte .text-wrapper-15 {
+    position: relative;
+    width: 241px;
+    margin-top: -1px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .contacte .logo-slogan {
+    width: 204px;
+    height: 154px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .contacte .text-wrapper-16 {
+    position: absolute;
+    width: 204px;
+    top: 105px;
+    left: 0;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--bg-color);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .contacte .logo-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .contacte .logoait-2 {
+    position: relative;
+    width: 74px;
+    height: 88.01px;
+    object-fit: cover;
+  }
+  
+  .contacte .asocia-ia-interna-2 {
+    position: relative;
+    width: 125px;
+    height: 38px;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1.33px;
+    line-height: 12px;
+  }
+  
+  .contacte .line {
+    position: absolute;
+    width: 1192px;
+    height: 1px;
+    top: 377px;
+    left: 204px;
+    object-fit: cover;
+  }
+  
+  .contacte .toate-drepturile {
+    position: absolute;
+    height: 21px;
+    top: 416px;
+    left: 302px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
