@@ -4,6 +4,35 @@ body, html {
     overflow-x: hidden;
   }
 
+
+  .dnd{
+    width: 1230px;
+    height: 563px;
+    background-color: #E3EFFE;
+  }
+
+  .dnts{
+    border-top: 281.5px solid transparent;
+	  border-left: 207.26px solid #ffffff;
+	  border-bottom: 281.5px solid transparent;
+    position: relative;
+    top: -563px;
+  }
+
+
+  .dntd{
+    border-top: 281.5px solid transparent;
+	 border-right: 207.26px solid #ffffff;
+	 border-bottom: 281.5px solid transparent;
+    position: relative;
+    right: -35px;
+    top: -1126px;
+  }
+
+
+
+  
+
 .despre-noi {
     display: inline-flex;
     flex-direction: column;
@@ -15,7 +44,7 @@ body, html {
   
   .despre-noi .hero-section {
     position: relative;
-    width: 1191px;
+    width: 1230px;
     height: 695px;
     overflow: hidden;
   }
@@ -30,7 +59,7 @@ body, html {
     background-size: 100% 100%;
   }
   
-  .despre-noi .logoait {
+  .despre-noi .logoait-1 {
     position: absolute;
     width: 375px;
     height: 446px;
@@ -69,22 +98,7 @@ body, html {
     font-style: var(--paragraph-font-style);
   }
   
-  .despre-noi .meniu {
-    position: absolute;
-    width: 1192px;
-    height: 57px;
-    top: 40px;
-    left: -1px;
-  }
   
-  .despre-noi .navbar {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 36px;
-    position: absolute;
-    top: 17px;
-    left: 288px;
-  }
   
   .despre-noi .div {
     color: var(--paragraph-color);
@@ -137,12 +151,6 @@ body, html {
     left: 1117px;
   }
   
-  .despre-noi .uiw-login {
-    position: relative;
-    width: 20px;
-    height: 20px;
-  }
-  
   .despre-noi .text-wrapper-4 {
     position: relative;
     width: 49px;
@@ -155,22 +163,9 @@ body, html {
     line-height: normal;
   }
   
-  .despre-noi .mi-search {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 17px;
-    left: 1069px;
-  }
   
-  .despre-noi .logo {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+  
+  
   
   .despre-noi .img {
     width: 45.5px;
@@ -183,6 +178,7 @@ body, html {
     position: relative;
     width: 80px;
     height: 59px;
+    top: 18px;
     margin-top: -1px;
     font-family: "League Spartan-Bold", Helvetica;
     font-weight: 700;
@@ -196,12 +192,13 @@ body, html {
     position: relative;
     width: 1194px;
     height: 962px;
+    left: 15px;
   }
   
   .despre-noi .membrii-section {
     position: relative;
     width: 1197px;
-    height: 1200px;
+    height: 3000px;
   }
   
   .despre-noi .membrii-asocia-iei {
@@ -226,16 +223,28 @@ body, html {
     top: 152px;
     left: 0;
   }
+
+
+
+
+
+/*Tabel*/
+  .tabel{
+    position: relative;
+    top: 190px;
+    left: 9px;
+  }
   
-  .despre-noi .membru-frame {
-    position: absolute;
+  .membru-frame {
+    padding: 15px 15px;
+    position: relative;
     width: 274px;
     height: 468px;
     top: 0;
     left: 3px;
   }
   
-  .despre-noi .rectangle {
+  .rectangle {
     position: absolute;
     width: 274px;
     height: 274px;
@@ -244,7 +253,7 @@ body, html {
     object-fit: cover;
   }
   
-  .despre-noi .descriere {
+  .descriere {
     position: absolute;
     width: 271px;
     height: 174px;
@@ -252,7 +261,7 @@ body, html {
     left: 0;
   }
   
-  .despre-noi .guma-daria {
+  .guma-daria {
     position: absolute;
     height: 45px;
     top: -1px;
@@ -266,11 +275,11 @@ body, html {
     white-space: nowrap;
   }
   
-  .despre-noi .coordonator-social {
+  .functie{
     position: absolute;
     width: 271px;
     height: 60px;
-    top: 56px;
+    top: 40px;
     left: 0;
     font-family: "Raleway-Medium", Helvetica;
     font-weight: 500;
@@ -280,16 +289,17 @@ body, html {
     line-height: 30px;
   }
   
-  .despre-noi .line {
+  .line {
     width: 271px;
     top: 136px;
     left: 0;
     position: absolute;
     height: 1px;
     object-fit: cover;
+    background-color: #000000;
   }
   
-  .despre-noi .reele-de-socializare {
+  .retele {
     position: absolute;
     width: 144px;
     height: 24px;
@@ -297,68 +307,40 @@ body, html {
     left: 0;
   }
   
-  .despre-noi .membru-frame-2 {
-    top: 500px;
-    left: 0;
-    position: absolute;
-    width: 274px;
-    height: 468px;
+  .IG{
+    position: relative;
+    top: -2px;
+    left: 1px;
   }
-  
-  .despre-noi .membru-frame-3 {
-    top: 0;
-    left: 316px;
-    position: absolute;
-    width: 274px;
-    height: 468px;
+
+  .EM{
+    position: relative;
+    top: -2px;
+    left: 10px;
   }
-  
-  .despre-noi .membru-frame-4 {
-    top: 500px;
-    left: 313px;
-    position: absolute;
-    width: 274px;
-    height: 468px;
+
+  .FB{
+    position: relative;
+    top: -2px;
+    left: 22px;
   }
-  
-  .despre-noi .membru-frame-5 {
-    top: 0;
-    left: 615px;
-    position: absolute;
-    width: 274px;
-    height: 468px;
+
+  .TT{
+    position: relative;
+    top: -2px;
+    left: 32px;
   }
+
   
-  .despre-noi .membru-frame-6 {
-    top: 500px;
-    left: 612px;
-    position: absolute;
-    width: 274px;
-    height: 468px;
-  }
-  
-  .despre-noi .membru-frame-7 {
-    top: 0;
-    left: 923px;
-    position: absolute;
-    width: 274px;
-    height: 468px;
-  }
-  
-  .despre-noi .membru-frame-8 {
-    top: 500px;
-    left: 920px;
-    position: absolute;
-    width: 274px;
-    height: 468px;
-  }
-  
+
+
+
   .despre-noi .arrow {
     display: inline-flex;
     align-items: flex-start;
     gap: 30px;
-    position: absolute;
-    top: 1170px;
+    position: relative;
+    top: 767px;
     left: 516px;
   }
   
@@ -379,36 +361,6 @@ body, html {
     letter-spacing: 0;
     line-height: 30px;
     white-space: nowrap;
-  }
-  
-  .despre-noi .footer {
-    position: relative;
-    width: 1600px;
-    height: 478px;
-    background-color: var(--h1-color);
-  }
-  
-  .despre-noi .footer-2 {
-    width: 1097px;
-    top: 27px;
-    position: absolute;
-    height: 310px;
-  }
-  
-  .despre-noi .footer-text {
-    width: 791px;
-    top: 0;
-    left: 306px;
-    position: absolute;
-    height: 310px;
-  }
-  
-  .despre-noi .navigare {
-    position: absolute;
-    width: 110px;
-    height: 310px;
-    top: 0;
-    left: 0;
   }
   
   .despre-noi .text-wrapper-6 {
@@ -461,14 +413,6 @@ body, html {
     white-space: nowrap;
   }
   
-  .despre-noi .urmrete {
-    position: absolute;
-    width: 247px;
-    height: 218px;
-    top: 0;
-    left: 205px;
-  }
-  
   .despre-noi .frame-3 {
     display: inline-flex;
     flex-direction: column;
@@ -485,32 +429,6 @@ body, html {
     gap: 16px;
     position: relative;
     flex: 0 0 auto;
-  }
-  
-  .despre-noi .img-2 {
-    position: relative;
-    width: 24px;
-    height: 24px;
-  }
-  
-  .despre-noi .text-wrapper-9 {
-    position: relative;
-    width: 93px;
-    margin-top: -1px;
-    font-family: "Raleway-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: 30px;
-  }
-  
-  .despre-noi .contact {
-    position: absolute;
-    width: 281px;
-    height: 193px;
-    top: 0;
-    left: 510px;
   }
   
   .despre-noi .text-wrapper-10 {
@@ -546,14 +464,6 @@ body, html {
     line-height: 27px;
   }
   
-  .despre-noi .logo-slogan {
-    width: 204px;
-    height: 154px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
   .despre-noi .text-wrapper-11 {
     position: absolute;
     width: 204px;
@@ -567,16 +477,7 @@ body, html {
     line-height: 24px;
   }
   
-  .despre-noi .logo-2 {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .despre-noi .logoait-2 {
+  .despre-noi .logoait-4 {
     width: 74px;
     height: 88.01px;
     position: relative;
@@ -604,16 +505,361 @@ body, html {
     object-fit: cover;
   }
   
-  .despre-noi .toate-drepturile {
+
+  /*Header*/
+  .top {
+    position: relative;
+    width: 1600px;
+    height: 713px;
+    background-color: var(--bg-color);
+  }
+  
+  .meniu {
     position: absolute;
-    height: 21px;
-    top: 416px;
-    left: 302px;
+    width: 1192px;
+    height: 57px;
+    top: 40px;
+    left: 16px;
+  }
+  
+  .navbar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 36px;
+    position: absolute;
+    top: 17px;
+    left: 288px;
+  }
+  
+  .active {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
     font-family: "Raleway-Medium", Helvetica;
     font-weight: 500;
-    color: #ffffff;
-    font-size: 14px;
+    color: #3265b3;
+    font-size: 16px;
     letter-spacing: 0;
-    line-height: 21px;
+    line-height: 24px;
+    text-decoration: underline;
     white-space: nowrap;
-  }
+    } 
+  
+    .static a{
+      position: relative;
+      padding: 8px;
+      text-decoration: none;
+      width: fit-content;
+      margin-top: -1px;
+      font-family: var(--meniu-text-font-family);
+      font-weight: var(--meniu-text-font-weight);
+      color: #000000;
+      font-size: var(--meniu-text-font-size);
+      letter-spacing: var(--meniu-text-letter-spacing);
+      line-height: var(--meniu-text-line-height);
+      white-space: nowrap;
+      font-style: var(--meniu-text-font-style);
+      text-decoration: none;
+    }
+  
+    .static :hover{
+      background-color: #5986c9;
+      border-radius: 5px;
+      transition: 0.3s ease;
+    }
+  
+    .frame-1 {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      position: absolute;
+      top: 19px;
+      left: 1117px;
+    }
+  
+    .login{
+      position: relative;
+      width: 49px;
+      margin-top: -0.5px;
+      font-family: "Raleway-Medium", Helvetica;
+      font-weight: 500;
+      color: #000000;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+  
+    .loginfoto {
+      position: relative;
+      width: 20px;
+      height: 20px;
+    }
+  
+    .search {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      top: 17px;
+      left: 1069px;
+    }
+    
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    .logoait {
+      position: relative;
+      width: 46px;
+      height: 55px;
+      object-fit: cover;
+    }
+  
+    .asociatia-internationala {
+      position: relative;
+      width: 80px;
+      height: 59px;
+      top: 18px;
+      margin-top: -1px;
+      font-family: "League Spartan-Bold", Helvetica;
+      font-weight: 700;
+      color: var(--h1-color);
+      font-size: 8px;
+      letter-spacing: 0.72px;
+      line-height: 8px;
+    }
+
+/*Footer*/
+.footer {
+  position: relative;
+  width: 1600px;
+  height: 450px;
+  background-color: var(--h1-color);
+}
+
+.footer-2 {
+  position: absolute;
+  width: 1097px;
+  height: 310px;
+  top: 27px;
+  left: 10px;
+}
+
+.footer-text {
+  position: absolute;
+  width: 791px;
+  height: 310px;
+  top: 0;
+  left: 306px;
+}
+
+.navigare {
+  width: 110px;
+  height: 310px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.titlufooter {
+  height: 30px;
+  top: -1px;
+  font-family: var(--footer-name-font-family);
+  font-weight: var(--footer-name-font-weight);
+  color: #ffffff;
+  font-size: var(--footer-name-font-size);
+  letter-spacing: var(--footer-name-letter-spacing);
+  line-height: var(--footer-name-line-height);
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+  font-style: var(--footer-name-font-style);
+}
+
+.framenavigare a{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  top: 50px;
+  left: 0;
+
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.urmrete {
+  position: absolute;
+  width: 247px;
+  height: 218px;
+  top: 0;
+  left: 205px;
+}
+
+.framefollow{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  left: 0;
+}
+
+.img-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.frame-6 a{
+  display: inline-flex;
+  align-items: center;
+
+  text-decoration: none;
+  position: relative;
+  left: 40px;
+  top: -30px;
+  width: 93px;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.framecontact{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 50px;
+  left: 0;
+
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+
+
+.img-3 {
+  position: relative;
+  left: -2px;
+  width: 24px;
+  height: 24px;
+}
+
+.contact {
+  position: absolute;
+  width: 281px;
+  height: 193px;
+  top: 0;
+  left: 510px;
+}
+
+.textfootercontact {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.logo-slogan {
+  width: 204px;
+  height: 154px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text-wrapper-9 {
+  position: absolute;
+  width: 204px;
+  top: 105px;
+  left: 0;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--bg-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.logo-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logoait-2 {
+  position: relative;
+  width: 74px;
+  height: 88.01px;
+  object-fit: cover;
+}
+
+.asocia-ia-interna-3 {
+  width: 125px;
+  height: 38px;
+  font-family: "League Spartan-Bold", Helvetica;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 1.33px;
+  line-height: 12px;
+  position: relative;
+  font-weight: 700;
+}
+
+.line-3 {
+  width: 1192px;
+  height: 1px;
+  background-color: #FFFFFF;
+  position: relative;
+  top: 345px;
+  left: 10px;
+}
+
+.toate-drepturile {
+  position: absolute;
+  height: 21px;
+  top: 375px;
+  left: 380px;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
