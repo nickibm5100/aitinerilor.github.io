@@ -198,7 +198,7 @@ body, html {
   .despre-noi .membrii-section {
     position: relative;
     width: 1197px;
-    height: 3000px;
+    height: 1200px;
   }
   
   .despre-noi .membrii-asocia-iei {
@@ -330,38 +330,8 @@ body, html {
     top: -2px;
     left: 32px;
   }
-
   
-
-
-
-  .despre-noi .arrow {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 30px;
-    position: relative;
-    top: 767px;
-    left: 516px;
-  }
   
-  .despre-noi .streamline-interface {
-    position: relative;
-    width: 30px;
-    height: 30px;
-  }
-  
-  .despre-noi .text-wrapper-5 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Raleway-Medium", Helvetica;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: 30px;
-    white-space: nowrap;
-  }
   
   .despre-noi .text-wrapper-6 {
     position: absolute;
@@ -861,5 +831,57 @@ body, html {
   font-size: 14px;
   letter-spacing: 0;
   line-height: 21px;
+  white-space: nowrap;
+}
+
+.cerc{
+  position: relative;
+  top: -9px;
+  left: 5px;
+}
+
+.harta{
+  position: absolute;
+  left: 0px;
+}
+
+
+.streamline-interface {
+  cursor: pointer;
+  position: absolute;
+  padding: 5px;
+  top: 1200px;
+  left: 565px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.streamline-interface-2 {
+  cursor: pointer;
+  position: absolute;
+  padding: 5px;
+  top: 1200px;
+  left: 628px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.streamline-interface:hover, .streamline-interface-2:hover {
+  background-color: #5986c9;
+}
+
+.despre-noi .text-wrapper-5 {
+  position: absolute;
+  width: fit-content;
+  top: 1201px;
+  left: 593px;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
   white-space: nowrap;
 }
