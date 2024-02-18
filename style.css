@@ -1264,15 +1264,10 @@ body, html {
   white-space: nowrap;
 }
 
-.cerc{
-  position: relative;
-  top: -9px;
-  left: 5px;
-}
-
 .harta{
   position: absolute;
   left: 0px;
+  top: 145px;
 }
 /*Desprenoi*/
 /*Contact*/

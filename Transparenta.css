@@ -88,7 +88,7 @@ body, html {
     width: 624px;
     height: 120px;
     top: 113px;
-    left: 221px;
+    left: 230px;
     font-family: var(--h-2-font-family);
     font-weight: var(--h-2-font-weight);
     color: var(--h1-color);
@@ -104,7 +104,7 @@ body, html {
     gap: 32px;
     position: absolute;
     top: 294px;
-    left: 221px;
+    left: 230px;
   }
   
   .transparen .component {
@@ -209,23 +209,6 @@ body, html {
     left: 66px;
   }
   
-  .transparen .meniu {
-    position: absolute;
-    width: 1191px;
-    height: 57px;
-    top: 40px;
-    left: 0;
-  }
-  
-  .transparen .navbar {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 36px;
-    position: absolute;
-    top: 17px;
-    left: 288px;
-  }
-  
   .transparen .text-wrapper-3 {
     position: relative;
     width: fit-content;
@@ -277,12 +260,6 @@ body, html {
     left: 1117px;
   }
   
-  .transparen .uiw-login {
-    position: relative;
-    width: 20px;
-    height: 20px;
-  }
-  
   .transparen .text-wrapper-6 {
     position: relative;
     width: 49px;
@@ -295,14 +272,6 @@ body, html {
     line-height: normal;
   }
   
-  .transparen .mi-search {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 17px;
-    left: 1069px;
-  }
-  
   .transparen .logo {
     display: inline-flex;
     align-items: center;
@@ -310,13 +279,6 @@ body, html {
     position: absolute;
     top: 0;
     left: 0;
-  }
-  
-  .transparen .logoait {
-    position: relative;
-    width: 46px;
-    height: 55px;
-    object-fit: cover;
   }
   
   .transparen .asocia-ia-interna {
@@ -706,3 +668,129 @@ body, html {
     white-space: nowrap;
   }
   
+  /*Header*/
+  .top {
+    position: relative;
+    width: 1600px;
+    height: 713px;
+    background-color: var(--bg-color);
+  }
+  
+  .meniu {
+    position: absolute;
+    width: 1192px;
+    height: 57px;
+    top: 40px;
+    left: 16px;
+  }
+  
+  .navbar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 36px;
+    position: absolute;
+    top: 17px;
+    left: 288px;
+  }
+  
+  .active {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: #3265b3;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-decoration: underline;
+    white-space: nowrap;
+    } 
+  
+    .static a{
+      position: relative;
+      padding: 8px;
+      text-decoration: none;
+      width: fit-content;
+      margin-top: -1px;
+      font-family: var(--meniu-text-font-family);
+      font-weight: var(--meniu-text-font-weight);
+      color: #000000;
+      font-size: var(--meniu-text-font-size);
+      letter-spacing: var(--meniu-text-letter-spacing);
+      line-height: var(--meniu-text-line-height);
+      white-space: nowrap;
+      font-style: var(--meniu-text-font-style);
+      text-decoration: none;
+    }
+  
+    .static :hover{
+      background-color: #5986c9;
+      border-radius: 5px;
+      transition: 0.3s ease;
+    }
+  
+    .frame-1 {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      position: absolute;
+      top: 19px;
+      left: 1117px;
+    }
+  
+    .login{
+      position: relative;
+      width: 49px;
+      margin-top: -0.5px;
+      font-family: "Raleway-Medium", Helvetica;
+      font-weight: 500;
+      color: #000000;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+  
+    .loginfoto {
+      position: relative;
+      width: 20px;
+      height: 20px;
+    }
+  
+    .search {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      top: 17px;
+      left: 1069px;
+    }
+    
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    .logoait {
+      position: relative;
+      width: 46px;
+      height: 55px;
+      object-fit: cover;
+    }
+  
+    .asociatia-internationala {
+      position: relative;
+      width: 80px;
+      height: 59px;
+      top: 18px;
+      margin-top: -1px;
+      font-family: "League Spartan-Bold", Helvetica;
+      font-weight: 700;
+      color: var(--h1-color);
+      font-size: 8px;
+      letter-spacing: 0.72px;
+      line-height: 8px;
+    }

@@ -662,7 +662,6 @@ body, html {
 .frame-6 a{
   display: inline-flex;
   align-items: center;
-
   text-decoration: none;
   position: relative;
   left: 40px;
@@ -798,15 +797,10 @@ body, html {
   white-space: nowrap;
 }
 
-.cerc{
-  position: relative;
-  top: -9px;
-  left: 5px;
-}
-
 .harta{
   position: absolute;
   left: 0px;
+  top: 145px;
 }
 
 
