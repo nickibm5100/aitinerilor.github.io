@@ -868,10 +868,6 @@ body, html {
   user-select: none;
 }
 
-.streamline-interface:hover, .streamline-interface-2:hover {
-  background-color: #5986c9;
-}
-
 .despre-noi .text-wrapper-5 {
   position: absolute;
   width: fit-content;
@@ -884,4 +880,31 @@ body, html {
   letter-spacing: 0;
   line-height: 30px;
   white-space: nowrap;
+}
+
+/*Slide*/
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  left: 17px;
+}
+
+.mySlides{
+  display:none;
+}
+
+.streamline-interface:hover, .streamline-interface-2:hover {
+  background-color: #5986c9;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }

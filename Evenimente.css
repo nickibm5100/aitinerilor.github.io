@@ -8,22 +8,21 @@ body, html {
     display: inline-flex;
     flex-direction: column;
     align-items: left;
-    gap: 120px;
+    gap: 60px;
     position: relative;
     background-color: #ffffff;
   }
   
   .evenimente .evenimente-articole {
     position: relative;
-    width: 1192px;
+    width: 1210px;
     height: 1770px;
-    overflow: hidden;
   }
   
   .evenimente .evenimente-i-activit {
     position: absolute;
     top: 166px;
-    left: 4px;
+    left: 9px;
     font-family: var(--h-2-font-family);
     font-weight: var(--h-2-font-weight);
     color: var(--h1-color);
@@ -34,12 +33,20 @@ body, html {
     font-style: var(--h-2-font-style);
   }
   
-  .evenimente .frame {
-    position: absolute;
+  .tabel{
+  position: absolute;
+  top: 260px;
+  left: -8px;
+  }
+
+  .padd{
+    padding: 27.5px 16px;
+  }
+
+  .frame {
+    position: relative;
     width: 580px;
     height: 434px;
-    top: 281px;
-    left: 612px;
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid;
@@ -96,17 +103,24 @@ body, html {
     box-sizing: border-box;
   }
   
-  .evenimente .div {
+  .articol {
+    transition-duration: 0.4s;
+    border-radius: 15px;
+    background-color: #3265B3;
+    color: white;
+    border: 0px;
+    width: 164px;
+    height: 41px;
     position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Raleway-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 21px;
-    white-space: nowrap;
+    left: 335px;
+    top: 355px;
+  }
+
+  .articol:hover{
+    cursor:pointer;
+    border: 2px solid #3265B3;
+    background-color: white;
+    color: #000000;
   }
   
   .evenimente .frame-2 {
@@ -198,52 +212,6 @@ body, html {
     border-color: #000000;
   }
   
-  .evenimente .meniu {
-    position: absolute;
-    width: 1192px;
-    height: 57px;
-    top: 40px;
-    left: 0;
-  }
-  
-  .evenimente .logo {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    top: -2px;
-    position: absolute;
-    left: 0;
-  }
-  
-  .evenimente .logoait {
-    position: relative;
-    width: 46px;
-    height: 55px;
-    object-fit: cover;
-  }
-  
-  .evenimente .asocia-ia-interna {
-    position: relative;
-    width: 80px;
-    height: 59px;
-    margin-top: -1px;
-    font-family: "League Spartan-Bold", Helvetica;
-    font-weight: 700;
-    color: var(--h1-color);
-    font-size: 8px;
-    letter-spacing: 0.72px;
-    line-height: 8px;
-  }
-  
-  .evenimente .navbar {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 36px;
-    position: absolute;
-    top: 15px;
-    left: 288px;
-  }
-  
   .evenimente .text-wrapper-3 {
     color: var(--paragraph-color);
     position: relative;
@@ -274,8 +242,9 @@ body, html {
   
   .evenimente .text-wrapper-5 {
     color: var(--h1-color);
-    text-decoration: underline;
     position: relative;
+    top: 1737px;
+    left: 592px;
     width: fit-content;
     margin-top: -1px;
     font-family: "Raleway-Medium", Helvetica;
@@ -284,41 +253,6 @@ body, html {
     letter-spacing: 0;
     line-height: 24px;
     white-space: nowrap;
-  }
-  
-  .evenimente .frame-4 {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    position: absolute;
-    top: 17px;
-    left: 1117px;
-  }
-  
-  .evenimente .uiw-login {
-    position: relative;
-    width: 20px;
-    height: 20px;
-  }
-  
-  .evenimente .text-wrapper-6 {
-    position: relative;
-    width: 49px;
-    margin-top: -0.5px;
-    font-family: "Raleway-Medium", Helvetica;
-    font-weight: 500;
-    color: #000000;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .evenimente .mi-search {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 15px;
-    left: 1069px;
   }
   
   .evenimente .arrow {
@@ -330,13 +264,7 @@ body, html {
     left: 513px;
   }
   
-  .evenimente .streamline-interface {
-    position: relative;
-    width: 30px;
-    height: 29px;
-  }
-  
-  .evenimente .text-wrapper-7 {
+  .evenimente .text-wrapper-5 {
     position: relative;
     width: fit-content;
     margin-top: -1px;
@@ -347,37 +275,6 @@ body, html {
     letter-spacing: 0;
     line-height: 30px;
     white-space: nowrap;
-  }
-  
-  .evenimente .footer {
-    position: relative;
-    width: 1600px;
-    height: 478px;
-    background-color: var(--h1-color);
-  }
-  
-  .evenimente .footer-2 {
-    position: absolute;
-    width: 1097px;
-    height: 310px;
-    top: 27px;
-    left: 51px;
-  }
-  
-  .evenimente .footer-text {
-    position: absolute;
-    width: 791px;
-    height: 310px;
-    top: 0;
-    left: 306px;
-  }
-  
-  .evenimente .navigare {
-    width: 110px;
-    height: 310px;
-    top: 0;
-    position: absolute;
-    left: 0;
   }
   
   .evenimente .text-wrapper-8 {
@@ -405,19 +302,6 @@ body, html {
     left: 0;
   }
   
-  .evenimente .text-wrapper-9 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Raleway-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: 30px;
-    white-space: nowrap;
-  }
-  
   .evenimente .text-wrapper-10 {
     position: relative;
     width: fit-content;
@@ -430,36 +314,12 @@ body, html {
     white-space: nowrap;
   }
   
-  .evenimente .urmrete {
-    position: absolute;
-    width: 247px;
-    height: 218px;
-    top: 0;
-    left: 205px;
-  }
-  
-  .evenimente .frame-6 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    position: absolute;
-    top: 50px;
-    left: 0;
-  }
-  
   .evenimente .frame-7 {
     display: inline-flex;
     align-items: center;
     gap: 16px;
     position: relative;
     flex: 0 0 auto;
-  }
-  
-  .evenimente .img-2 {
-    position: relative;
-    width: 24px;
-    height: 24px;
   }
   
   .evenimente .text-wrapper-11 {
@@ -472,14 +332,6 @@ body, html {
     font-size: 20px;
     letter-spacing: 0;
     line-height: 30px;
-  }
-  
-  .evenimente .contact {
-    position: absolute;
-    width: 281px;
-    height: 193px;
-    top: 0;
-    left: 510px;
   }
   
   .evenimente .text-wrapper-12 {
@@ -515,14 +367,6 @@ body, html {
     line-height: 27px;
   }
   
-  .evenimente .logo-slogan {
-    width: 204px;
-    height: 154px;
-    top: 0;
-    position: absolute;
-    left: 0;
-  }
-  
   .evenimente .text-wrapper-13 {
     position: absolute;
     width: 204px;
@@ -536,21 +380,6 @@ body, html {
     line-height: 24px;
   }
   
-  .evenimente .logo-2 {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    top: 0;
-    position: absolute;
-    left: 0;
-  }
-  
-  .evenimente .logoait-2 {
-    position: relative;
-    width: 74px;
-    height: 88.01px;
-    object-fit: cover;
-  }
   
   .evenimente .asocia-ia-interna-2 {
     position: relative;
@@ -563,27 +392,456 @@ body, html {
     letter-spacing: 1.33px;
     line-height: 12px;
   }
-  
-  .evenimente .line {
-    position: absolute;
-    width: 1192px;
-    height: 1px;
-    top: 377px;
-    left: 204px;
-    object-fit: cover;
+  /*Header*/
+.top {
+  position: relative;
+  width: 1600px;
+  height: 713px;
+  background-color: var(--bg-color);
+}
+
+.meniu {
+  position: absolute;
+  width: 1192px;
+  height: 57px;
+  top: 40px;
+  left: 16px;
+}
+
+.navbar {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 36px;
+  position: absolute;
+  top: 17px;
+  left: 288px;
+}
+
+.active {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #3265b3;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-decoration: underline;
+  white-space: nowrap;
+  } 
+
+  .static a{
+    position: relative;
+    padding: 8px;
+    text-decoration: none;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--meniu-text-font-family);
+    font-weight: var(--meniu-text-font-weight);
+    color: #000000;
+    font-size: var(--meniu-text-font-size);
+    letter-spacing: var(--meniu-text-letter-spacing);
+    line-height: var(--meniu-text-line-height);
+    white-space: nowrap;
+    font-style: var(--meniu-text-font-style);
+    text-decoration: none;
   }
-  
-  .evenimente .toate-drepturile {
+
+  .static :hover{
+    background-color: #5986c9;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+
+  .frame-1 {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     position: absolute;
-    height: 21px;
-    top: 416px;
-    left: 302px;
+    top: 19px;
+    left: 1117px;
+  }
+
+  .login{
+    position: relative;
+    width: 49px;
+    margin-top: -0.5px;
     font-family: "Raleway-Medium", Helvetica;
     font-weight: 500;
-    color: #ffffff;
-    font-size: 14px;
+    color: #000000;
+    font-size: 16px;
     letter-spacing: 0;
-    line-height: 21px;
-    white-space: nowrap;
+    line-height: normal;
+  }
+
+  .loginfoto {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+
+  .search {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 17px;
+    left: 1069px;
   }
   
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .logoait {
+    position: relative;
+    width: 46px;
+    height: 55px;
+    object-fit: cover;
+  }
+
+  .asociatia-internationala {
+    position: relative;
+    width: 80px;
+    height: 59px;
+    top: 18px;
+    margin-top: -1px;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--h1-color);
+    font-size: 8px;
+    letter-spacing: 0.72px;
+    line-height: 8px;
+  }
+
+  /*Slide*/
+  .streamline-interface {
+    cursor: pointer;
+    position: absolute;
+    padding: 5px;
+    top: 1735px;
+    left: 565px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+  }
+  
+  .streamline-interface-2 {
+    cursor: pointer;
+    position: absolute;
+    padding: 5px;
+    top: 1735px;
+    left: 628px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+  }
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+}
+
+.mySlides{
+  display:none;
+}
+
+.streamline-interface:hover, .streamline-interface-2:hover {
+  background-color: #5986c9;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Footer*/
+.footer {
+  position: relative;
+  width: 1600px;
+  height: 450px;
+  background-color: var(--h1-color);
+}
+
+.footer-2 {
+  position: absolute;
+  width: 1097px;
+  height: 310px;
+  top: 27px;
+  left: 10px;
+}
+
+.footer-text {
+  position: absolute;
+  width: 791px;
+  height: 310px;
+  top: 0;
+  left: 306px;
+}
+
+.navigare {
+  width: 110px;
+  height: 310px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.titlufooter {
+  height: 30px;
+  top: -1px;
+  font-family: var(--footer-name-font-family);
+  font-weight: var(--footer-name-font-weight);
+  color: #ffffff;
+  font-size: var(--footer-name-font-size);
+  letter-spacing: var(--footer-name-letter-spacing);
+  line-height: var(--footer-name-line-height);
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+  font-style: var(--footer-name-font-style);
+}
+
+.framenavigare a{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  top: 50px;
+  left: 0;
+
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.urmrete {
+  position: absolute;
+  width: 247px;
+  height: 218px;
+  top: 0;
+  left: 205px;
+}
+
+.framefollow{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  left: 0;
+}
+
+.img-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.frame-6 a{
+  display: inline-flex;
+  align-items: center;
+
+  text-decoration: none;
+  position: relative;
+  left: 40px;
+  top: -30px;
+  width: 93px;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.framecontact{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 50px;
+  left: 0;
+
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+
+
+.img-3 {
+  position: relative;
+  left: -2px;
+  width: 24px;
+  height: 24px;
+}
+
+.contact {
+  position: absolute;
+  width: 281px;
+  height: 193px;
+  top: 0;
+  left: 510px;
+}
+
+.textfootercontact {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.logo-slogan {
+  width: 204px;
+  height: 154px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text-wrapper-9 {
+  position: absolute;
+  width: 204px;
+  top: 105px;
+  left: 0;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--bg-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.logo-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logoait-2 {
+  position: relative;
+  width: 74px;
+  height: 88.01px;
+  object-fit: cover;
+}
+
+.asocia-ia-interna-3 {
+  width: 125px;
+  height: 38px;
+  font-family: "League Spartan-Bold", Helvetica;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 1.33px;
+  line-height: 12px;
+  position: relative;
+  font-weight: 700;
+}
+
+.line-3 {
+  width: 1192px;
+  height: 1px;
+  background-color: #FFFFFF;
+  position: relative;
+  top: 345px;
+  left: 10px;
+}
+
+.toate-drepturile {
+  position: absolute;
+  height: 21px;
+  top: 375px;
+  left: 380px;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.cerc{
+  position: relative;
+  top: -9px;
+  left: 5px;
+}
+
+.harta{
+  position: absolute;
+  left: 0px;
+}
+
+
+.streamline-interface {
+  cursor: pointer;
+  position: absolute;
+  padding: 5px;
+  top: 1735px;
+  left: 565px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.streamline-interface-2 {
+  cursor: pointer;
+  position: absolute;
+  padding: 5px;
+  top: 1735px;
+  left: 628px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.despre-noi .text-wrapper-5 {
+  position: absolute;
+  width: fit-content;
+  top: 1201px;
+  left: 593px;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
