@@ -87,7 +87,7 @@ body, html {
     position: absolute;
     width: 624px;
     height: 120px;
-    top: 113px;
+    top: 60px;
     left: 230px;
     font-family: var(--h-2-font-family);
     font-weight: var(--h-2-font-weight);
@@ -104,42 +104,28 @@ body, html {
     gap: 32px;
     position: absolute;
     top: 294px;
-    left: 230px;
+    left: 237px;
   }
   
-  .transparen .component {
-    background-color: var(--bg-color);
-    border: 1px solid;
-    border-color: var(--h1-color);
+  .textactiva {
+    color: #3265B3;
     position: relative;
-    width: 274px;
-    height: 274px;
-    border-radius: 30px;
+    left: 79px;
+    width: fit-content;
+    font-family: var(--h-4-font-family);
+    font-weight: var(--h-4-font-weight);
+    font-size: var(--h-4-font-size);
+    letter-spacing: var(--h-4-letter-spacing);
+    line-height: var(--h-4-line-height);
+    text-decoration: underline;
+    white-space: nowrap;
+    font-style: var(--h-4-font-style);
   }
-  
-  .transparen .frame {
-    display: flex;
-    flex-direction: column;
-    width: 120px;
-    height: 171px;
-    align-items: center;
-    gap: 14px;
+
+  .textpasiva {
+    color: #ffffff;
     position: relative;
-    top: 50px;
-    left: 76px;
-  }
-  
-  .transparen .basil-document-solid {
-    position: relative;
-    width: 120px;
-    height: 120px;
-    margin-left: -0.22px;
-    margin-right: -0.22px;
-  }
-  
-  .transparen .text-wrapper {
-    color: var(--h1-color);
-    position: relative;
+    left: 68px;
     width: fit-content;
     font-family: var(--h-4-font-family);
     font-weight: var(--h-4-font-weight);
@@ -151,12 +137,39 @@ body, html {
     font-style: var(--h-4-font-style);
   }
   
-  .transparen .frame-wrapper {
-    background-color: #3265b3;
+  .framepasiva {
+    background-color: #3265B3;
     position: relative;
     width: 274px;
     height: 274px;
     border-radius: 30px;
+    border-width: 1px;
+  border-color: #3265B3;
+  }
+
+  .frameactiva {
+    width: 274px;
+    height: 274px;
+    background-color: #E3EFFE;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: #3265B3;
+    }
+
+  .pasiva:hover .textpasiva {
+    color: #3265B3;
+  }
+
+  .pasiva :hover {
+    background-color: #E3EFFE;
+  }
+
+  .planuri1{
+    position: relative;
+    left: 73px;
+    width: 99px;
+    height: 110px;
+    background: url(Elemente/Planuri.svg) ;
   }
   
   .transparen .frame-2 {
@@ -169,12 +182,43 @@ body, html {
     left: 71px;
   }
   
-  .transparen .img {
+   .rapoarte1 {
     position: relative;
-    width: 110px;
+    left: 77px;
+    width: 99px;
     height: 110px;
+    background: url(Elemente/Rapoarte.svg) ;
+  }
+
+  .pasiva:hover .rapoarte1{
+    background: url(Elemente/schim-img-svg/rapoarte.svg) ;
   }
   
+ .achizitii1{
+  position: relative;
+    left: 73px;
+    width: 99px;
+    height: 110px;
+    background: url(Elemente/Achizitii.svg) ;
+ }
+
+ .pasiva:hover .achizitii1{
+  background: url(Elemente/schim-img-svg/achizitii.svg) ;
+}
+
+.declaratii1{
+  position: relative;
+    left: 97px;
+    width: 74px;
+    height: 92px;
+    background: url(Elemente/Declaratii.svg) ;
+}
+
+.pasiva:hover .declaratii1{
+  background: url(Elemente/schim-img-svg/declaratii.svg) ;
+}
+
+
   .transparen .text-wrapper-2 {
     color: #ffffff;
     position: relative;
@@ -794,3 +838,37 @@ body, html {
       letter-spacing: 0.72px;
       line-height: 8px;
     }
+
+/*Slide*/
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  left: 17px;
+}
+
+.mySlides{
+  display:none;
+}
+
+.streamline-interface:hover, .streamline-interface-2:hover {
+  background-color: #5986c9;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Tabel*/
+.tabel{
+  position: relative;
+  top: 190px;
+  left: 9px;
+}
