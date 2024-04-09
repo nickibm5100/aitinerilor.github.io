@@ -136,6 +136,30 @@ body, html {
     white-space: nowrap;
     font-style: var(--h-4-font-style);
   }
+
+  #table1{
+    position: absolute;
+    top: 650px;
+    left: 0px;
+  }
+
+  #table2{
+    position: absolute;
+    top: 650px;
+    left: 0px;
+  }
+
+  #table3{
+    position: absolute;
+    top: 650px;
+    left: 0px;
+  }
+
+  #table4{
+    position: absolute;
+    top: 650px;
+    left: 0px;
+  }
   
   .framepasiva {
     background-color: #3265B3;
@@ -354,7 +378,17 @@ body, html {
   }
   
   .transparen .streamline-interface {
-    position: relative;
+    position: absolute;
+    top: 1161px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .transparen .streamline-interface-2 {
+    position: absolute;
+    top: 1161px;
+    left: 30px;
     width: 30px;
     height: 30px;
   }
@@ -373,7 +407,7 @@ body, html {
   }
   
   .transparen .frame-6 {
-    position: absolute;
+    position: relative;
     width: 1192px;
     height: 376px;
     top: 0;
@@ -385,10 +419,10 @@ body, html {
   }
   
   .transparen .rectangle {
-    position: absolute;
+    position: relative;
     width: 376px;
     height: 376px;
-    top: 0;
+    top: 10px;
     left: 0;
     background-color: #d9d9d9;
     border-radius: 30px;
@@ -864,11 +898,4 @@ body, html {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
-
-/*Tabel*/
-.tabel{
-  position: relative;
-  top: 190px;
-  left: 9px;
 }

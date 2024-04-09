@@ -540,6 +540,9 @@ body, html {
   }
 
   .fotca {
+    border-radius: 60px;
+    object-fit: cover;
+    object-position: 0 20%;
     position: relative;
     width: 478px;
     height: 478px;
@@ -608,16 +611,16 @@ body, html {
 
   .text {
     position: absolute;
-    width: 478px;
+    width: 545px;
     height: 270px;
     top: 214px;
     left: 598px;
     font-family: "Raleway-SemiBold", Helvetica;
     font-weight: 500;
     color: var(--paragraph-color);
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: 0;
-    line-height: 54px;
+    line-height: 40px;
   }
 
   .Persoana {
@@ -663,7 +666,7 @@ body, html {
     position: absolute;
     padding: 5px;
     top: 72px;
-    left: 1018px;
+    left: 1017px;
     transition: 0.6s ease;
     border-radius: 3px;
     user-select: none;
@@ -674,7 +677,7 @@ body, html {
     position: absolute;
     padding: 5px;
     top: 72px;
-    left: 1076px;
+    left: 1078px;
     transition: 0.6s ease;
     border-radius: 3px;
     user-select: none;
