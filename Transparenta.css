@@ -125,7 +125,7 @@ body, html {
   .textpasiva {
     color: #ffffff;
     position: relative;
-    left: 68px;
+    left: 30%;
     width: fit-content;
     font-family: var(--h-4-font-family);
     font-weight: var(--h-4-font-weight);
@@ -135,30 +135,6 @@ body, html {
     text-decoration: underline;
     white-space: nowrap;
     font-style: var(--h-4-font-style);
-  }
-
-  #table1{
-    position: absolute;
-    top: 650px;
-    left: 0px;
-  }
-
-  #table2{
-    position: absolute;
-    top: 650px;
-    left: 0px;
-  }
-
-  #table3{
-    position: absolute;
-    top: 650px;
-    left: 0px;
-  }
-
-  #table4{
-    position: absolute;
-    top: 650px;
-    left: 0px;
   }
   
   .framepasiva {
@@ -186,6 +162,7 @@ body, html {
 
   .pasiva :hover {
     background-color: #E3EFFE;
+    cursor: pointer;
   }
 
   .planuri1{
@@ -193,7 +170,11 @@ body, html {
     left: 73px;
     width: 99px;
     height: 110px;
-    background: url(Elemente/Planuri.svg) ;
+    background: url(Elemente/planuri.svg) ;
+  }
+
+  .pasiva:hover .planuri1{
+    background: url(Elemente/schim-img-svg/Planuri.svg) ;
   }
   
   .transparen .frame-2 {
@@ -406,17 +387,6 @@ body, html {
     white-space: nowrap;
   }
   
-  .transparen .frame-6 {
-    position: relative;
-    width: 1192px;
-    height: 376px;
-    top: 0;
-    left: 0;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 1px solid;
-    border-color: var(--h1-color);
-  }
   
   .transparen .rectangle {
     position: relative;
@@ -508,51 +478,7 @@ body, html {
     border-color: var(--h1-color);
   }
   
-  .transparen .footer {
-    position: relative;
-    width: 1600px;
-    height: 478px;
-    background-color: var(--h1-color);
-  }
   
-  .transparen .footer-2 {
-    position: absolute;
-    width: 1097px;
-    height: 310px;
-    top: 27px;
-    left: 51px;
-  }
-  
-  .transparen .footer-text {
-    position: absolute;
-    width: 791px;
-    height: 310px;
-    top: 0;
-    left: 306px;
-  }
-  
-  .transparen .navigare {
-    width: 110px;
-    height: 310px;
-    top: 0;
-    position: absolute;
-    left: 0;
-  }
-  
-  .transparen .text-wrapper-9 {
-    height: 30px;
-    top: -1px;
-    font-family: var(--footer-name-font-family);
-    font-weight: var(--footer-name-font-weight);
-    color: #ffffff;
-    font-size: var(--footer-name-font-size);
-    letter-spacing: var(--footer-name-letter-spacing);
-    line-height: var(--footer-name-line-height);
-    white-space: nowrap;
-    position: absolute;
-    left: 0;
-    font-style: var(--footer-name-font-style);
-  }
   
   .transparen .frame-9 {
     display: inline-flex;
@@ -589,14 +515,6 @@ body, html {
     white-space: nowrap;
   }
   
-  .transparen .urmrete {
-    position: absolute;
-    width: 247px;
-    height: 218px;
-    top: 0;
-    left: 205px;
-  }
-  
   .transparen .frame-10 {
     display: inline-flex;
     flex-direction: column;
@@ -615,12 +533,6 @@ body, html {
     flex: 0 0 auto;
   }
   
-  .transparen .img-2 {
-    position: relative;
-    width: 24px;
-    height: 24px;
-  }
-  
   .transparen .text-wrapper-12 {
     position: relative;
     width: 93px;
@@ -631,14 +543,6 @@ body, html {
     font-size: 20px;
     letter-spacing: 0;
     line-height: 30px;
-  }
-  
-  .transparen .contact {
-    position: absolute;
-    width: 281px;
-    height: 193px;
-    top: 0;
-    left: 510px;
   }
   
   .transparen .text-wrapper-13 {
@@ -674,14 +578,6 @@ body, html {
     line-height: 27px;
   }
   
-  .transparen .logo-slogan {
-    width: 204px;
-    height: 154px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
   .transparen .text-wrapper-15 {
     position: absolute;
     width: 204px;
@@ -695,21 +591,6 @@ body, html {
     line-height: 24px;
   }
   
-  .transparen .logo-2 {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .transparen .logoait-2 {
-    position: relative;
-    width: 74px;
-    height: 88.01px;
-    object-fit: cover;
-  }
   
   .transparen .asocia-ia-interna-2 {
     position: relative;
@@ -732,19 +613,7 @@ body, html {
     object-fit: cover;
   }
   
-  .transparen .toate-drepturile {
-    position: absolute;
-    height: 21px;
-    top: 416px;
-    left: 302px;
-    font-family: "Raleway-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 21px;
-    white-space: nowrap;
-  }
+  
   
   /*Header*/
   .top {
@@ -781,7 +650,7 @@ body, html {
     font-size: 16px;
     letter-spacing: 0;
     line-height: 24px;
-    text-decoration: underline;
+    text-decoration: none;
     white-space: nowrap;
     } 
   
@@ -898,4 +767,280 @@ body, html {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+
+  /*Footer*/
+.footer {
+  position: relative;
+  width: 1600px;
+  height: 450px;
+  background-color: var(--h1-color);
+}
+
+.footer-2 {
+  position: absolute;
+  width: 1097px;
+  height: 310px;
+  top: 27px;
+  left: 10px;
+}
+
+.footer-text {
+  position: absolute;
+  width: 791px;
+  height: 310px;
+  top: 0;
+  left: 306px;
+}
+
+.navigare {
+  width: 110px;
+  height: 310px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.titlufooter {
+  height: 30px;
+  top: -1px;
+  font-family: var(--footer-name-font-family);
+  font-weight: var(--footer-name-font-weight);
+  color: #ffffff;
+  font-size: var(--footer-name-font-size);
+  letter-spacing: var(--footer-name-letter-spacing);
+  line-height: var(--footer-name-line-height);
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+  font-style: var(--footer-name-font-style);
+}
+
+.framenavigare a{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  top: 50px;
+  left: 0;
+
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.urmrete {
+  position: absolute;
+  width: 247px;
+  height: 218px;
+  top: 0;
+  left: 205px;
+}
+
+.framefollow{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  left: 0;
+}
+
+.img-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.frame-6 a{
+  display: inline-flex;
+  align-items: center;
+
+  text-decoration: none;
+  position: relative;
+  left: 40px;
+  top: -30px;
+  width: 93px;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.framecontact{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 50px;
+  left: 0;
+
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+
+
+.img-3 {
+  position: relative;
+  left: -2px;
+  width: 24px;
+  height: 24px;
+}
+
+.contact {
+  position: absolute;
+  width: 281px;
+  height: 193px;
+  top: 0;
+  left: 510px;
+}
+
+.textfootercontact {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.logo-slogan {
+  width: 204px;
+  height: 154px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text-wrapper-9 {
+  position: absolute;
+  width: 204px;
+  top: 105px;
+  left: 0;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--bg-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.logo-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logoait-2 {
+  position: relative;
+  width: 74px;
+  height: 88.01px;
+  object-fit: cover;
+}
+
+.asocia-ia-interna-3 {
+  width: 125px;
+  height: 38px;
+  font-family: "League Spartan-Bold", Helvetica;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 1.33px;
+  line-height: 12px;
+  position: relative;
+  font-weight: 700;
+}
+
+.line-3 {
+  width: 1192px;
+  height: 1px;
+  background-color: #FFFFFF;
+  position: relative;
+  top: 345px;
+  left: 10px;
+}
+
+.toate-drepturile {
+  position: absolute;
+  height: 21px;
+  top: 375px;
+  left: 380px;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.harta{
+  position: absolute;
+  left: 0px;
+  top: 145px;
+}
+
+
+.streamline-interface {
+  cursor: pointer;
+  position: absolute;
+  padding: 5px;
+  top: 1200px;
+  left: 565px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.streamline-interface-2 {
+  cursor: pointer;
+  position: absolute;
+  padding: 5px;
+  top: 1200px;
+  left: 628px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.despre-noi .text-wrapper-5 {
+  position: absolute;
+  width: fit-content;
+  top: 1201px;
+  left: 593px;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
 }
