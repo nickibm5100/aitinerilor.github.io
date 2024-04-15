@@ -124,8 +124,6 @@ body, html {
 
   .textpasiva {
     color: #ffffff;
-    position: relative;
-    left: 30%;
     width: fit-content;
     font-family: var(--h-4-font-family);
     font-weight: var(--h-4-font-weight);
@@ -135,6 +133,13 @@ body, html {
     text-decoration: underline;
     white-space: nowrap;
     font-style: var(--h-4-font-style);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
   
   .framepasiva {
@@ -167,7 +172,8 @@ body, html {
 
   .planuri1{
     position: relative;
-    left: 73px;
+    left: 70px;
+    top: -14px;
     width: 99px;
     height: 110px;
     background: url(Elemente/planuri.svg) ;
@@ -190,6 +196,7 @@ body, html {
    .rapoarte1 {
     position: relative;
     left: 77px;
+    top: -11px;
     width: 99px;
     height: 110px;
     background: url(Elemente/Rapoarte.svg) ;
@@ -201,7 +208,8 @@ body, html {
   
  .achizitii1{
   position: relative;
-    left: 73px;
+    left: 78px;
+    top: -8px;
     width: 99px;
     height: 110px;
     background: url(Elemente/Achizitii.svg) ;
