@@ -55,11 +55,11 @@ body, html {
   width: 478px;
   height: 398px;
   border-radius: 20px;
-  top: 0;
-  left: 0;
-  background-image: url(Elemente/YAP2.0.svg);
-  background-size: cover;
-  background-position: 50% 50%;
+}
+
+.earring:hover, .articol:hover {
+opacity: 0.9;
+cursor: pointer;
 }
 
 .proiecte .frame {
@@ -88,30 +88,12 @@ body, html {
   white-space: nowrap;
 }
 
-.proiecte .overlap-group {
+.proiecte .text-wrapper {
   position: absolute;
   width: 439px;
   height: 83px;
   top: 106px;
   left: 20px;
-}
-
-.proiecte .ear {
-  position: absolute;
-  width: 395px;
-  height: 83px;
-  top: 0;
-  left: 18px;
-  background-color: #3265b399;
-  filter: blur(50px);
-  opacity: 0.8;
-}
-
-.proiecte .text-wrapper {
-  top: 14px;
-  position: absolute;
-  height: 35px;
-  left: 0;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 600;
   color: white;
@@ -128,18 +110,12 @@ body, html {
   height: 253px;
   top: 433px;
   left: 0;
-  background-image: url(/Elemente/YAP2.0.svg);
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-.proiecte .overlap {
-  position: relative;
-  width: 439px;
-  height: 83px;
-  top: 85px;
-  left: 19px;
-}
+.bracelets:hover, .articol:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  }
 
 .proiecte .bracelet {
   position: absolute;
@@ -153,10 +129,11 @@ body, html {
 }
 
 .proiecte .div {
-  top: 23px;
   position: absolute;
-  height: 35px;
-  left: 0;
+  width: 439px;
+  height: 83px;
+  top: 65px;
+  left: 19px;
   font-family: "Raleway-SemiBold", Helvetica;
   font-weight: 600;
   color: white;
@@ -169,14 +146,22 @@ body, html {
 
 .proiecte .set {
   position: absolute;
-  width: 340px;
+  width: 325px;
   height: 316px;
   top: 370px;
-  left: 497px;
-  background-image: url(Elemente/thinkabout.svg);
-  background-size: cover;
-  background-position: 50% 50%;
+  left: 510px;
 }
+
+.thinkaboutit{
+  width: 325px;
+  height: 316px;
+  border-radius: 20px;
+}
+
+.set:hover, .articol:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  }
 
 .proiecte .overlap-2 {
   position: relative;
@@ -203,10 +188,12 @@ body, html {
   height: 316px;
   top: 370px;
   left: 867px;
-  background-image: url(Elemente/YAP.svg);
-  background-size: cover;
-  background-position: 50% 50%;
 }
+
+.ring:hover, .articol:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  }
 
 .proiecte .overlap-3 {
   position: relative;
@@ -230,8 +217,8 @@ body, html {
 .proiecte .text-wrapper-2 {
   position: absolute;
   height: 26px;
-  top: -9px;
-  left: 15px;
+  top: 105px;
+  left: 30px;
   font-family: "Raleway-SemiBold", Helvetica;
   font-weight: 600;
   color: white;
@@ -250,13 +237,16 @@ body, html {
   left: 510px;
 }
 
-.proiecte .overlap-4 {
-  position: relative;
+.necklace:hover, .articol:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  }
+
+.SPT{
+  width: 681px;
   height: 338px;
-  left: 1px;
+  object-fit: cover;
   border-radius: 20px;
-  background-image: url(Elemente/Strategiapttineri.svg);
-  background-size: 100% 100%;
 }
 
 .proiecte .necklace-2 {
@@ -273,7 +263,7 @@ body, html {
 .proiecte .text-wrapper-3 {
   position: absolute;
   height: 47px;
-  top: 146px;
+  top: 132px;
   left: 111px;
   font-family: "Raleway-SemiBold", Helvetica;
   font-weight: 600;

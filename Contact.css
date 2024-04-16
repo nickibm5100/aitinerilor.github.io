@@ -1,8 +1,8 @@
 body, html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 .contacte {
     display: inline-flex;
@@ -19,23 +19,6 @@ body, html {
     width: 1600px;
     height: 492px;
     background-color: var(--bg-color);
-  }
-  
-  .contacte .meniu {
-    position: absolute;
-    width: 1192px;
-    height: 57px;
-    top: 40px;
-    left: 204px;
-  }
-  
-  .contacte .navbar {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 36px;
-    position: absolute;
-    top: 17px;
-    left: 288px;
   }
   
   .contacte .text-wrapper {
@@ -89,12 +72,6 @@ body, html {
     left: 1117px;
   }
   
-  .contacte .uiw-login {
-    position: relative;
-    width: 20px;
-    height: 20px;
-  }
-  
   .contacte .text-wrapper-3 {
     position: relative;
     width: 49px;
@@ -105,30 +82,6 @@ body, html {
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
-  }
-  
-  .contacte .mi-search {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 17px;
-    left: 1069px;
-  }
-  
-  .contacte .logo {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .contacte .logoait {
-    position: relative;
-    width: 46px;
-    height: 55px;
-    object-fit: cover;
   }
   
   .contacte .asocia-ia-interna {
@@ -176,6 +129,13 @@ body, html {
     top: 0;
     left: 0;
   }
+
+  .tel{
+    position: relative;
+    top: -16px;
+    width: 40px;
+    height: 40px;
+  }
   
   .contacte .img {
     position: relative;
@@ -183,8 +143,8 @@ body, html {
     height: 40px;
   }
   
-  .contacte .p {
-    color: var(--h1-color);
+  .p {
+    color: #3265B3;
     font-size: 30px;
     line-height: 45px;
     position: relative;
@@ -195,6 +155,10 @@ body, html {
     letter-spacing: 0;
     white-space: nowrap;
   }
+
+  a{
+    text-decoration: none;
+  }
   
   .contacte .frame-3 {
     display: inline-flex;
@@ -202,7 +166,7 @@ body, html {
     gap: 16px;
     position: absolute;
     top: 0;
-    left: 408px;
+    left: 353px;
   }
   
   .contacte .text-wrapper-4 {
@@ -275,19 +239,6 @@ body, html {
     border-radius: 0px 80px 80px 80px;
   }
   
-  .contacte .frame-5 {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 16px 40px;
-    position: absolute;
-    top: 368px;
-    left: 502px;
-    background-color: var(--button-coloraccent);
-    border-radius: 0px 16px 16px 16px;
-  }
-  
   .contacte .text-wrapper-6 {
     position: relative;
     width: fit-content;
@@ -299,20 +250,6 @@ body, html {
     letter-spacing: 0;
     line-height: 33px;
     white-space: nowrap;
-  }
-  
-  .contacte .solar-arrow-up {
-    position: relative;
-    width: 28px;
-    height: 28px;
-  }
-  
-  .contacte .frame-6 {
-    position: absolute;
-    width: 1122px;
-    height: 218px;
-    top: 89px;
-    left: 35px;
   }
   
   .contacte .newsletter-homepage {
@@ -337,18 +274,6 @@ body, html {
     line-height: var(--paragraph-line-height);
     white-space: nowrap;
     font-style: var(--paragraph-font-style);
-  }
-  
-  .contacte .div-wrapper {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 8px;
-    padding: 16px 396px 137px 20px;
-    position: relative;
-    flex: 0 0 auto;
-    border-radius: 20px 20px 0px 0px;
-    border: 1px solid;
-    border-color: #000000;
   }
   
   .contacte .text-wrapper-8 {
@@ -389,19 +314,6 @@ body, html {
     border-radius: 20px 20px 0px 0px;
     border: 1px solid;
     border-color: #000000;
-  }
-  
-  .contacte .text-wrapper-9 {
-    color: #808792;
-    position: relative;
-    width: fit-content;
-    font-family: var(--paragraph-font-family);
-    font-weight: var(--paragraph-font-weight);
-    font-size: var(--paragraph-font-size);
-    letter-spacing: var(--paragraph-letter-spacing);
-    line-height: var(--paragraph-line-height);
-    white-space: nowrap;
-    font-style: var(--paragraph-font-style);
   }
   
   .contacte .frame-9 {
@@ -450,52 +362,6 @@ body, html {
     white-space: nowrap;
   }
   
-  .contacte .footer {
-    position: relative;
-    width: 1600px;
-    height: 478px;
-    background-color: var(--h1-color);
-  }
-  
-  .contacte .footer-2 {
-    position: absolute;
-    width: 1097px;
-    height: 310px;
-    top: 27px;
-    left: 51px;
-  }
-  
-  .contacte .footer-text {
-    position: absolute;
-    width: 791px;
-    height: 310px;
-    top: 0;
-    left: 306px;
-  }
-  
-  .contacte .navigare {
-    width: 110px;
-    height: 310px;
-    top: 0;
-    position: absolute;
-    left: 0;
-  }
-  
-  .contacte .text-wrapper-10 {
-    height: 30px;
-    top: -1px;
-    font-family: var(--footer-name-font-family);
-    font-weight: var(--footer-name-font-weight);
-    color: #ffffff;
-    font-size: var(--footer-name-font-size);
-    letter-spacing: var(--footer-name-letter-spacing);
-    line-height: var(--footer-name-line-height);
-    white-space: nowrap;
-    position: absolute;
-    left: 0;
-    font-style: var(--footer-name-font-style);
-  }
-  
   .contacte .frame-12 {
     display: inline-flex;
     flex-direction: column;
@@ -531,14 +397,6 @@ body, html {
     white-space: nowrap;
   }
   
-  .contacte .urmrete {
-    position: absolute;
-    width: 247px;
-    height: 218px;
-    top: 0;
-    left: 205px;
-  }
-  
   .contacte .frame-13 {
     display: inline-flex;
     flex-direction: column;
@@ -555,12 +413,6 @@ body, html {
     gap: 16px;
     position: relative;
     flex: 0 0 auto;
-  }
-  
-  .contacte .img-2 {
-    position: relative;
-    width: 24px;
-    height: 24px;
   }
   
   .contacte .text-wrapper-13 {
@@ -616,14 +468,6 @@ body, html {
     line-height: 27px;
   }
   
-  .contacte .logo-slogan {
-    width: 204px;
-    height: 154px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
   .contacte .text-wrapper-16 {
     position: absolute;
     width: 204px;
@@ -635,22 +479,6 @@ body, html {
     font-size: 16px;
     letter-spacing: 0;
     line-height: 24px;
-  }
-  
-  .contacte .logo-2 {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .contacte .logoait-2 {
-    position: relative;
-    width: 74px;
-    height: 88.01px;
-    object-fit: cover;
   }
   
   .contacte .asocia-ia-interna-2 {
@@ -674,17 +502,611 @@ body, html {
     object-fit: cover;
   }
   
-  .contacte .toate-drepturile {
-    position: absolute;
-    height: 21px;
-    top: 416px;
-    left: 302px;
-    font-family: "Raleway-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 21px;
-    white-space: nowrap;
+  /*Header*/
+  .top {
+    position: relative;
+    width: 1600px;
+    height: 713px;
+    background-color: var(--bg-color);
   }
   
+  .meniu {
+    position: absolute;
+    width: 1192px;
+    height: 57px;
+    top: 40px;
+    left: 200px;
+  }
+  
+  .navbar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 36px;
+    position: absolute;
+    top: 17px;
+    left: 288px;
+  }
+  
+  .active {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-Medium", Helvetica;
+    font-weight: 500;
+    color: #3265b3;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-decoration: none;
+    white-space: nowrap;
+    } 
+
+    .active a{text-decoration: underline;
+      } 
+  
+    .static a{
+      position: relative;
+      padding: 8px;
+      text-decoration: none;
+      width: fit-content;
+      margin-top: -1px;
+      font-family: var(--meniu-text-font-family);
+      font-weight: var(--meniu-text-font-weight);
+      color: #000000;
+      font-size: var(--meniu-text-font-size);
+      letter-spacing: var(--meniu-text-letter-spacing);
+      line-height: var(--meniu-text-line-height);
+      white-space: nowrap;
+      font-style: var(--meniu-text-font-style);
+      text-decoration: none;
+    }
+  
+    .static :hover{
+      background-color: #5986c9;
+      border-radius: 5px;
+      transition: 0.3s ease;
+    }
+  
+    .frame-1 {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      position: absolute;
+      top: 19px;
+      left: 1117px;
+    }
+  
+    .login{
+      position: relative;
+      width: 49px;
+      margin-top: -0.5px;
+      font-family: "Raleway-Medium", Helvetica;
+      font-weight: 500;
+      color: #000000;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+  
+    .loginfoto {
+      position: relative;
+      width: 20px;
+      height: 20px;
+    }
+  
+    .search {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      top: 17px;
+      left: 1069px;
+    }
+    
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    .logoait {
+      position: relative;
+      width: 46px;
+      height: 55px;
+      object-fit: cover;
+    }
+  
+    .asociatia-internationala {
+      position: relative;
+      width: 80px;
+      height: 59px;
+      top: 18px;
+      margin-top: -1px;
+      font-family: "League Spartan-Bold", Helvetica;
+      font-weight: 700;
+      color: var(--h1-color);
+      font-size: 8px;
+      letter-spacing: 0.72px;
+      line-height: 8px;
+    }
+
+    /*Newsletter*/
+    .newsletter-footer {
+      position: relative;
+      width: 1600px;
+      height: 1204px;
+    }
+    
+    .overlap-4 {
+      position: relative;
+      height: 1204px;
+    }
+    
+    .newsletter {
+      position: absolute;
+      z-index: 1;
+      width: 1600px;
+      height: 633px;
+      top: 0px;
+      left: 0px;
+    }
+
+    .overlap-5 {
+      position: relative;
+      height: 633px;
+    }
+
+    .rectangle-5 {
+      position: absolute;
+      width: 1600px;
+      height: 400px;
+      top: 0;
+      left: -187px;
+      object-fit: cover;
+    }
+
+    .div-wrapper {
+      position: relative;
+      width: 900px;
+      height: 433px;
+      top: 200px;
+      left: 140px;
+    }
+
+    .overlap-group-6 {
+      position: relative;
+      left: 0px;
+      top: 0;
+      height: 433px;
+    }
+
+    .rectangle-6 {
+      position: absolute;
+      width: 900px;
+      height: 400px;
+      top: 0;
+      left: 0;
+      background-color: var(--bg-color);
+      border-radius: 0px 80px 80px 80px;
+    }
+
+    .titluformbox {
+      position: absolute;
+      width: 325px;
+      height: 38px;
+      top: 31px;
+      left: 288px;
+      font-family: "Raleway-SemiBold", Helvetica;
+      font-weight: 600;
+      color: var(--paragraph-color);
+      font-size: 25px;
+      letter-spacing: 0;
+      line-height: 37.5px;
+    }
+
+    .textform {
+      margin-top: -1px;
+      color: #818893;
+      position: relative;
+      left: 143px;
+      top: 107px;
+      width: 298px;
+      height: 59px;
+      border: #000000;
+      border: 1px solid;
+      border-radius: 20px 20px 0px 0px;
+      font-family: var(--paragraph-font-family);
+      font-weight: var(--paragraph-font-weight);
+      font-size: var(--paragraph-font-size);
+      letter-spacing: var(--paragraph-letter-spacing);
+      line-height: var(--paragraph-line-height);
+      white-space: nowrap;
+      font-style: var(--paragraph-font-style);
+    }
+  
+    .textform-1 {
+      margin-top: -1px;
+      color: #818893;
+      position: relative;
+      left: 462px;
+      top: -12px;
+      width: 298px;
+      height: 59px;
+      border: #000000;
+      border: 1px solid;
+      border-radius: 20px 20px 0px 0px;
+      font-family: var(--paragraph-font-family);
+      font-weight: var(--paragraph-font-weight);
+      font-size: var(--paragraph-font-size);
+      letter-spacing: var(--paragraph-letter-spacing);
+      line-height: var(--paragraph-line-height);
+      white-space: nowrap;
+      font-style: var(--paragraph-font-style);
+    }
+  
+    .textform-2 {
+      margin-top: -1px;
+      color: #818893;
+      position: relative;
+      left: 143px;
+      top: -15px;
+      width: 617px;
+      height: 59px;
+      border: #000000;
+      border: 1px solid;
+      border-radius: 20px 20px 0px 0px;
+      font-family: var(--paragraph-font-family);
+      font-weight: var(--paragraph-font-weight);
+      font-size: var(--paragraph-font-size);
+      letter-spacing: var(--paragraph-letter-spacing);
+      line-height: var(--paragraph-line-height);
+      white-space: nowrap;
+      font-style: var(--paragraph-font-style);
+    }
+
+    .titluform{
+      margin-top: -1px;
+      color: #000000;
+      position: relative;
+      left: 144px;
+      top: 125px;
+      width: 298px;
+      height: 59px;
+      font-family: var(--paragraph-font-family);
+      font-weight: var(--paragraph-font-weight);
+      font-size: var(--paragraph-font-size);
+      letter-spacing: var(--paragraph-letter-spacing);
+      line-height: var(--paragraph-line-height);
+      white-space: nowrap;
+      font-style: var(--paragraph-font-style);
+    }
+  
+    .titluform-1{
+      margin-top: -1px;
+      color: #000000;
+      position: relative;
+      left: 463px;
+      top: 9px;
+      width: 298px;
+      height: 59px;
+      font-family: var(--paragraph-font-family);
+      font-weight: var(--paragraph-font-weight);
+      font-size: var(--paragraph-font-size);
+      letter-spacing: var(--paragraph-letter-spacing);
+      line-height: var(--paragraph-line-height);
+      white-space: nowrap;
+      font-style: var(--paragraph-font-style);
+    }
+  
+    .titluform-2{
+      margin-top: -1px;
+      color: #000000;
+      position: relative;
+      left: 144px;
+      top: 6px;
+      width: 298px;
+      height: 59px;
+      font-family: var(--paragraph-font-family);
+      font-weight: var(--paragraph-font-weight);
+      font-size: var(--paragraph-font-size);
+      letter-spacing: var(--paragraph-letter-spacing);
+      line-height: var(--paragraph-line-height);
+      white-space: nowrap;
+      font-style: var(--paragraph-font-style);
+    }
+    
+    .titluformbox {
+      position: absolute;
+      width: 325px;
+      height: 38px;
+      top: 31px;
+      left: 288px;
+      font-family: "Raleway-SemiBold", Helvetica;
+      font-weight: 600;
+      color: var(--paragraph-color);
+      font-size: 25px;
+      letter-spacing: 0;
+      line-height: 37.5px;
+    }
+
+    .frame-5 {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 16px 40px;
+      position: absolute;
+      top: 368px;
+      left: 356px;
+      background-color: var(--button-coloraccent);
+      border-radius: 0px 16px 16px 16px;
+    }
+
+    
+  .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 33px;
+    white-space: nowrap;
+  }
+
+  .solar-arrow-up {
+    position: relative;
+    width: 28px;
+    height: 28px;
+  }
+
+  /*Footer*/
+.footer {
+  position: relative;
+  width: 1600px;
+  height: 526px;
+  top: -382px;
+  left: -195px;
+}
+
+.final{
+  position: absolute;
+  top: 972px;
+  left: 0px;
+  height: 900px;
+  width: 1225px;
+  background-color: #3265B3;
+}
+
+.footer-2 {
+  position: absolute;
+  width: 1097px;
+  height: 310px;
+  top: 450px;
+  left: 204px;
+}
+
+.footer-text {
+  position: absolute;
+  width: 791px;
+  height: 310px;
+  top: 0;
+  left: 306px;
+}
+
+.navigare {
+  width: 110px;
+  height: 310px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.titlufooter {
+  height: 30px;
+  top: -1px;
+  font-family: var(--footer-name-font-family);
+  font-weight: var(--footer-name-font-weight);
+  color: #ffffff;
+  font-size: var(--footer-name-font-size);
+  letter-spacing: var(--footer-name-letter-spacing);
+  line-height: var(--footer-name-line-height);
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+  font-style: var(--footer-name-font-style);
+}
+
+.framenavigare a{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  top: 50px;
+  left: 0;
+
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.urmrete {
+  position: absolute;
+  width: 247px;
+  height: 218px;
+  top: 0;
+  left: 205px;
+}
+
+.framefollow{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  left: 0;
+}
+
+.img-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.frame-6 a{
+  display: inline-flex;
+  align-items: center;
+
+  text-decoration: none;
+  position: relative;
+  left: 40px;
+  top: -30px;
+  width: 93px;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.framecontact{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 50px;
+  left: 0;
+
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+
+
+.img-3 {
+  position: relative;
+  left: -2px;
+  width: 24px;
+  height: 24px;
+}
+
+.contactele {
+  position: absolute;
+  width: 281px;
+  height: 193px;
+  top: 0;
+  left: 510px;
+}
+
+.textfootercontact {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.logo-slogan {
+  width: 204px;
+  height: 154px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text-wrapper-9 {
+  position: absolute;
+  width: 204px;
+  top: 105px;
+  left: 0;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--bg-color);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.logo-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logoait-2 {
+  position: relative;
+  width: 74px;
+  height: 88.01px;
+  object-fit: cover;
+}
+
+.asocia-ia-interna-3 {
+  width: 125px;
+  height: 38px;
+  font-family: "League Spartan-Bold", Helvetica;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 1.33px;
+  line-height: 12px;
+  position: relative;
+  font-weight: 700;
+}
+
+.line-3 {
+  width: 1192px;
+  height: 1px;
+  background-color: #FFFFFF;
+  position: relative;
+  top: 807px;
+  left: 203px;
+}
+
+.toate-drepturile {
+  position: absolute;
+  height: 21px;
+  top: 839px;
+  left: 563px;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.harta{
+  position: absolute;
+  left: 0px;
+  top: 145px;
+}
