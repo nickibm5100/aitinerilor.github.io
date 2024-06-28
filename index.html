@@ -6,6 +6,7 @@
     <title>Acasa</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="index">
@@ -13,20 +14,45 @@
 
 
         <div class="meniu">
+          <!--<div class="mobile">
+            <div id="myLinks">
+            <a href="/"><div class="logo">
+              <img class="logoait1" src="Elemente/LogoAIT1.svg" />
+              <div class="titluindex">ASOCIAȚIA INTERNAȚIONALĂ A TINERILOR</div>
+            </div></a>
+            <div class="linkuri">
+            <a href="Desprenoi.html">|Despre noi</a>
+            <a href="Proiecte.html">|Proiecte</a>
+            <a href="Evenimente.html">|Evenimente</a>
+            <a href="Transparenta.html">|Transparență</a>
+            <a href="Contact.html">|Contact</a>
+          </div></div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        </div>-->
           <div class="navbar">
-            <div class="active"><a href="/">Acasă</a></div>
-            <div class="static"><a href="Desprenoi.html">Despre noi</a></div>
-            <div class="static"><a href="Proiecte.html">Proiecte</a></div>
-            <div class="static"><a href="Evenimente.html">Evenimente</a></div>
-            <div class="static"><a href="Transparenta.html">Transparență</a></div>
-            <div class="static"><a href="Contact.html">Contact</a></div>
-          </div>
+            <table class="topbar">
+              <tr class="navcomp">
+                <td>
+                  <a href="/"><div class="logo">
+                    <img class="logoait1" src="Elemente/LogoAIT1.svg" />
+                    <div class="titluindex">ASOCIAȚIA INTERNAȚIONALĂ A TINERILOR</div>
+                  </div></a></td>
+                <td><div class="active"><a href="/">Acasă</a></div></td>
+            <td><div class="static"><a href="Desprenoi.html">Despre noi</a></div></td>
+            <td><div class="static"><a href="Proiecte.html">Proiecte</a></div></td>
+            <td><div class="static"><a href="Evenimente.html">Evenimente</a></div></td>
+            <td><div class="static"><a href="Transparenta.html">Transparență</a></div></td>
+            <td><div class="static"><a href="Contact.html">Contact</a></div></td>
           
-          <img class="search" src="Elemente/Vector.svg" />
-          <a href="/"><div class="logo">
-            <img class="logoait1" src="Elemente/LogoAIT1.svg" />
-            <div class="titluindex">ASOCIAȚIA INTERNAȚIONALĂ A TINERILOR</div>
-          </div></a>
+          <td>
+          <img class="search" src="Elemente/Vector.svg" /></td>
+        
+        </tr>
+        </table>
+        </div>
         </div>
 
 <!--poze-->
@@ -78,7 +104,7 @@
 
       <div class="evenimente">
         <div class="evenimentetxt">EVENIMENTE ȘI ACTIVITĂȚI</div>
-        <table class="tabchenare">
+        <table>
           <tr>
           <td>
         <div class="chenare">
@@ -385,7 +411,7 @@
 
       </div>
     </div>
-
+    <script src="meniuextend.js"></script>
     <script src="testimonial.js"></script>
   </body>
 </html>

@@ -3,50 +3,69 @@ body, html {
   padding: 0;
   overflow-x: hidden;
 }
-
-@media only screen and (min-width: 600px) {
-  .col-m-1 {width: 8.33%;}
-  .col-m-2 {width: 16.66%;}
-  .col-m-3 {width: 25%;}
-  .col-m-4 {width: 33.33%;}
-  .col-m-5 {width: 41.66%;}
-  .col-m-6 {width: 50%;}
-  .col-m-7 {width: 58.33%;}
-  .col-m-8 {width: 66.66%;}
-  .col-m-9 {width: 75%;}
-  .col-m-10 {width: 83.33%;}
-  .col-m-11 {width: 91.66%;}
-  .col-m-12 {width: 100%;}
+/*@media only screen and (max-width: 1200px) {
+.foto2{ 
+  display: none;
 }
 
-@media only screen and (min-width: 768px) {
-  .col-t-1 {width: 8.33%;}
-  .col-t-2 {width: 16.66%;}
-  .col-t-3 {width: 25%;}
-  .col-t-4 {width: 33.33%;}
-  .col-t-5 {width: 41.66%;}
-  .col-t-6 {width: 50%;}
-  .col-t-7 {width: 58.33%;}
-  .col-t-8 {width: 66.66%;}
-  .col-t-9 {width: 75%;}
-  .col-t-10 {width: 83.33%;}
-  .col-t-11 {width: 91.66%;}
-  .col-t-12 {width: 100%;}
+.foto4{ 
+  display: none;
 }
 
-@media only screen and (min-width: 1200px) {
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+.mobile a.icon {
+  background: rgba(50, 101, 179, 1);
+  display: block;
+  width: 5vw;
+  height: 6vw;
+  position: fixed;
+  right: 0;
+  top: 0;
+  text-align: center;
+  color: white;
+  padding-top: 2vw;
+  padding-left: 5vw;
+  padding-right: 6vw;
+  padding-bottom: 6vw;
+  font-size: 9vw;
+  border-radius: 0 0 0 30%;
+}
+
+.mobile .linkuri #myLinks {
+  position: fixed;
+  display: none;
+  background-color: #E3EFFE;
+  font-family: "Raleway-Medium", Helvetica;
+  width: 84vw;
+  height: 14vw;
+  border-radius: 0 0 30% 0;
+  font-size: 5vw;
+}
+
+.navcomp {
+  display: none;
+}
+
+.mobile a{
+  color:#3265B3 ;
+  text-decoration: none;
+  position: relative;
+}
+}*/
+
+
+
+/*@media only screen and (min-width: 1200px) {*/
+.meniu #myLinks {
+  display: none;
+}
+
+.topbar{
+  position: absolute;
+  left: 0;
+  top: -7vw;
+  width: 100vw;
+  text-align: center;
+  table-layout: fixed;
 }
 
 .index {
@@ -208,53 +227,49 @@ body, html {
 
 .begin {
   position: absolute;
-  width: 1192px;
-  height: 566px;
-  top: 147px;
-  left: 204px;
+  width: 100vw;
+  height: 45vw;
+  top: 12vw;
+  left: 1vw;
 }
 
 .poze {
   position: absolute;
-  width: 1192px;
-  height: 566px;
+  width: 100vw;
+  height: 45vw;
   top: 0;
   left: 0;
 }
 
 .foto1 {
   position: absolute;
-  width: 376px;
-  height: 252px;
+  width: 30.355vw;
   top: 0;
-  left: 816px;
+  left: 66vw;
   object-fit: cover;
 }
 
 .foto2 {
   position: absolute;
-  width: 376px;
-  height: 252px;
-  top: 312px;
+  width: 30.355vw;
+  top: 25.2vw;
   left: 0;
   object-fit: cover;
 }
 
 .foto3 {
   position: absolute;
-  width: 376px;
-  height: 438px;
-  top: 126px;
-  left: 408px;
+  width: 30.355vw;
+  top: 10.2vw;
+  left: 33vw;
   object-fit: cover;
 }
 
 .foto4 {
   position: absolute;
-  width: 376px;
-  height: 282px;
-  top: 282px;
-  left: 816px;
+  width: 30.355vw;
+  top: 22.8vw;
+  left: 66vw;
   object-fit: cover;
 }
 
@@ -262,33 +277,32 @@ body, html {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 44px;
+  gap: 3vw;
   position: absolute;
   top: 0;
   left: 0;
 }
 
 .titlu {
-  width: 715px;
+  width: 66vw;
   margin-top: -1px;
   font-family: "Raleway-Bold", Helvetica;
   color: rgba(50, 101, 179, 1);
-  font-size: 50px;
-  letter-spacing: -1.25px;
-  line-height: 65px;
+  font-size: 4vw;
+  line-height: 6vw;
   position: relative;
   font-weight: 700;
 }
 
 .moto {
   position: relative;
-  width: 279px;
+  width: 30vw;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
   color: rgba(7, 15, 28, 1);
-  font-size: 22px;
+  font-size: 2vw;
   letter-spacing: 0;
-  line-height: 33px;
+  line-height: 3vw;
 }
 
 .gradient1{
@@ -731,17 +745,16 @@ body, html {
 /*Header*/
 .top {
   position: relative;
-  width: 1600px;
-  height: 713px;
+  width: 100vw;
+  height: 58vw;
   background-color: rgba(227, 239, 254, 1);
 }
 
 .meniu {
   position: absolute;
-  width: 1192px;
-  height: 57px;
-  top: 40px;
-  left: 204px;
+  width: 100vw;
+  top: 0;
+  left:0;
 }
 
 .navbar {
@@ -749,33 +762,30 @@ body, html {
   align-items: flex-start;
   gap: 36px;
   position: absolute;
-  top: 17px;
-  left: 288px;
+  top: 3vw;
+  left: 0;
 }
 
 .active {
-position: relative;
-width: fit-content;
-margin-top: -1px;
-font-family: "Raleway-Medium", Helvetica;
-font-weight: 500;
-color: #3265b3;
-font-size: 16px;
-letter-spacing: 0;
-line-height: 24px;
-text-decoration: underline;
-white-space: nowrap;
+  position: relative;
+  width: fit-content;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #3265b3;
+  font-size: 1.5vw;
+  white-space: nowrap;
+  text-align: center;
+  padding: 1vw;
+  left: 3vw;
 }
 
 .static a{
   position: relative;
-  padding: 8px;
-  margin-top: -1px;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
   color: #000000;
-  font-size: 16px;
-  line-height: 150%;
+  font-size: 1.5vw;
+  padding: 1vw;
   white-space: nowrap;
   font-style: normal;
   text-decoration: none;
@@ -783,48 +793,41 @@ white-space: nowrap;
 
 .static :hover{
   background-color: #5986c9;
-  border-radius: 5px;
+  border-radius: 0.5vw;
   transition: 0.3s ease;
-}
-
-.search {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 17px;
-  left: 1069px;
 }
 
 .logo {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .logoait1 {
   position: relative;
-  width: 46px;
-  height: 55px;
+  width: 4.1vw;
+  height: 4.9vw;
   object-fit: cover;
 }
 
 .titluindex {
   position: relative;
-  width: 80px;
-  height: 59px;
-  top: 18px;
+  width: 5vw;
+  height: 16vw;
+  top: 7vw;
+  text-align: left;
   margin-top: -1px;
   font-family: "League Spartan-Bold", Helvetica;
   font-weight: 700;
   color: rgba(50, 101, 179, 1);
-  font-size: 8px;
-  letter-spacing: 0.72px;
-  line-height: 8px;
+  font-size: 0.7vw;
+  letter-spacing: 0.01vw;
+  line-height: 0.7vw;
 }
 
+.search{
+  width: 2vw;
+  height: 8vw;
+}
 
 /*Footer*/
 .footer {
@@ -1051,6 +1054,9 @@ white-space: nowrap;
   left: -2px;
   top: 137px;
 }
+.mobile a.icon{display: none;}
+/*}*/
+
 /*Desprenoi*/
 /*Contact*/
 /*Documente*/
