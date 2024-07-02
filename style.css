@@ -186,21 +186,6 @@ body, html {
   left: 2.8vw;
 }
 
-.submit {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5vw;
-  padding: 1.2vw 3vw;
-  position: absolute;
-  bottom: -16vw;
-  left: 30vw;
-  background-color: rgba(197, 38, 176, 1);;
-  border-radius: 0 1.5vw 1.5vw 1.5vw;
-  border: none;
-  cursor: pointer;
-}
-
 .begin {
   position: absolute;
   width: 100vw;
@@ -436,10 +421,9 @@ body, html {
   align-items: center;
   justify-content: center;
   padding: 1vw 2.5vw;
-  margin: 0 4vw 0 4vw;
+  margin: 0 4vw 0 2vw;
   position: relative;
   top: -1vw;
-  left: -3.1vw;
   background-color: rgba(50, 101, 179, 1);
   border-radius: 1vw;
 }
@@ -464,7 +448,7 @@ body, html {
 }
 
 .fotca {
-  border-radius: 60px;
+  border-radius: 5vw;
   object-fit: cover;
   object-position: 0 20%;
   position: relative;
@@ -486,11 +470,11 @@ body, html {
 }
 
 .contentpareri {
-  position: relative;
+  position: absolute;
   width: 30vw;
-  height: 44.5vw;
+  height: 44vw;
   left: 28vw;
-  top: -34vw;
+  bottom: -10vw;
 }
 
 .ghilim {
@@ -558,7 +542,7 @@ body, html {
   height: 3.3vw;
   width: 2vw;
   transition: 0.6s ease;
-  border-radius: 3px;
+  border-radius: 0.5vw;
   user-select: none;
 }
 
@@ -571,15 +555,17 @@ body, html {
   height: 3.3vw;
   width: 2vw;
   transition: 0.6s ease;
-  border-radius: 3px;
+  border-radius: 0.5vw;
   user-select: none;
 }
 .ss{
   height: 2.5vw;
+  position: absolute;
 }
 
 .sd{
   height: 2.5vw;
+  position: absolute;
 }
 
 .newsletterfooter {
@@ -627,15 +613,18 @@ body, html {
 /*text formular*/
 .form{
   position: relative;
-  top: -2vw;
+  top: 6vw;
+  left: 7vw;
+}
+
+.form table tr{
+  height: 10vw;
 }
 
 .textform {
   margin-left: 2.8vw;
   color: #818893;
   position: relative;
-  left: 8.7vw;
-  top: 8.5vw;
   width: 24.1vw;
   height: 4.8vw;
   border: 0.01vw solid;
@@ -649,12 +638,10 @@ body, html {
 }
 
 .titluform{
+  margin-left: 2.8vw;
   color: #000000;
   position: relative;
-  left: 11.7vw;
-  top: 10.7vw;
   width: 24vw;
-  height: 5vw;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
   font-size: 1.6vw;
@@ -674,6 +661,20 @@ body, html {
   font-size: 2vw;
 }
 
+.submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+  padding: 1.2vw 3vw;
+  position: absolute;
+  top: 23.7vw;
+  left: 22vw;
+  background-color: rgba(197, 38, 176, 1);;
+  border-radius: 0 1.5vw 1.5vw 1.5vw;
+  border: none;
+  cursor: pointer;
+}
 /*Slide*/
 * {box-sizing:border-box}
 
