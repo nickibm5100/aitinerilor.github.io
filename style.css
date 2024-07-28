@@ -59,6 +59,38 @@ body, html {
   display: none;
 }
 
+.index {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  position: relative;
+  background-color: #ffffff;
+}
+
+/*header*/
+.top {
+  position: relative;
+  width: 100vw;
+  height: 58vw;
+  background-color: rgba(227, 239, 254, 1);
+}
+
+.meniu {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 36px;
+  position: absolute;
+  top: 3vw;
+  left: 0;
+}
+
 .topbar{
   position: absolute;
   left: 0;
@@ -68,123 +100,71 @@ body, html {
   table-layout: fixed;
 }
 
-.index {
-  display: flex;
-  flex-direction: column;
-  gap: 4vw;
-  position: relative;
-  background-color: #ffffff;
-}
-
-.valori1 {
+.logo {
   display: inline-flex;
-  align-content: center;
-  gap: 7vw;
-  position: absolute;
-  top: 17vw;
-  left: 8vw;
+  align-items: center;
+  height: 10vw;
 }
 
-.valori {
+.logoait1 {
   position: relative;
-  width: fit-content;
+  width: 4.1vw;
+  height: 4.9vw;
+  object-fit: cover;
+}
+
+.titluindex {
+  position: relative;
+  width: 5vw;
+  top: 0.1vw;
+  left: 0.3vw;
+  text-align: left;
+  margin-top: -1px;
+  font-family: "League Spartan-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 0.7vw;
+  letter-spacing: 0.01vw;
+  line-height: 0.7vw;
+}
+
+.active {
+  position: relative;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
-  color: rgba(7, 15, 28, 1);
-  font-size: 2vw;
-  letter-spacing: 0;
-  white-space: nowrap;
-}
-
-.ellipse {
-  left: 30%;
-  width: 4vw;
-  height: 2vw;
-  position: relative;
-  background-color: #C526B0;
-  border-radius: 10rem 10rem 0 0;
-}
-
-.previzualizare {
-  position: absolute;
-  width: 20vw;
-  top: 10vw;
-  left: 25vw;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 1.3vw;
-  letter-spacing: 0;
-  line-height: 1.6vw;
-}
-
-.titprevizualizare {
-  position: absolute;
-  width: 15vw;
-  top: 1vw;
-  left: 25vw;
-  font-family: "Raleway-SemiBold", Helvetica;
-  font-weight: 600;
-  color: #000000;
+  color: #3265b3;
   font-size: 1.5vw;
-  line-height: 1.5vw;
+  padding: 1vw;
+  white-space: nowrap;
+  vertical-align: middle;
 }
 
-.numerotare {
-  position: absolute;
-  top: 6.4vw;
-  left: 84.3vw;
+.static{
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
+  font-size: 1.5vw;
+  white-space: nowrap;
+}
+
+.static a{
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 1vw;
   color: #000000;
-  font-size: 1.6vw;
-  letter-spacing: 0;
-  white-space: nowrap;
 }
 
-.cantitate {
-  position: relative;
-  width: fit-content;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 2.2vw;
-  letter-spacing: 0;
-  white-space: nowrap;
-  text-align: center;
+.static :hover{
+  background-color: #5986c9;
+  border-radius: 0.5vw;
+  transition: 0.3s ease;
 }
 
-.submitxt {
-  position: relative;
-  width: fit-content;
-  margin-top: -0.1vw;
-  font-family: "Raleway-SemiBold", Helvetica;
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 1.8vw;
-  white-space: nowrap;
-}
-
-.chenare {
-  position: relative;
-  width: 48vw;
-  height: 35vw;
-  top: 7vw;
-  left: 1vw;
-  margin-right: 1vw;
-  border-radius: 1vw;
-  overflow: hidden;
-  border: 0.01vw solid;
-  border-color: #000000;
-}
-
-.dreptunghi {
-  position: relative;
-  width: 91vw;
+.search{
+  width: 2vw;
   height: 8vw;
-  top: 11vw;
-  left: 2.8vw;
 }
+
+/*poze*/
 
 .begin {
   position: absolute;
@@ -276,20 +256,23 @@ body, html {
   left: -15vw;
 }
 
-.gradient2{
-  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
-  border-radius: 50%;
-  width: 30vw;
-  height: 30vw;
-  position: absolute;
-  top: 133vw;
-  left: 84vw;
-}
+/*valorile*/
 
 .valorile {
   position: relative;
   width: 100vw;
   height: 25vw;
+}
+
+.valoriletxt {
+  position: absolute;
+  left: 1vw;
+  width: 50vw;
+  font-family: "Raleway-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 3vw;
+  font-style: normal;
 }
 
 .network {
@@ -298,6 +281,35 @@ body, html {
   top: -1vw;
   left: 80vw;
   object-fit: cover;
+}
+
+.valori1 {
+  display: inline-flex;
+  align-content: center;
+  gap: 7vw;
+  position: absolute;
+  top: 17vw;
+  left: 8vw;
+}
+
+.valori {
+  position: relative;
+  width: fit-content;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(7, 15, 28, 1);
+  font-size: 2vw;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.ellipse {
+  left: 30%;
+  width: 4vw;
+  height: 2vw;
+  position: relative;
+  background-color: #C526B0;
+  border-radius: 10rem 10rem 0 0;
 }
 
 .linie {
@@ -313,15 +325,6 @@ body, html {
   position: relative;
   left: 1vw;
   top: 4vw;
-}
-
-.linie2 {
-  width: 50vw;
-  height: 0.25vw;
-  background-color: #3265B3;
-  position: absolute;
-  left: 22vw;
-  margin-top: 3vw;
 }
 
 .punct1 {
@@ -344,16 +347,7 @@ body, html {
   left: 97vw;
 }
 
-.valoriletxt {
-  position: absolute;
-  left: 1vw;
-  width: 50vw;
-  font-family: "Raleway-Bold", Helvetica;
-  font-weight: 700;
-  color: rgba(50, 101, 179, 1);
-  font-size: 3vw;
-  font-style: normal;
-}
+/*evenimente*/
 
 .evenimente {
   position: relative;
@@ -373,6 +367,19 @@ body, html {
   font-style: normal;
 }
 
+.chenare {
+  position: relative;
+  width: 48vw;
+  height: 35vw;
+  top: 7vw;
+  left: 1vw;
+  margin-right: 1vw;
+  border-radius: 1vw;
+  overflow: hidden;
+  border: 0.01vw solid;
+  border-color: #000000;
+}
+
 .imagineart {
   position: absolute;
   width: 22.1vw;
@@ -380,6 +387,31 @@ body, html {
   top: 0;
   left: 0;
   object-fit: cover;
+}
+
+.titprevizualizare {
+  position: absolute;
+  width: 15vw;
+  top: 1vw;
+  left: 25vw;
+  font-family: "Raleway-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+}
+
+.previzualizare {
+  position: absolute;
+  width: 20vw;
+  top: 10vw;
+  left: 25vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.3vw;
+  letter-spacing: 0;
+  line-height: 1.6vw;
 }
 
 .articol {
@@ -408,11 +440,31 @@ body, html {
   margin-block-end: 0px;
 }
 
+/*proiecte*/
+.gradient2{
+  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
+  border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  position: absolute;
+  top: 133vw;
+  left: 84vw;
+}
+
 .proiectestats {
   position: relative;
   width: 100vw;
   height: 20vw;
 }
+
+.dreptunghi {
+  position: relative;
+  width: 91vw;
+  height: 8vw;
+  top: 11vw;
+  left: 2.8vw;
+}
+
 .categorie {
   display: flex;
   flex-direction: column;
@@ -428,6 +480,18 @@ body, html {
   border-radius: 1vw;
 }
 
+.cantitate {
+  position: relative;
+  width: fit-content;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 2.2vw;
+  letter-spacing: 0;
+  white-space: nowrap;
+  text-align: center;
+}
+
 .proiectetxt {
   position: absolute;
   width: 60vw;
@@ -440,21 +504,12 @@ body, html {
   font-style: normal;
 }
 
+/*testimoniale*/
 .testimoniale {
   position: relative;
   width: 100vw;
   height: 54.5vw;
   background-color: rgba(227, 239, 254, 1);
-}
-
-.fotca {
-  border-radius: 5vw;
-  object-fit: cover;
-  object-position: 0 20%;
-  position: relative;
-  width: 38.6vw;
-  height: 38.6vw;
-  top: 10.5vw;
 }
 
 .pareri {
@@ -467,6 +522,57 @@ body, html {
   color: rgba(50, 101, 179, 1);
   font-size: 3vw;
   font-style: normal;
+}
+
+/*slide*/
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  left: 1vw;
+  top: 5vw;
+}
+
+.mySlides{
+  display:none;
+}
+
+.sageatastanga:hover, .sageatadreapta:hover {
+  background-color: #5986c9;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*end-slide*/
+
+.numerotare {
+  position: absolute;
+  top: 6.4vw;
+  left: 84.3vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.6vw;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.fotca {
+  border-radius: 5vw;
+  object-fit: cover;
+  object-position: 0 20%;
+  position: relative;
+  width: 38.6vw;
+  height: 38.6vw;
+  top: 10.5vw;
 }
 
 .contentpareri {
@@ -568,6 +674,7 @@ body, html {
   position: absolute;
 }
 
+/*newsletter*/
 .newsletterfooter {
   position: relative;
   width: 100vw;
@@ -604,13 +711,17 @@ body, html {
   border-radius: 0 6vw 6vw 6vw;
 }
 
-.submitarrow {
-  position: relative;
-  width: 2vw;
-  height: 2vw;
+.formtitlu {
+  position: absolute;
+  width: 22vw;
+  top: 3vw;
+  left: 23.26vw;
+  font-family: "Raleway-SemiBold", Helvetica;
+  font-weight: 600;
+  color: rgba(7, 15, 28, 1);
+  font-size: 2vw;
 }
 
-/*text formular*/
 .form{
   position: relative;
   top: 6vw;
@@ -619,6 +730,19 @@ body, html {
 
 .form table tr{
   height: 10vw;
+}
+
+.titluform{
+  margin-left: 2.8vw;
+  color: #000000;
+  position: relative;
+  width: 24vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 1.6vw;
+  line-height: 150%;
+  white-space: nowrap;
+  font-style: normal;
 }
 
 .textform {
@@ -637,162 +761,53 @@ body, html {
   font-style: normal;
 }
 
-.titluform{
-  margin-left: 2.8vw;
-  color: #000000;
-  position: relative;
-  width: 24vw;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  font-size: 1.6vw;
-  line-height: 150%;
-  white-space: nowrap;
-  font-style: normal;
-}
-
-.formtitlu {
-  position: absolute;
-  width: 22vw;
-  top: 3vw;
-  left: 23.26vw;
-  font-family: "Raleway-SemiBold", Helvetica;
-  font-weight: 600;
-  color: rgba(7, 15, 28, 1);
-  font-size: 2vw;
-}
-
 .submit {
+  transition-duration: 0.4s;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5vw;
   padding: 1.2vw 3vw;
   position: absolute;
+  color: #ffffff;
   top: 23.7vw;
   left: 22vw;
-  background-color: rgba(197, 38, 176, 1);;
+  background-color: rgba(197, 38, 176, 1);
   border-radius: 0 1.5vw 1.5vw 1.5vw;
   border: none;
   cursor: pointer;
 }
-/*Slide*/
-* {box-sizing:border-box}
 
-.slideshow-container {
-  max-width: 100%;
+.submit:hover{
+  background-color: white;
+  transition-duration: 0.4s;
+  color: rgba(197, 38, 176, 1);
+  border: 0.02vw solid rgba(197, 38, 176, 1);
+}
+
+.submit:hover svg{
+  fill: rgba(197, 38, 176, 1);
+  transition-duration: 0.4s;
+}
+
+.submitxt {
   position: relative;
-  left: 1vw;
-  top: 5vw;
-}
-
-.mySlides{
-  display:none;
-}
-
-.sageatastanga:hover, .sageatadreapta:hover {
-  background-color: #5986c9;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-
-/*Header*/
-.top {
-  position: relative;
-  width: 100vw;
-  height: 58vw;
-  background-color: rgba(227, 239, 254, 1);
-}
-
-.meniu {
-  position: absolute;
-  width: 100vw;
-  top: 0;
-  left:0;
-}
-
-.navbar {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 36px;
-  position: absolute;
-  top: 3vw;
-  left: 0;
-}
-
-.active {
-  position: relative;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: #3265b3;
-  font-size: 1.5vw;
-  padding: 1vw;
-  white-space: nowrap;
-  vertical-align: middle;
-}
-
-.static{
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  font-size: 1.5vw;
+  width: fit-content;
+  margin-top: -0.1vw;
+  font-family: "Raleway-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 1.8vw;
   white-space: nowrap;
 }
 
-.static a{
-  vertical-align: middle;
-  text-decoration: none;
-  padding: 1vw;
-  color: #000000;
-}
-
-.static :hover{
-  background-color: #5986c9;
-  border-radius: 0.5vw;
-  transition: 0.3s ease;
-}
-
-.logo {
-  display: inline-flex;
-  align-items: center;
-  height: 10vw;
-}
-
-.logoait1 {
-  position: relative;
-  width: 4.1vw;
-  height: 4.9vw;
-  object-fit: cover;
-}
-
-.titluindex {
-  position: relative;
-  width: 5vw;
-  height: 16vw;
-  top: 7vw;
-  text-align: left;
-  margin-top: -1px;
-  font-family: "League Spartan-Bold", Helvetica;
-  font-weight: 700;
-  color: rgba(50, 101, 179, 1);
-  font-size: 0.7vw;
-  letter-spacing: 0.01vw;
-  line-height: 0.7vw;
-}
-
-.search{
+.submit svg{
   width: 2vw;
-  height: 8vw;
+  height: 2vw;
+  fill: white;
+  transition-duration: 0.4s;
 }
 
-/*Footer*/
+/*footer*/
 .footer {
   position: absolute;
   width: 100vw;
@@ -857,10 +872,31 @@ body, html {
   left: 16vw;
 }
 
+.follow a{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  left: 3vw;
+  top: -2.3vw;
+  width: 9vw;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.6vw;
+}
+
 .followimg {
   position: relative;
   width: 2vw;
   height: 2vw;
+}
+
+.contact {
+  position: absolute;
+  width: 30vw;
+  height: 20vw;
+  left: 41vw;
 }
 
 .contact a{
@@ -877,60 +913,13 @@ body, html {
   font-size: 1.6vw;
 }
 
-.follow a{
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  position: relative;
-  left: 3vw;
-  top: -2.3vw;
-  width: 9vw;
-  font-family: "Raleway-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 1.6vw;
-}
-
-.framecontact{
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  top: 4vw;
-  position: relative;
-  width: fit-content;
-  font-family: "Raleway-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 1.6vw;
-  white-space: nowrap;
-  text-decoration: none;
-}
-
-.contact {
-  position: absolute;
-  width: 30vw;
-  height: 20vw;
-  left: 41vw;
-}
-
-.contactxt {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Raleway-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  letter-spacing: 0;
-  white-space: nowrap;
-}
-
 .slogan {
   width: 16.3vw;
   height: 14vw;
   position: absolute;
 }
 
-.sloganxt {
+.slogantxt {
   position: absolute;
   width: 17vw;
   top: 8vw;
@@ -983,6 +972,7 @@ body, html {
   font-size: 1.2vw;
   white-space: nowrap;
 }
+
 .mobile a.icon{display: none;}
 /*}*/
 
