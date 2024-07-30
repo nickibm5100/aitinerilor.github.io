@@ -20,13 +20,6 @@ body, html {
 }
 
 /*header*/
-.top {
-  position: relative;
-  width: 100vw;
-  height: 58vw;
-  background-color: rgba(227, 239, 254, 1);
-}
-
 .meniu {
   position: absolute;
   width: 100vw;

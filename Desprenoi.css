@@ -4,7 +4,7 @@ body, html {
   overflow-x: hidden;
 }
 
-.despre-noi {
+.desprenoi {
   display: inline-flex;
   flex-direction: column;
   align-items: left;
@@ -17,13 +17,6 @@ body, html {
 /*header*/
 .header{
   height: 56vw;
-}
-
-.top {
-  position: relative;
-  width: 100vw;
-  height: 58vw;
-  background-color: rgba(227, 239, 254, 1);
 }
 
 .meniu {
@@ -234,6 +227,55 @@ body, html {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.numerotare {
+  position: absolute;
+  width: fit-content;
+  top: 97.3vw;
+  left: 47.9vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.6vw;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+  
+.sageatastanga {
+  cursor: pointer;
+  position: absolute;
+  padding: 0.4vw;
+  top: 96.8vw;
+  left: 45.5vw;
+  height: 3.3vw;
+  width: 2vw;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.sageatadreapta {
+  cursor: pointer;
+  position: absolute;
+  padding: 0.4vw;
+  top: 96.8vw;
+  left: 50.6vw;
+  height: 3.3vw;
+  width: 2vw;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.ss{
+  height: 2.5vw;
+  position: absolute;
+}
+
+.sd{
+  height: 2.5vw;
+  position: absolute;
+}
 /*endslide*/
 
 .tabel{
@@ -320,41 +362,6 @@ body, html {
 .TT{
   position: relative;
   left: 2.5vw;
-}
-
-.numaratoare {
-  position: absolute;
-  width: fit-content;
-  top: 97.3vw;
-  left: 47.9vw;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 1.6vw;
-  letter-spacing: 0;
-  white-space: nowrap;
-}
-  
-.streamline-interface {
-  cursor: pointer;
-  position: absolute;
-  padding: 0.4vw;
-  top: 96.8vw;
-  left: 45.5vw;
-  transition: 0.6s ease;
-  border-radius: 3px;
-  user-select: none;
-}
-
-.streamline-interface-2 {
-  cursor: pointer;
-  position: absolute;
-  padding: 0.4vw;
-  top: 96.8vw;
-  left: 50.6vw;
-  transition: 0.6s ease;
-  border-radius: 3px;
-  user-select: none;
 }
 
 /*footer*/

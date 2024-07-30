@@ -67,7 +67,6 @@ body, html {
   background-color: #ffffff;
 }
 
-/*header*/
 .top {
   position: relative;
   width: 100vw;
@@ -75,6 +74,7 @@ body, html {
   background-color: rgba(227, 239, 254, 1);
 }
 
+/*header*/
 .meniu {
   position: absolute;
   width: 100vw;
@@ -165,7 +165,6 @@ body, html {
 }
 
 /*poze*/
-
 .begin {
   position: absolute;
   width: 100vw;
@@ -551,7 +550,6 @@ body, html {
   from {opacity: .4}
   to {opacity: 1}
 }
-/*end-slide*/
 
 .numerotare {
   position: absolute;
@@ -564,6 +562,7 @@ body, html {
   letter-spacing: 0;
   white-space: nowrap;
 }
+/*end-slide*/
 
 .fotca {
   border-radius: 5vw;
@@ -664,6 +663,7 @@ body, html {
   border-radius: 0.5vw;
   user-select: none;
 }
+
 .ss{
   height: 2.5vw;
   position: absolute;
