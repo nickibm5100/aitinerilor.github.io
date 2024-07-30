@@ -8,360 +8,230 @@ body, html {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
   position: relative;
   background-color: #ffffff;
+  height: 119vw;
 }
 
-.proiecte .hero-section {
+.header {
   position: relative;
-  width: 1192px;
-  height: 1037px;
+  width: 100vw;
+  height: 80vw;
 }
 
-.proiecte .proiect-section {
+/*header*/
+.top {
+  position: relative;
+  width: 100vw;
+  height: 58vw;
+  background-color: rgba(227, 239, 254, 1);
+}
+
+.meniu {
   position: absolute;
-  width: 1192px;
-  height: 866px;
-  top: 100px;
+  width: 100vw;
+  top: 0;
   left: 0;
 }
 
-.proiecte .vezi-proiectele {
+.navbar {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 36px;
   position: absolute;
-  width: 714px;
-  height: 120px;
-  top: -1px;
-  left: 0;
-  font-family: var(--h-2-font-family);
-  font-weight: var(--h-2-font-weight);
-  color: var(--h1-color);
-  font-size: var(--h-2-font-size);
-  letter-spacing: var(--h-2-letter-spacing);
-  line-height: var(--h-2-line-height);
-  font-style: var(--h-2-font-style);
-}
-
-.proiecte .category-section {
-  position: absolute;
-  width: 1192px;
-  height: 686px;
-  top: 235px;
+  top: 3vw;
   left: 0;
 }
 
-.proiecte .earring {
+.topbar{
   position: absolute;
-  width: 478px;
-  height: 398px;
-  border-radius: 20px;
+  left: 0;
+  top: -4vw;
+  width: 100vw;
+  text-align: center;
+  table-layout: fixed;
 }
 
-.earring:hover, .articol:hover {
-opacity: 0.9;
-cursor: pointer;
-}
-
-.proiecte .frame {
+.logo {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 16px 32px;
-  position: absolute;
-  top: 217px;
-  left: 128px;
-  background-color: #ffffff;
-  border-radius: 30px;
+  height: 10vw;
 }
 
-.proiecte .cite-te-mai-mult {
+.logoait1 {
   position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Raleway-SemiBold", Helvetica;
-  font-weight: 600;
-  color: #000000;
-  font-size: 18px;
-  letter-spacing: -0.36px;
-  line-height: 27px;
-  white-space: nowrap;
-}
-
-.proiecte .text-wrapper {
-  position: absolute;
-  width: 439px;
-  height: 83px;
-  top: 106px;
-  left: 20px;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 600;
-  color: white;
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-  white-space: nowrap;
-}
-
-.proiecte .bracelets {
-  position: absolute;
-  width: 478px;
-  height: 253px;
-  top: 433px;
-  left: 0;
-}
-
-.bracelets:hover, .articol:hover {
-  opacity: 0.9;
-  cursor: pointer;
-  }
-
-.proiecte .bracelet {
-  position: absolute;
-  width: 401px;
-  height: 83px;
-  top: 0;
-  left: 17px;
-  background-color: #3265b399;
-  filter: blur(50px);
-  opacity: 0.8;
-}
-
-.proiecte .div {
-  position: absolute;
-  width: 439px;
-  height: 83px;
-  top: 65px;
-  left: 19px;
-  font-family: "Raleway-SemiBold", Helvetica;
-  font-weight: 600;
-  color: white;
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-  white-space: nowrap;
-}
-
-.proiecte .set {
-  position: absolute;
-  width: 325px;
-  height: 316px;
-  top: 370px;
-  left: 510px;
-}
-
-.thinkaboutit{
-  width: 325px;
-  height: 316px;
-  border-radius: 20px;
-}
-
-.set:hover, .articol:hover {
-  opacity: 0.9;
-  cursor: pointer;
-  }
-
-.proiecte .overlap-2 {
-  position: relative;
-  width: 289px;
-  height: 83px;
-  top: 116px;
-  left: 20px;
-}
-
-.proiecte .se {
-  position: absolute;
-  width: 272px;
-  height: 83px;
-  top: 0;
-  left: 0;
-  background-color: #3265b399;
-  filter: blur(50px);
-  opacity: 0.8;
-}
-
-.proiecte .ring {
-  position: absolute;
-  width: 325px;
-  height: 316px;
-  top: 370px;
-  left: 867px;
-}
-
-.ring:hover, .articol:hover {
-  opacity: 0.9;
-  cursor: pointer;
-  }
-
-.proiecte .overlap-3 {
-  position: relative;
-  width: 286px;
-  height: 83px;
-  top: 116px;
-  left: 19px;
-}
-
-.proiecte .ring-2 {
-  position: absolute;
-  width: 254px;
-  height: 83px;
-  top: 0;
-  left: 16px;
-  background-color: #3265b3b2;
-  filter: blur(50px);
-  opacity: 0.8;
-}
-
-.proiecte .text-wrapper-2 {
-  position: absolute;
-  height: 26px;
-  top: 105px;
-  left: 30px;
-  font-family: "Raleway-SemiBold", Helvetica;
-  font-weight: 600;
-  color: white;
-  font-size: 22px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: underline;
-  white-space: nowrap;
-}
-
-.proiecte .necklace {
-  position: absolute;
-  width: 681px;
-  height: 338px;
-  top: 0;
-  left: 510px;
-}
-
-.necklace:hover, .articol:hover {
-  opacity: 0.9;
-  cursor: pointer;
-  }
-
-.SPT{
-  width: 681px;
-  height: 338px;
+  width: 4.1vw;
+  height: 4.9vw;
   object-fit: cover;
-  border-radius: 20px;
 }
 
-.proiecte .necklace-2 {
-  position: absolute;
-  width: 406px;
-  height: 83px;
-  top: 129px;
-  left: 140px;
-  background-color: #3265b399;
-  filter: blur(50px);
-  opacity: 0.8;
+.titluindex {
+  position: relative;
+  width: 5vw;
+  top: 0.1vw;
+  left: 0.3vw;
+  text-align: left;
+  margin-top: -1px;
+  font-family: "League Spartan-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 0.7vw;
+  letter-spacing: 0.01vw;
+  line-height: 0.7vw;
 }
 
-.proiecte .text-wrapper-3 {
+.active {
+  position: relative;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #3265b3;
+  font-size: 1.5vw;
+  padding: 1vw;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.static{
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 1.5vw;
+  white-space: nowrap;
+}
+
+.static a{
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 1vw;
+  color: #000000;
+}
+
+.static :hover{
+  background-color: #5986c9;
+  border-radius: 0.5vw;
+  transition: 0.3s ease;
+}
+
+.search{
+  width: 2vw;
+  height: 8vw;
+}
+
+/*exemple*/
+.exemple {
   position: absolute;
-  height: 47px;
-  top: 132px;
-  left: 111px;
-  font-family: "Raleway-SemiBold", Helvetica;
+  width: 100vw;
+  height: 72vw;
+  top: 8vw;
+  left: 1vw;
+}
+
+.titluexemple {
+  position: absolute;
+  width: 57vw;
+  height: 9vw;
+  font-family: "Raleway-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 3vw;
+  line-height: 150%;
+  font-style: normal;
+}
+
+.categorii {
+  position: absolute;
+  width: 100vw;
+  height: 55.4vw;
+  top: 16.2vw;
+}
+
+.primul {
+  position: absolute;
+  width: 38.6vw;
+  height: 32.17vw;
+}
+
+.primul:hover, .articol:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.doilea {
+  position: absolute;
+  width: 38.6vw;
+  height: 20.4vw;
+  bottom: 0;
+}
+
+.doilea:hover, .articol:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.treilea {
+  position: absolute;
+  width: 26.2vw;
+  height: 25.5vw;
+  bottom: 0;
+  left: 41.2vw;
+}
+
+.treilea:hover, .articol:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.patrulea {
+  position: absolute;
+  width: 26.2vw;
+  height: 25.5vw;
+  bottom: 0;
+  right: 4vw;
+}
+
+.patrulea:hover, .articol:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.cincilea {
+  position: absolute;
+  width: 54.94vw;
+  height: 27.3vw;
+  right: 4vw;
+}
+
+.cincilea:hover, .articol:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.denumire {
+  text-shadow: 0px 1px 4px black;
+  position: absolute;
+  height: 3vw;
+  top: 15%;
+  left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-family: "Raleway-Medium", Helvetica;
   font-weight: 600;
   color: white;
-  font-size: 40px;
-  letter-spacing: 0;
+  font-size: 2vw;
   line-height: normal;
   text-decoration: underline;
   white-space: nowrap;
-}
-
-
-
-.proiecte .text-wrapper-4 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: var(--meniu-text-font-family);
-  font-weight: var(--meniu-text-font-weight);
-  color: var(--paragraph-color);
-  font-size: var(--meniu-text-font-size);
-  letter-spacing: var(--meniu-text-letter-spacing);
-  line-height: var(--meniu-text-line-height);
-  white-space: nowrap;
-  font-style: var(--meniu-text-font-style);
-}
-
-.proiecte .text-wrapper-5 {
-  color: var(--h1-color);
-  text-decoration: underline;
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 24px;
-  white-space: nowrap;
-}
-
-.proiecte .text-wrapper-6 {
-  color: #000000;
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: var(--meniu-text-font-family);
-  font-weight: var(--meniu-text-font-weight);
-  font-size: var(--meniu-text-font-size);
-  letter-spacing: var(--meniu-text-letter-spacing);
-  line-height: var(--meniu-text-line-height);
-  white-space: nowrap;
-  font-style: var(--meniu-text-font-style);
-}
-
-.proiecte .frame-2 {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  position: absolute;
-  top: 19px;
-  left: 1117px;
-}
-
-.proiecte .uiw-login {
-  position: relative;
-  width: 20px;
-  height: 20px;
-}
-
-.proiecte .text-wrapper-7 {
-  position: relative;
-  width: 49px;
-  margin-top: -0.5px;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.proiecte .mi-search {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 17px;
-  left: 1069px;
 }
 
 .articol {
   transition-duration: 0.4s;
-  border-radius: 15px;
+  border-radius: 1vw;
   background-color: #3265B3;
   color: white;
   border: 0px;
-  width: 164px;
-  height: 41px;
+  width: 13.3vw;
+  height: 3.3vw;
   position: absolute;
   z-index: 1;
   top: 80%;
@@ -374,529 +244,179 @@ cursor: pointer;
 
 .articol:hover{
   cursor:pointer;
-  border: 2px solid #3265B3;
+  border: 0.02vw solid #3265B3;
   background-color: white;
   color: #000000;
 }
 
-.articol-homepage {
-  position: absolute;
-  width: 580px;
-  height: 434px;
-  top: 114px;
-  left: 0;
-  border-radius: 10px;
-  overflow: hidden;
-  border: 1px solid;
-  border-color: #000000;
+.acces {
+  font-size: 1vw;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
-.proiecte .asocia-ia-interna {
-  position: relative;
-  width: 80px;
-  height: 59px;
-  margin-top: -1px;
-  font-family: "League Spartan-Bold", Helvetica;
-  font-weight: 700;
-  color: var(--h1-color);
-  font-size: 8px;
-  letter-spacing: 0.72px;
-  line-height: 8px;
-}
-
-.proiecte .text-wrapper-8 {
-  height: 30px;
-  top: -1px;
-  font-family: var(--footer-name-font-family);
-  font-weight: var(--footer-name-font-weight);
-  color: #ffffff;
-  font-size: var(--footer-name-font-size);
-  letter-spacing: var(--footer-name-letter-spacing);
-  line-height: var(--footer-name-line-height);
-  white-space: nowrap;
-  position: absolute;
-  left: 0;
-  font-style: var(--footer-name-font-style);
-}
-
-.proiecte .frame-3 {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  position: absolute;
-  top: 50px;
-  left: 0;
-}
-
-.proiecte .text-wrapper-10 {
-  position: relative;
-  width: fit-content;
-  font-family: "Raleway-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 30px;
-  white-space: nowrap;
-}
-
-.proiecte .frame-4 {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  position: absolute;
-  top: 50px;
-  left: 0;
-}
-
-.proiecte .frame-5 {
-  display: inline-flex;
-  align-items: center;
-  gap: 16px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.proiecte .img {
-  position: relative;
-  width: 24px;
-  height: 24px;
-}
-
-.proiecte .text-wrapper-11 {
-  position: relative;
-  width: 93px;
-  margin-top: -1px;
-  font-family: "Raleway-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 30px;
-}
-
-
-.proiecte .text-wrapper-12 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Raleway-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: 27px;
-  white-space: nowrap;
-}
-
-.proiecte .p {
-  position: relative;
-  width: 241px;
-  margin-top: -1px;
-  font-family: "Raleway-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: 27px;
-}
-
-.proiecte .text-wrapper-13 {
-  position: absolute;
-  width: 204px;
-  top: 105px;
-  left: 0;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: var(--bg-color);
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 24px;
-}
-
-.proiecte .asocia-ia-interna-2 {
-  position: relative;
-  width: 125px;
-  height: 38px;
-  font-family: "League Spartan-Bold", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 1.33px;
-  line-height: 12px;
-}
-
-.proiecte .line {
-  position: absolute;
-  width: 1192px;
-  height: 1px;
-  top: 377px;
-  left: 204px;
-  object-fit: cover;
-}
-
-
-/*header*/
-.top {
-  position: relative;
-  width: 1600px;
-  height: 713px;
-  background-color: var(--bg-color);
-}
-
-.meniu {
-  position: absolute;
-  width: 1192px;
-  height: 57px;
-  top: 40px;
-}
-
-.navbar {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 36px;
-  position: absolute;
-  top: 17px;
-  left: 288px;
-}
-
-.active {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: #3265b3;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 24px;
-  text-decoration: underline;
-  white-space: nowrap;
-  } 
-
-  .static a{
-    position: relative;
-    padding: 8px;
-    text-decoration: none;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: var(--meniu-text-font-family);
-    font-weight: var(--meniu-text-font-weight);
-    color: #000000;
-    font-size: var(--meniu-text-font-size);
-    letter-spacing: var(--meniu-text-letter-spacing);
-    line-height: var(--meniu-text-line-height);
-    white-space: nowrap;
-    font-style: var(--meniu-text-font-style);
-    text-decoration: none;
-  }
-
-  .static :hover{
-    background-color: #5986c9;
-    border-radius: 5px;
-    transition: 0.3s ease;
-  }
-
-  .frame-1 {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    position: absolute;
-    top: 19px;
-    left: 1117px;
-  }
-
-  .login{
-    position: relative;
-    width: 49px;
-    margin-top: -0.5px;
-    font-family: "Raleway-Medium", Helvetica;
-    font-weight: 500;
-    color: #000000;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-
-  .loginfoto {
-    position: relative;
-    width: 20px;
-    height: 20px;
-  }
-
-  .search {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 17px;
-    left: 1069px;
-  }
-  
-  .logo {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .logoait {
-    position: relative;
-    width: 46px;
-    height: 55px;
-    object-fit: cover;
-  }
-
-  .asociatia-internationala {
-    position: relative;
-    width: 80px;
-    height: 59px;
-    top: 18px;
-    margin-top: -1px;
-    font-family: "League Spartan-Bold", Helvetica;
-    font-weight: 700;
-    color: var(--h1-color);
-    font-size: 8px;
-    letter-spacing: 0.72px;
-    line-height: 8px;
-  }
-
-  /*Footer*/
+/*footer*/
 .footer {
-  position: relative;
-  width: 1226px;
-  height: 450px;
-  background-color: var(--h1-color);
+  position: absolute;
+  width: 100vw;
+  height: 36vw;
+  bottom: 0;
+  background-color: rgba(50, 101, 179, 1);
 }
 
-.footer-2 {
+.footer1 {
   position: absolute;
-  width: 1097px;
-  height: 310px;
-  top: 27px;
-  left: 10px;
+  width: 100vw;
+  top: 3vw;
+  left: 1vw;
 }
 
-.footer-text {
+.footercontent {
   position: absolute;
-  width: 791px;
-  height: 310px;
-  top: 0;
-  left: 306px;
+  width: 72vw;
+  height: 23vw;
+  left: 23vw;
 }
 
 .navigare {
-  width: 110px;
-  height: 310px;
-  top: 0;
+  width: 11vw;
+  height: 23vw;
   position: absolute;
-  left: 0;
 }
 
 .titlufooter {
-  height: 30px;
-  top: -1px;
-  font-family: var(--footer-name-font-family);
-  font-weight: var(--footer-name-font-weight);
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
   color: #ffffff;
-  font-size: var(--footer-name-font-size);
-  letter-spacing: var(--footer-name-letter-spacing);
-  line-height: var(--footer-name-line-height);
+  font-size: 1.7vw;
+  line-height: 150%;
   white-space: nowrap;
   position: absolute;
-  left: 0;
-  font-style: var(--footer-name-font-style);
+  font-style: normal;
+}
+
+.framenavigare dt{
+  height: 3vw;
+}
+
+.framenavigare dl{
+  margin: 0;
 }
 
 .framenavigare a{
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  top: 50px;
-  left: 0;
-
   position: relative;
   width: fit-content;
-  margin-top: -1px;
   font-family: "Raleway-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 30px;
-  white-space: nowrap;
+  font-size: 1.6vw;
   text-decoration: none;
-  margin: 5px;
 }
 
-.urmrete {
+.follow {
   position: absolute;
-  width: 247px;
-  height: 218px;
-  top: 0;
-  left: 205px;
+  width: 21vw;
+  height: 19vw;
+  left: 16vw;
 }
 
-.framefollow{
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  top: 50px;
-  left: 0;
-}
-
-.img-2 {
-  position: relative;
-  width: 24px;
-  height: 24px;
-}
-
-.frame-6 a{
+.follow a{
   display: inline-flex;
   align-items: center;
-
   text-decoration: none;
   position: relative;
-  left: 40px;
-  top: -30px;
-  width: 93px;
-  margin-top: -1px;
+  left: 3vw;
+  top: -2.3vw;
+  width: 9vw;
   font-family: "Raleway-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
+  font-size: 1.6vw;
 }
 
-.framecontact{
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  top: 50px;
-  left: 0;
-
+.followimg {
   position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Raleway-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 30px;
-  white-space: nowrap;
-  text-decoration: none;
-}
-
-
-
-.img-3 {
-  position: relative;
-  left: -2px;
-  width: 24px;
-  height: 24px;
+  width: 2vw;
+  height: 2vw;
 }
 
 .contact {
   position: absolute;
-  width: 281px;
-  height: 193px;
-  top: 0;
-  left: 510px;
+  width: 30vw;
+  height: 20vw;
+  left: 41vw;
 }
 
-.textfootercontact {
+.contact a{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
   position: relative;
-  width: fit-content;
-  margin-top: -1px;
+  left: 3vw;
+  top: -2.3vw;
+  width: 26vw;
   font-family: "Raleway-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: 27px;
-  white-space: nowrap;
+  font-size: 1.6vw;
 }
 
-.logo-slogan {
-  width: 204px;
-  height: 154px;
+.slogan {
+  width: 16.3vw;
+  height: 14vw;
   position: absolute;
-  top: 0;
-  left: 0;
 }
 
-.text-wrapper-9 {
+.slogantxt {
   position: absolute;
-  width: 204px;
-  top: 105px;
-  left: 0;
+  width: 17vw;
+  top: 8vw;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
-  color: var(--bg-color);
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 24px;
+  color: rgba(227, 239, 254, 1);
+  font-size: 1.3vw;
 }
 
-.logo-2 {
+.logo2 {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 0.4vw;
   position: absolute;
-  top: 0;
-  left: 0;
 }
 
-.logoait-2 {
+.logo3 {
   position: relative;
-  width: 74px;
-  height: 88.01px;
+  width: 6vw;
   object-fit: cover;
 }
 
-.asocia-ia-interna-3 {
-  width: 125px;
-  height: 38px;
+.aititlufoot {
+  width: 10vw;
   font-family: "League Spartan-Bold", Helvetica;
   color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 1.33px;
-  line-height: 12px;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+  line-height: 1vw;
   position: relative;
   font-weight: 700;
 }
 
-.line-3 {
-  width: 1192px;
-  height: 1px;
+.linie3 {
+  width: 97vw;
+  height: 0.01vw;
   background-color: #FFFFFF;
   position: relative;
-  top: 345px;
-  left: 10px;
+  top: 30vw;
+  left: 1vw;
 }
 
-.toate-drepturile {
+.disclaimer {
   position: absolute;
-  height: 21px;
-  top: 375px;
-  left: 380px;
+  top: 31vw;
+  left: 30vw;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
   color: #ffffff;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 21px;
+  font-size: 1.2vw;
   white-space: nowrap;
-}
-
-.harta{
-  position: absolute;
-  left: 0px;
-  top: 145px;
 }
