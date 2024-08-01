@@ -174,6 +174,7 @@ body, html {
 
 .maimulte {
   position: absolute;
+  top: -1vw;
   left: 1vw;
   font-family: "Raleway-Bold", Helvetica;
   font-weight: 700;
@@ -188,8 +189,6 @@ body, html {
   position: relative;
   width: 48vw;
   height: 35vw;
-  top: 7vw;
-  left: 1vw;
   margin-right: 1vw;
   border-radius: 1vw;
   overflow: hidden;
@@ -255,6 +254,82 @@ body, html {
   font-size: 1vw;
   margin-block-start: 0px;
   margin-block-end: 0px;
+}
+
+.sageatastanga {
+  cursor: pointer;
+  position: absolute;
+  padding: 0.4vw;
+  bottom: -5vw;
+  left: 45.3vw;
+  height: 3.3vw;
+  width: 2vw;
+  transition: 0.6s ease;
+  border-radius: 0.5vw;
+  user-select: none;
+}
+
+.sageatadreapta {
+  cursor: pointer;
+  position: absolute;
+  padding: 0.4vw;
+  bottom: -5vw;
+  left: 50.2vw;
+  height: 3.3vw;
+  width: 2vw;
+  transition: 0.6s ease;
+  border-radius: 0.5vw;
+  user-select: none;
+}
+
+.ss{
+  height: 2.5vw;
+  position: absolute;
+}
+
+.sd{
+  height: 2.5vw;
+  position: absolute;
+}
+
+/*slide*/
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  left: 1vw;
+  top: 5vw;
+}
+
+.mySlides{
+  display:none;
+}
+
+.sageatastanga:hover, .sageatadreapta:hover {
+  background-color: #5986c9;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.numerotare {
+  position: absolute;
+  bottom: -4vw;
+  left: 47.5vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.6vw;
+  letter-spacing: 0;
+  white-space: nowrap;
 }
 
 /*footer*/
