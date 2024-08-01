@@ -189,11 +189,11 @@ body, html {
   transform: translateX(-50%);
   width: 9.683vw;
   height: 8.876vw;
-  background: url(Elemente/planuri.svg) ;
+  background: url(Elemente/Planuri.svg) ;
 }
 
 .pasiva:hover .planuri1{
-  background: url(Elemente/schim-img-svg/Planuri.svg) ;
+  background: url(Elemente/schim-img-svg/planuri.svg) ;
 }
 
 .rapoarte1 {
