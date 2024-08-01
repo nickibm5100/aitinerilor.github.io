@@ -1,0 +1,424 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.sablon {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 4vw;
+  position: relative;
+  background-color: #ffffff;
+  height: 182vw;
+}
+
+.capelnita {
+  position: relative;
+  width: 100vw;
+  height: 106vw;
+  overflow: hidden;
+}
+
+/*header*/
+.meniu {
+  position: absolute;
+  width: 100vw;
+  height: 10vw;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 36px;
+  position: absolute;
+  top: 3vw;
+  left: 0;
+}
+
+.topbar{
+  position: absolute;
+  left: 0;
+  top: -4vw;
+  width: 100vw;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  height: 10vw;
+}
+
+.logoait1 {
+  position: relative;
+  width: 4.1vw;
+  height: 4.9vw;
+  object-fit: cover;
+}
+
+.titluindex {
+  position: relative;
+  width: 5vw;
+  top: 0.1vw;
+  left: 0.3vw;
+  text-align: left;
+  margin-top: -1px;
+  font-family: "League Spartan-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 0.7vw;
+  letter-spacing: 0.01vw;
+  line-height: 0.7vw;
+}
+
+.active {
+  position: relative;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #3265b3;
+  font-size: 1.5vw;
+  padding: 1vw;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.static{
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 1.5vw;
+  white-space: nowrap;
+}
+
+.static a{
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 1vw;
+  color: #000000;
+}
+
+.static :hover{
+  background-color: #5986c9;
+  border-radius: 0.5vw;
+  transition: 0.3s ease;
+}
+
+.search{
+  width: 2vw;
+  height: 8vw;
+}
+
+
+/*continut*/
+.pagina {
+  position: absolute;
+  width: 100vw;
+  height: 84vw;
+  top: 10vw;
+  left: 1vw;
+}
+
+.titlufoto{
+  position: absolute;
+  width: 100vw;
+  height: 41vw;
+  top: 0;
+  left: 0;
+}
+
+.titlu {
+  position: absolute;
+  height: 4vw;
+  left: 0;
+  font-family: "Raleway-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 3vw;
+  line-height: 150%;
+  white-space: nowrap;
+  font-style: normal;
+}
+
+.coperta {
+  width: 30.339vw;
+  position: absolute;
+  height: 30.339vw;
+  object-fit: cover;
+}
+
+.descriere {
+  position: absolute;
+  width: 95vw;
+  height: 40vw;
+  top: 42vw;
+  left: 1vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.5vw;
+  letter-spacing: 0;
+  line-height: 2.2vw;
+}
+
+/*mailmulte*/ 
+.evenimente {
+  position: relative;
+  width: 100vw;
+  height: 43vw;
+  top: -12vw;
+}  
+
+.maimulte {
+  position: absolute;
+  left: 1vw;
+  font-family: "Raleway-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 3vw;
+  line-height: 150%;
+  white-space: nowrap;
+  font-style: normal;
+}
+
+.chenare {
+  position: relative;
+  width: 48vw;
+  height: 35vw;
+  top: 7vw;
+  left: 1vw;
+  margin-right: 1vw;
+  border-radius: 1vw;
+  overflow: hidden;
+  border: 0.01vw solid;
+  border-color: #000000;
+}
+
+.imagineart {
+  position: absolute;
+  width: 22.1vw;
+  height: 34.9vw;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.titprevizualizare {
+  position: absolute;
+  width: 15vw;
+  top: 1vw;
+  left: 25vw;
+  font-family: "Raleway-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+}
+
+.previzualizare {
+  position: absolute;
+  width: 20vw;
+  top: 10vw;
+  left: 25vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.3vw;
+  letter-spacing: 0;
+  line-height: 1.6vw;
+}
+
+.articol {
+  transition-duration: 0.4s;
+  border-radius: 1vw;
+  background-color: #3265B3;
+  color: white;
+  border: 0px;
+  width: 13.3vw;
+  height: 3.3vw;
+  position: absolute;
+  left: 28vw;
+  bottom: 2vw;
+}
+
+.articol:hover{
+  cursor:pointer;
+  border: 0.02vw solid #3265B3;
+  background-color: white;
+  color: #000000;
+}
+
+.acces {
+  font-size: 1vw;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+/*footer*/
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: 36vw;
+  bottom: 0;
+  background-color: rgba(50, 101, 179, 1);
+}
+
+.footer1 {
+  position: absolute;
+  width: 100vw;
+  top: 3vw;
+  left: 1vw;
+}
+
+.footercontent {
+  position: absolute;
+  width: 72vw;
+  height: 23vw;
+  left: 23vw;
+}
+
+.navigare {
+  width: 11vw;
+  height: 23vw;
+  position: absolute;
+}
+
+.titlufooter {
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1.7vw;
+  line-height: 150%;
+  white-space: nowrap;
+  position: absolute;
+  font-style: normal;
+}
+
+.framenavigare dt{
+  height: 3vw;
+}
+
+.framenavigare dl{
+  margin: 0;
+}
+
+.framenavigare a{
+  position: relative;
+  width: fit-content;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.6vw;
+  text-decoration: none;
+}
+
+.follow {
+  position: absolute;
+  width: 21vw;
+  height: 19vw;
+  left: 16vw;
+}
+
+.follow a{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  left: 3vw;
+  top: -2.3vw;
+  width: 9vw;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.6vw;
+}
+
+.followimg {
+  position: relative;
+  width: 2vw;
+  height: 2vw;
+}
+
+.contact {
+  position: absolute;
+  width: 30vw;
+  height: 20vw;
+  left: 41vw;
+}
+
+.contact a{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  left: 3vw;
+  top: -2.3vw;
+  width: 26vw;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.6vw;
+}
+
+.slogan {
+  width: 16.3vw;
+  height: 14vw;
+  position: absolute;
+}
+
+.slogantxt {
+  position: absolute;
+  width: 17vw;
+  top: 8vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(227, 239, 254, 1);
+  font-size: 1.3vw;
+}
+
+.logo2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4vw;
+  position: absolute;
+}
+
+.logo3 {
+  position: relative;
+  width: 6vw;
+  object-fit: cover;
+}
+
+.aititlufoot {
+  width: 10vw;
+  font-family: "League Spartan-Bold", Helvetica;
+  color: #ffffff;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+  line-height: 1vw;
+  position: relative;
+  font-weight: 700;
+}
+
+.linie3 {
+  width: 97vw;
+  height: 0.01vw;
+  background-color: #FFFFFF;
+  position: relative;
+  top: 30vw;
+  left: 1vw;
+}
+
+.disclaimer {
+  position: absolute;
+  top: 31vw;
+  left: 30vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1.2vw;
+  white-space: nowrap;
+}
