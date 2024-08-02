@@ -3,7 +3,8 @@ body, html {
   padding: 0;
   overflow-x: hidden;
 }
-/*@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 1200px) {
 .foto2{ 
   display: none;
 }
@@ -18,7 +19,7 @@ body, html {
   width: 5vw;
   height: 6vw;
   position: fixed;
-  right: 0;
+  left: 76vw;
   top: 0;
   text-align: center;
   color: white;
@@ -28,10 +29,13 @@ body, html {
   padding-bottom: 6vw;
   font-size: 9vw;
   border-radius: 0 0 0 30%;
+  z-index: 10;
 }
 
 .mobile .linkuri #myLinks {
   position: fixed;
+  top: 0;
+  left: 0;
   display: none;
   background-color: #E3EFFE;
   font-family: "Raleway-Medium", Helvetica;
@@ -48,14 +52,32 @@ body, html {
 .mobile a{
   color:#3265B3 ;
   text-decoration: none;
-  position: relative;
+  font-size: 2.7vw;
 }
-}*/
 
+.fa {
+  position: relative;
+  top: -3.5vw;
+  right: 2vw;
+  display:inline-block;
+  font:normal normal normal 14px/1 FontAwesome;
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
 
+.fa-bars{
+  width: 6vw;
+}
 
+}
 /*@media only screen and (min-width: 1200px) {*/
 .meniu #myLinks {
+  display: none;
+}
+
+.mobile{
   display: none;
 }
 
@@ -972,9 +994,6 @@ body, html {
   font-size: 1.2vw;
   white-space: nowrap;
 }
-
-.mobile a.icon{display: none;}
-/*}*/
 
 /*Desprenoi*/
 /*Contact*/
