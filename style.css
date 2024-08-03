@@ -2,17 +2,19 @@ body, html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  -webkit-text-size-adjust: none
+}
+
+.index {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  position: relative;
+  background-color: #ffffff;
 }
 
 @media only screen and (max-width: 430px) {
-.foto2 { 
-  display: none;
-}
-
-.foto4 { 
-  display: none;
-}
-
+  
 .bgnavbar {
   position: fixed;
   top: 0;
@@ -49,7 +51,7 @@ body, html {
   width: 5vw;
   height: 6vw;
   position: fixed;
-  right: 13vw;
+  left: 89vw;
   top: 0;
   text-align: center;
   color: white;
@@ -192,13 +194,6 @@ body, html {
 
 
 
-.index {
-  display: flex;
-  flex-direction: column;
-  gap: 4vw;
-  position: relative;
-  background-color: #ffffff;
-}
 
 .top {
   position: relative;
