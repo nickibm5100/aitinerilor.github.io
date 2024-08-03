@@ -4,22 +4,52 @@ body, html {
   overflow-x: hidden;
 }
 
-@media only screen and (max-width: 1200px) {
-.foto2{ 
+@media only screen and (max-width: 360px) {
+.foto2 { 
   display: none;
 }
 
-.foto4{ 
+.foto4 { 
   display: none;
+}
+
+.bgnavbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 8vw;
+  background-color: #E3EFFE;
+  z-index: 10;
+}
+
+.bglogo {
+  position: fixed;
+  border-radius: 0 0 4vw 0;
+  top: 0;
+  left: 0;
+  width: 14vw;
+  height: 8vw;
+  background-color: #E3EFFE;
+  z-index: -1;
+}
+
+.bgburger {
+  position: fixed;
+  border-radius: 0 0 0 4vw;
+  top: 0;
+  right: 0;
+  width: 23vw;
+  height: 8vw;
+  background-color: #E3EFFE;
+  z-index: -1;
 }
 
 .mobile a.icon {
-  background: rgba(50, 101, 179, 1);
   display: block;
   width: 5vw;
   height: 6vw;
   position: fixed;
-  left: 76vw;
+  right: 13vw;
   top: 0;
   text-align: center;
   color: white;
@@ -34,8 +64,8 @@ body, html {
 
 .mobile .linkuri #myLinks {
   position: fixed;
-  top: 0;
   left: 0;
+  top: 0;
   display: none;
   background-color: #E3EFFE;
   font-family: "Raleway-Medium", Helvetica;
@@ -49,37 +79,118 @@ body, html {
   display: none;
 }
 
-.mobile a{
-  color:#3265B3 ;
-  text-decoration: none;
-  font-size: 2.7vw;
-}
-
 .fa {
   position: relative;
   top: -3.5vw;
   right: 2vw;
   display:inline-block;
-  font:normal normal normal 14px/1 FontAwesome;
+  font:normal normal normal 14px/1;
   font-size:inherit;
   text-rendering:auto;
   -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale
+  -moz-osx-font-smoothing:grayscale;
+  filter: invert(39%) sepia(15%) saturate(2704%) hue-rotate(178deg) brightness(91%) contrast(90%);
 }
 
-.fa-bars{
+.fa-bars {
   width: 6vw;
+  height: 9vw;
+}
+
+.linkuri {
+  position: fixed;
+  left: 15vw;
+  top: 0.5vw;
+  z-index: 10;
+}
+
+.redirect {
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 2.5vw;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 1vw;
+  color: #000000;
+}
+
+.logo {
+  position: fixed;
+  left: 2vw;
+  top: 0;
+  display: inline-flex;
+  align-items: center;
+  height: 8vw;
+  z-index: 11;
 }
 
 }
-/*@media only screen and (min-width: 1200px) {*/
+
+
+@media only screen and (min-width: 361px) {
+.mobile {
+  display: none;
+}
+
+.mobile a.icon {
+  display: none;
+}
+
+.mobile .linkuri #myLinks {
+  display: none;
+}
+
 .meniu #myLinks {
   display: none;
 }
 
-.mobile{
-  display: none;
+.logo {
+  display: inline-flex;
+  align-items: center;
+  height: 10vw;
 }
+
+.static{
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 1.5vw;
+  white-space: nowrap;
+}
+
+.static a{
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 1vw;
+  color: #000000;
+}
+
+.static :hover{
+  background-color: #5986c9;
+  border-radius: 0.5vw;
+  transition: 0.3s ease;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .index {
   display: flex;
@@ -122,12 +233,6 @@ body, html {
   table-layout: fixed;
 }
 
-.logo {
-  display: inline-flex;
-  align-items: center;
-  height: 10vw;
-}
-
 .logoait1 {
   position: relative;
   width: 4.1vw;
@@ -161,25 +266,7 @@ body, html {
   vertical-align: middle;
 }
 
-.static{
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  font-size: 1.5vw;
-  white-space: nowrap;
-}
 
-.static a{
-  vertical-align: middle;
-  text-decoration: none;
-  padding: 1vw;
-  color: #000000;
-}
-
-.static :hover{
-  background-color: #5986c9;
-  border-radius: 0.5vw;
-  transition: 0.3s ease;
-}
 
 .search{
   width: 2vw;
