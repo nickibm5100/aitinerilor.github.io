@@ -103,7 +103,7 @@ body, html {
 .linkuri {
   position: fixed;
   left: 15vw;
-  top: 0.5vw;
+  top: 1vw;
   z-index: 10;
 }
 
@@ -128,7 +128,130 @@ body, html {
   z-index: 11;
 }
 
+.top {
+  position: relative;
+  width: 100vw;
+  height: 107vw;
+  background-color: rgba(227, 239, 254, 1);
 }
+
+.titlu {
+  width: 85vw;
+  margin-top: -1px;
+  font-family: "Raleway-Bold", Helvetica;
+  color: rgba(50, 101, 179, 1);
+  font-size: 7vw;
+  line-height: 7vw;
+  position: relative;
+  font-weight: 700;
+}
+
+.moto {
+  position: relative;
+  top: -5vw;
+  width: 58vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(7, 15, 28, 1);
+  font-size: 4vw;
+  letter-spacing: 0;
+  line-height: 4vw;
+}
+
+.begin {
+  position: absolute;
+  width: 100vw;
+  height: 95vw;
+  top: 12vw;
+  left: 1vw;
+}
+
+.poze {
+  position: absolute;
+  width: 100vw;
+  height: 45vw;
+  top: 34vw;
+  left: 2vw;
+}
+
+.foto1 {
+  position: relative;
+  top: 0vw;
+  left: 0vw;
+  width: 46vw;
+  height: 29vw;
+  object-fit: cover;
+  border-radius: 4vw;
+}
+
+.foto2 {
+  position: relative;
+  width: 46vw;
+  height: 29vw;
+  object-fit: cover;
+  border-radius: 4vw;
+}
+
+.foto3 {
+  position: relative;
+  top: 0vw;
+  left: 0vw;
+  width: 46vw;
+  height: 29vw;
+  object-fit: cover;
+  border-radius: 4vw;
+}
+
+.foto4 {
+  position: relative;
+  top: 0vw;
+  left: 0vw;
+  width: 46vw;
+  height: 29vw;
+  object-fit: cover;
+  border-radius: 4vw;
+}
+
+.valorile {
+  position: relative;
+  width: 100vw;
+  height: 75vw;
+}
+
+.valoriletxt {
+  position: absolute;
+  left: 1vw;
+  width: 63vw;
+  font-family: "Raleway-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 6vw;
+  font-style: normal;
+}
+
+.network {
+  position: absolute;
+  width: 31vw;
+  top: 8vw;
+  left: 59vw;
+  object-fit: cover;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 431px) {
@@ -174,28 +297,6 @@ body, html {
   transition: 0.3s ease;
 }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .top {
   position: relative;
   width: 100vw;
@@ -203,6 +304,124 @@ body, html {
   background-color: rgba(227, 239, 254, 1);
 }
 
+.titlu {
+  width: 66vw;
+  margin-top: -1px;
+  font-family: "Raleway-Bold", Helvetica;
+  color: rgba(50, 101, 179, 1);
+  font-size: 4vw;
+  line-height: 6vw;
+  position: relative;
+  font-weight: 700;
+}
+
+.moto {
+  position: relative;
+  width: 30vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(7, 15, 28, 1);
+  font-size: 2vw;
+  letter-spacing: 0;
+  line-height: 3vw;
+}
+
+.begin {
+  position: absolute;
+  width: 100vw;
+  height: 45vw;
+  top: 12vw;
+  left: 1vw;
+}
+
+.poze {
+  position: absolute;
+  width: 100vw;
+  height: 45vw;
+  top: 0;
+  left: 0;
+}
+
+.foto1 {
+  position: absolute;
+  width: 30.355vw;
+  top: 0;
+  left: 66vw;
+  object-fit: cover;
+}
+
+.foto2 {
+  position: absolute;
+  width: 30.355vw;
+  top: 25.2vw;
+  left: 0;
+  object-fit: cover;
+}
+
+.foto3 {
+  position: absolute;
+  width: 30.355vw;
+  top: 10.2vw;
+  left: 33vw;
+  object-fit: cover;
+}
+
+.foto4 {
+  position: absolute;
+  width: 30.355vw;
+  top: 22.8vw;
+  left: 66vw;
+  object-fit: cover;
+}
+
+.valorile {
+  position: relative;
+  width: 100vw;
+  height: 25vw;
+}
+
+.valoriletxt {
+  position: absolute;
+  left: 1vw;
+  width: 50vw;
+  font-family: "Raleway-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 3vw;
+  font-style: normal;
+}
+
+.network {
+  position: absolute;
+  width: 17vw;
+  left: 80vw;
+  object-fit: cover;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*nochanges*/
 /*header*/
 .meniu {
   position: absolute;
@@ -262,61 +481,24 @@ body, html {
   vertical-align: middle;
 }
 
-
-
 .search{
   width: 2vw;
   height: 8vw;
 }
 
+
+
+
+
+
+
+
 /*poze*/
-.begin {
-  position: absolute;
-  width: 100vw;
-  height: 45vw;
-  top: 12vw;
-  left: 1vw;
-}
 
-.poze {
-  position: absolute;
-  width: 100vw;
-  height: 45vw;
-  top: 0;
-  left: 0;
-}
 
-.foto1 {
-  position: absolute;
-  width: 30.355vw;
-  top: 0;
-  left: 66vw;
-  object-fit: cover;
-}
 
-.foto2 {
-  position: absolute;
-  width: 30.355vw;
-  top: 25.2vw;
-  left: 0;
-  object-fit: cover;
-}
 
-.foto3 {
-  position: absolute;
-  width: 30.355vw;
-  top: 10.2vw;
-  left: 33vw;
-  object-fit: cover;
-}
 
-.foto4 {
-  position: absolute;
-  width: 30.355vw;
-  top: 22.8vw;
-  left: 66vw;
-  object-fit: cover;
-}
 
 .denumirea {
   display: inline-flex;
@@ -328,27 +510,9 @@ body, html {
   left: 0;
 }
 
-.titlu {
-  width: 66vw;
-  margin-top: -1px;
-  font-family: "Raleway-Bold", Helvetica;
-  color: rgba(50, 101, 179, 1);
-  font-size: 4vw;
-  line-height: 6vw;
-  position: relative;
-  font-weight: 700;
-}
 
-.moto {
-  position: relative;
-  width: 30vw;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: rgba(7, 15, 28, 1);
-  font-size: 2vw;
-  letter-spacing: 0;
-  line-height: 3vw;
-}
+
+
 
 .gradient1{
   background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
@@ -362,30 +526,9 @@ body, html {
 
 /*valorile*/
 
-.valorile {
-  position: relative;
-  width: 100vw;
-  height: 25vw;
-}
 
-.valoriletxt {
-  position: absolute;
-  left: 1vw;
-  width: 50vw;
-  font-family: "Raleway-Bold", Helvetica;
-  font-weight: 700;
-  color: rgba(50, 101, 179, 1);
-  font-size: 3vw;
-  font-style: normal;
-}
 
-.network {
-  position: absolute;
-  width: 17vw;
-  top: -1vw;
-  left: 80vw;
-  object-fit: cover;
-}
+
 
 .valori1 {
   display: inline-flex;
