@@ -302,6 +302,101 @@ body, html {
   top: 0vw;
   left: -0.25vw;
 }
+
+.evenimente {
+  position: relative;
+  width: 100vw;
+  height: 232vw;
+}
+
+.evenimentetxt {
+  position: absolute;
+  left: 1vw;
+  font-family: "Raleway-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 6vw;
+  line-height: 150%;
+  white-space: nowrap;
+  font-style: normal;
+}
+
+.scoatel {
+  display: none;
+}
+
+.chenare {
+  position: relative;
+  width: 79vw;
+  height: 207vw;
+  top: 12vw;
+  left: 8vw;
+  margin-right: 0.3vw;
+  border-radius: 1vw;
+  overflow: hidden;
+  border: 0.01vw solid;
+  border-color: #000000;
+}
+
+.imagineart {
+  position: absolute;
+  width: 79vw;
+  height: 125vw;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.titprevizualizare {
+  position: absolute;
+  width: 39vw;
+  top: 126vw;
+  left: 21vw;
+  font-family: "Raleway-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 4vw;
+  line-height: 4vw;
+}
+
+.previzualizare {
+  position: absolute;
+  width: 73vw;
+  top: 138vw;
+  left: 3vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 4.3vw;
+  letter-spacing: 0;
+  line-height: 5.6vw;
+}
+
+.articol {
+  transition-duration: 0.4s;
+  border-radius: 3vw;
+  background-color: #3265B3;
+  color: white;
+  border: 0px;
+  width: 27.3vw;
+  height: 9.3vw;
+  position: absolute;
+  left: 26vw;
+  bottom: 2vw;
+}
+
+.articol:hover{
+  cursor:pointer;
+  border: 0.02vw solid #3265B3;
+  background-color: white;
+  color: #000000;
+}
+
+.acces {
+  font-size: 3vw;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
 }
 
 
@@ -525,6 +620,97 @@ body, html {
   position: absolute;
   left: 97vw;
 }
+
+.evenimente {
+  position: relative;
+  width: 100vw;
+  height: 50vw;
+}
+
+.evenimentetxt {
+  position: absolute;
+  left: 1vw;
+  font-family: "Raleway-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 4vw;
+  line-height: 150%;
+  white-space: nowrap;
+  font-style: normal;
+}
+
+.chenare {
+  position: relative;
+  width: 48vw;
+  height: 35vw;
+  top: 7vw;
+  left: 0.5vw;
+  margin-right: 0.3vw;
+  border-radius: 1vw;
+  overflow: hidden;
+  border: 0.01vw solid;
+  border-color: #000000;
+}
+
+.imagineart {
+  position: absolute;
+  width: 22.1vw;
+  height: 34.9vw;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.titprevizualizare {
+  position: absolute;
+  width: 15vw;
+  top: 1vw;
+  left: 25vw;
+  font-family: "Raleway-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+}
+
+.previzualizare {
+  position: absolute;
+  width: 20vw;
+  top: 10vw;
+  left: 25vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.3vw;
+  letter-spacing: 0;
+  line-height: 1.6vw;
+}
+
+.articol {
+  transition-duration: 0.4s;
+  border-radius: 1vw;
+  background-color: #3265B3;
+  color: white;
+  border: 0px;
+  width: 13.3vw;
+  height: 3.3vw;
+  position: absolute;
+  left: 28vw;
+  bottom: 2vw;
+}
+
+.articol:hover{
+  cursor:pointer;
+  border: 0.02vw solid #3265B3;
+  background-color: white;
+  color: #000000;
+}
+
+.acces {
+  font-size: 1vw;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
 }
 
 
@@ -643,96 +829,9 @@ body, html {
 
 /*evenimente*/
 
-.evenimente {
-  position: relative;
-  width: 100vw;
-  height: 50vw;
-}
 
-.evenimentetxt {
-  position: absolute;
-  left: 1vw;
-  font-family: "Raleway-Bold", Helvetica;
-  font-weight: 700;
-  color: rgba(50, 101, 179, 1);
-  font-size: 4vw;
-  line-height: 150%;
-  white-space: nowrap;
-  font-style: normal;
-}
 
-.chenare {
-  position: relative;
-  width: 48vw;
-  height: 35vw;
-  top: 7vw;
-  left: 1vw;
-  margin-right: 1vw;
-  border-radius: 1vw;
-  overflow: hidden;
-  border: 0.01vw solid;
-  border-color: #000000;
-}
 
-.imagineart {
-  position: absolute;
-  width: 22.1vw;
-  height: 34.9vw;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-
-.titprevizualizare {
-  position: absolute;
-  width: 15vw;
-  top: 1vw;
-  left: 25vw;
-  font-family: "Raleway-SemiBold", Helvetica;
-  font-weight: 600;
-  color: #000000;
-  font-size: 1.5vw;
-  line-height: 1.5vw;
-}
-
-.previzualizare {
-  position: absolute;
-  width: 20vw;
-  top: 10vw;
-  left: 25vw;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 1.3vw;
-  letter-spacing: 0;
-  line-height: 1.6vw;
-}
-
-.articol {
-  transition-duration: 0.4s;
-  border-radius: 1vw;
-  background-color: #3265B3;
-  color: white;
-  border: 0px;
-  width: 13.3vw;
-  height: 3.3vw;
-  position: absolute;
-  left: 28vw;
-  bottom: 2vw;
-}
-
-.articol:hover{
-  cursor:pointer;
-  border: 0.02vw solid #3265B3;
-  background-color: white;
-  color: #000000;
-}
-
-.acces {
-  font-size: 1vw;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-}
 
 /*proiecte*/
 .gradient2{
