@@ -40,7 +40,7 @@ body, html {
   border-radius: 0 0 0 4vw;
   top: 0;
   right: 0;
-  width: 23vw;
+  width: 10vw;
   height: 8vw;
   background-color: #E3EFFE;
   z-index: -1;
@@ -621,6 +621,246 @@ body, html {
   height: 8vw;
   position: absolute;
 }
+
+.newsletter {
+  display: none;
+}
+
+.fotonews {
+  position: absolute;
+  width: 100vw;
+  height: 42vw;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.newsletterfooter {
+  position: relative;
+  width: 100vw;
+  height: 248vw;
+}
+
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: 229vw;
+  top: 19vw;
+  background-color: rgba(50, 101, 179, 1);
+}
+
+.slogan {
+  top: -12vw;
+  left: 4vw;
+  width: 38.3vw;
+  height: 26vw;
+  position: absolute;
+}
+
+.slogantxt {
+  position: absolute;
+  width: 38vw;
+  top: 16vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(227, 239, 254, 1);
+  font-size: 3vw;
+}
+
+.logo2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 1vw;
+  position: absolute;
+}
+
+.logo3 {
+  position: relative;
+  width: 13vw;
+  object-fit: cover;
+}
+
+.aititlufoot {
+  width: 13vw;
+  font-family: "League Spartan-Bold", Helvetica;
+  color: #ffffff;
+  font-size: 2vw;
+  letter-spacing: 0.1vw;
+  line-height: 2vw;
+  position: relative;
+  font-weight: 700;
+}
+
+.footercontent {
+  position: absolute;
+  width: 72vw;
+  height: 23vw;
+  left: 4vw;
+  top: 23vw;
+}
+
+.navigare {
+  width: 11vw;
+  height: 23vw;
+  position: absolute;
+}
+
+.titlufooter {
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 5vw;
+  line-height: 150%;
+  white-space: nowrap;
+  position: absolute;
+  font-style: normal;
+}
+
+.framenavigare {
+  position: relative;
+  top: 10vw;
+}
+
+.framenavigare dt{
+  height: 6vw;
+}
+
+.framenavigare dl{
+  margin: 0;
+}
+
+.framenavigare a{
+  position: relative;
+  width: fit-content;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 4vw;
+  text-decoration: none;
+}
+
+.follow {
+  position: absolute;
+  width: 21vw;
+  height: 19vw;
+  top: 52vw;
+}
+
+.dlfollowimg {
+  margin-top: 10vw;
+}
+
+.dlfollowtxt {
+  position: absolute;
+  margin-top: 3vw;
+  top: 6.4vw;
+  left: 4vw;
+}
+
+.dtfollowimg {
+  height: 9vw;
+}
+
+.dtfollowtxt {
+  height: 9vw;
+}
+
+.follow a{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  left: 3vw;
+  width: 9vw;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 4vw;
+}
+
+.followimg {
+  position: relative;
+  width: 4vw;
+  height: 4vw;
+}
+
+.contact {
+  position: absolute;
+  width: 30vw;
+  height: 20vw;
+  top: 100vw;
+}
+
+.dlcontactimg {
+  margin-top: 12vw;
+}
+
+.dlcontactxt {
+  position: absolute;
+  margin-top: 5vw;
+  top: 6vw;
+  left: 4vw;
+}
+
+.dtcontactimg {
+  height: 9vw;
+}
+
+.dtcontactxt {
+  height: 9vw;
+}
+
+.contact a{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  left: 4vw;
+  width: 51vw;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 4vw;
+}
+
+.linie3 {
+  width: 97vw;
+  height: 0.3vw;
+  background-color: #FFFFFF;
+  position: relative;
+  top: 207vw;
+  left: 1vw;
+}
+
+.disclaimer {
+  position: absolute;
+  width: 72vw;
+  top: 209vw;
+  left: 15vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 4vw;
+}
+
+.gradient1{
+  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
+  border-radius: 50%;
+  width: 40vw;
+  height: 40vw;
+  position: absolute;
+  top: 519vw;
+  left: -15vw;
+}
+
+.gradient2{
+  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
+  border-radius: 50%;
+  width: 40vw;
+  height: 40vw;
+  position: absolute;
+  top: 162vw;
+  left: 60vw;
+}
 }
 
 
@@ -1184,144 +1424,9 @@ body, html {
   height: 2.5vw;
   position: absolute;
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*nochanges*/
-/*header*/
-.meniu {
-  position: absolute;
-  width: 100vw;
-  top: 0;
-  left: 0;
-}
-
-.navbar {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 36px;
-  position: absolute;
-  top: 3vw;
-  left: 0;
-}
-
-.topbar{
-  position: absolute;
-  left: 0;
-  top: -4vw;
-  width: 100vw;
-  text-align: center;
-  table-layout: fixed;
-}
-
-.logoait1 {
-  position: relative;
-  width: 4.1vw;
-  height: 4.9vw;
-  object-fit: cover;
-}
-
-.titluindex {
-  position: relative;
-  width: 5vw;
-  top: 0.1vw;
-  left: 0.3vw;
-  text-align: left;
-  margin-top: -1px;
-  font-family: "League Spartan-Bold", Helvetica;
-  font-weight: 700;
-  color: rgba(50, 101, 179, 1);
-  font-size: 0.7vw;
-  letter-spacing: 0.01vw;
-  line-height: 0.7vw;
-}
-
-.active {
-  position: relative;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: #3265b3;
-  font-size: 1.5vw;
-  padding: 1vw;
-  white-space: nowrap;
-  vertical-align: middle;
-}
-
-.search{
-  width: 2vw;
-  height: 8vw;
-}
-
-
-
-
-
-
-
-
-/*poze*/
-.denumirea {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 3vw;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.gradient1{
-  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
-  border-radius: 50%;
-  width: 30vw;
-  height: 30vw;
-  position: absolute;
-  top: 45vw;
-  left: -15vw;
-}
-
-
-
-
-
-/*proiecte*/
-.gradient2{
-  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
-  border-radius: 50%;
-  width: 30vw;
-  height: 30vw;
-  position: absolute;
-  top: 133vw;
-  left: 84vw;
-}
-
 
 /*newsletter*/
-.newsletterfooter {
-  position: relative;
-  width: 100vw;
-  height: 92vw;
-}
+
 
 .newsletter {
   position: absolute;
@@ -1449,7 +1554,12 @@ body, html {
   transition-duration: 0.4s;
 }
 
-/*footer*/
+.newsletterfooter {
+  position: relative;
+  width: 100vw;
+  height: 92vw;
+}
+
 .footer {
   position: absolute;
   width: 100vw;
@@ -1458,11 +1568,44 @@ body, html {
   background-color: rgba(50, 101, 179, 1);
 }
 
-.footer1 {
+.slogan {
+  width: 16.3vw;
+  height: 14vw;
   position: absolute;
-  width: 100vw;
-  top: 38vw;
-  left: 1vw;
+}
+
+.slogantxt {
+  position: absolute;
+  width: 17vw;
+  top: 8vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(227, 239, 254, 1);
+  font-size: 1.3vw;
+}
+
+.logo2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4vw;
+  position: absolute;
+}
+
+.logo3 {
+  position: relative;
+  width: 6vw;
+  object-fit: cover;
+}
+
+.aititlufoot {
+  width: 10vw;
+  font-family: "League Spartan-Bold", Helvetica;
+  color: #ffffff;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+  line-height: 1vw;
+  position: relative;
+  font-weight: 700;
 }
 
 .footercontent {
@@ -1507,11 +1650,35 @@ body, html {
   text-decoration: none;
 }
 
+.framenavigare {
+  position: relative;
+  top: 4vw;
+}
+
 .follow {
   position: absolute;
   width: 21vw;
   height: 19vw;
   left: 16vw;
+}
+
+.dlfollowimg {
+  margin-top: 4vw;
+}
+
+.dlfollowtxt {
+  position: absolute;
+  margin-top: 3vw;
+  top: 3vw;
+  left: 1vw;
+}
+
+.dtfollowimg {
+  height: 6vw;
+}
+
+.dtfollowtxt {
+  height: 6vw;
 }
 
 .follow a{
@@ -1541,6 +1708,25 @@ body, html {
   left: 41vw;
 }
 
+.dlcontactimg {
+  margin-top: 4vw;
+}
+
+.dlcontactxt {
+  position: absolute;
+  margin-top: 5vw;
+  top: 1vw;
+  left: 1vw;
+}
+
+.dtcontactimg {
+  height: 8vw;
+}
+
+.dtcontactxt {
+  height: 8vw;
+}
+
 .contact a{
   display: inline-flex;
   align-items: center;
@@ -1553,46 +1739,6 @@ body, html {
   font-weight: 400;
   color: #ffffff;
   font-size: 1.6vw;
-}
-
-.slogan {
-  width: 16.3vw;
-  height: 14vw;
-  position: absolute;
-}
-
-.slogantxt {
-  position: absolute;
-  width: 17vw;
-  top: 8vw;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: rgba(227, 239, 254, 1);
-  font-size: 1.3vw;
-}
-
-.logo2 {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4vw;
-  position: absolute;
-}
-
-.logo3 {
-  position: relative;
-  width: 6vw;
-  object-fit: cover;
-}
-
-.aititlufoot {
-  width: 10vw;
-  font-family: "League Spartan-Bold", Helvetica;
-  color: #ffffff;
-  font-size: 1vw;
-  letter-spacing: 0.1vw;
-  line-height: 1vw;
-  position: relative;
-  font-weight: 700;
 }
 
 .linie3 {
@@ -1615,9 +1761,125 @@ body, html {
   white-space: nowrap;
 }
 
-/*Desprenoi*/
-/*Contact*/
-/*Documente*/
-/*Evenimente*/
-/*Proiecte*/
-/*Transparenta*/
+.gradient1{
+  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
+  border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  position: absolute;
+  top: 45vw;
+  left: -15vw;
+}
+
+.gradient2{
+  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
+  border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  position: absolute;
+  top: 133vw;
+  left: 70vw;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*nochanges*/
+.meniu {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 36px;
+  position: absolute;
+  top: 3vw;
+  left: 0;
+}
+
+.topbar{
+  position: absolute;
+  left: 0;
+  top: -4vw;
+  width: 100vw;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.logoait1 {
+  position: relative;
+  width: 4.1vw;
+  height: 4.9vw;
+  object-fit: cover;
+}
+
+.titluindex {
+  position: relative;
+  width: 5vw;
+  top: 0.1vw;
+  left: 0.3vw;
+  text-align: left;
+  margin-top: -1px;
+  font-family: "League Spartan-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 0.7vw;
+  letter-spacing: 0.01vw;
+  line-height: 0.7vw;
+}
+
+.active {
+  position: relative;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #3265b3;
+  font-size: 1.5vw;
+  padding: 1vw;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.search{
+  width: 2vw;
+  height: 8vw;
+}
+
+.denumirea {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer1 {
+  position: absolute;
+  width: 100vw;
+  top: 38vw;
+  left: 1vw;
+}
