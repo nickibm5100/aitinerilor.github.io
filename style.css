@@ -19,7 +19,7 @@ body, html {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 8vw;
+  height: 10vw;
   background-color: #E3EFFE;
   z-index: 10;
 }
@@ -29,8 +29,8 @@ body, html {
   border-radius: 0 0 4vw 0;
   top: 0;
   left: 0;
-  width: 14vw;
-  height: 8vw;
+  width: 25vw;
+  height: 10vw;
   background-color: #E3EFFE;
   z-index: -1;
 }
@@ -40,8 +40,8 @@ body, html {
   border-radius: 0 0 0 4vw;
   top: 0;
   right: 0;
-  width: 10vw;
-  height: 8vw;
+  width: 11vw;
+  height: 10vw;
   background-color: #E3EFFE;
   z-index: -1;
 }
@@ -83,7 +83,7 @@ body, html {
 
 .fa {
   position: relative;
-  top: -3.5vw;
+  top: -2.5vw;
   right: 2vw;
   display:inline-block;
   font:normal normal normal 14px/1;
@@ -101,15 +101,15 @@ body, html {
 
 .linkuri {
   position: fixed;
-  left: 15vw;
-  top: 1vw;
+  left: 27vw;
+  top: 2vw;
   z-index: 10;
 }
 
 .redirect {
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
-  font-size: 2.5vw;
+  font-size: 2vw;
   white-space: nowrap;
   vertical-align: middle;
   text-decoration: none;
@@ -120,11 +120,32 @@ body, html {
 .logo {
   position: fixed;
   left: 2vw;
-  top: 0;
+  top: 1vw;
   display: inline-flex;
   align-items: center;
   height: 8vw;
   z-index: 11;
+}
+
+.logoait1 {
+  position: relative;
+  width: 7vw;
+  object-fit: cover;
+}
+
+.titluindex {
+  position: relative;
+  width: 10vw;
+  top: 0.1vw;
+  left: 0.3vw;
+  text-align: left;
+  margin-top: -1px;
+  font-family: "League Spartan-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 1.7vw;
+  letter-spacing: 0.01vw;
+  line-height: 1.6vw;
 }
 
 .top {
@@ -925,6 +946,28 @@ body, html {
   display: inline-flex;
   align-items: center;
   height: 10vw;
+}
+
+.logoait1 {
+  position: relative;
+  width: 4.1vw;
+  height: 4.9vw;
+  object-fit: cover;
+}
+
+.titluindex {
+  position: relative;
+  width: 5vw;
+  top: 0.1vw;
+  left: 0.3vw;
+  text-align: left;
+  margin-top: -1px;
+  font-family: "League Spartan-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 0.7vw;
+  letter-spacing: 0.01vw;
+  line-height: 0.7vw;
 }
 
 .static{
@@ -1827,28 +1870,6 @@ body, html {
   width: 100vw;
   text-align: center;
   table-layout: fixed;
-}
-
-.logoait1 {
-  position: relative;
-  width: 4.1vw;
-  height: 4.9vw;
-  object-fit: cover;
-}
-
-.titluindex {
-  position: relative;
-  width: 5vw;
-  top: 0.1vw;
-  left: 0.3vw;
-  text-align: left;
-  margin-top: -1px;
-  font-family: "League Spartan-Bold", Helvetica;
-  font-weight: 700;
-  color: rgba(50, 101, 179, 1);
-  font-size: 0.7vw;
-  letter-spacing: 0.01vw;
-  line-height: 0.7vw;
 }
 
 .active {
