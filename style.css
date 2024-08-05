@@ -215,7 +215,7 @@ body, html {
 .valorile {
   position: relative;
   width: 100vw;
-  height: 75vw;
+  height: 100vw;
 }
 
 .valoriletxt {
@@ -235,6 +235,72 @@ body, html {
   top: 8vw;
   left: 59vw;
   object-fit: cover;
+}
+
+.valori1 {
+  display: grid;
+  align-content: center;
+  gap: 7vw;
+  position: absolute;
+  top: 33vw;
+  left: 8vw;
+}
+
+.valori {
+  display: inline-flex;
+  position: relative;
+  top: 3vw;
+  left: 8vw;
+  width: fit-content;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(7, 15, 28, 1);
+  font-size: 4vw;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.ellipse {
+  left: 30%;
+  width: 3vw;
+  height: 5vw;
+  position: absolute;
+  left: -6vw;
+  background-color: #C526B0;
+  border-radius: 0 10rem 10rem 0;
+}
+
+.linie {
+  position: relative;
+  height: 100vw;
+  top: 31vw;
+  left: 10vw;
+}
+
+.linie1 {
+  height: 61vw;
+  width: 0.5vw;
+  background-color: #3265B3;
+  position: relative;
+}
+
+.punct1 {
+  width: 1vw;
+  height: 1vw;
+  background-color: #3265B3;
+  border-radius: 50%;
+  position: absolute;
+  left: -0.25vw;
+}
+
+.punct2 {
+  width: 1vw;
+  height: 1vw;
+  background-color: #3265B3;
+  border-radius: 50%;
+  position: absolute;
+  top: 0vw;
+  left: -0.25vw;
 }
 }
 
@@ -398,6 +464,67 @@ body, html {
   object-fit: cover;
 }
 
+.valori1 {
+  display: inline-flex;
+  align-content: center;
+  gap: 7vw;
+  position: absolute;
+  top: 17vw;
+  left: 8vw;
+}
+
+.valori {
+  position: relative;
+  width: fit-content;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(7, 15, 28, 1);
+  font-size: 2vw;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.ellipse {
+  left: 30%;
+  width: 4vw;
+  height: 2vw;
+  position: relative;
+  background-color: #C526B0;
+  border-radius: 10rem 10rem 0 0;
+}
+
+.linie {
+  position: relative;
+  width: 100vw;
+  top: 20.7vw;
+}
+
+.linie1 {
+  width: 96vw;
+  height: 0.2vw;
+  background-color: #3265B3;
+  position: relative;
+  top: 0.6vw;
+  left: 1vw;
+}
+
+.punct1 {
+  width: 1vw;
+  height: 1vw;
+  background-color: #3265B3;
+  border-radius: 50%;
+  position: absolute;
+  left: 1vw;
+}
+
+.punct2 {
+  width: 1vw;
+  height: 1vw;
+  background-color: #3265B3;
+  border-radius: 50%;
+  position: absolute;
+  left: 97vw;
+}
 }
 
 
@@ -494,12 +621,6 @@ body, html {
 
 
 /*poze*/
-
-
-
-
-
-
 .denumirea {
   display: inline-flex;
   flex-direction: column;
@@ -510,10 +631,6 @@ body, html {
   left: 0;
 }
 
-
-
-
-
 .gradient1{
   background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
   border-radius: 50%;
@@ -522,76 +639,6 @@ body, html {
   position: absolute;
   top: 45vw;
   left: -15vw;
-}
-
-/*valorile*/
-
-
-
-
-
-.valori1 {
-  display: inline-flex;
-  align-content: center;
-  gap: 7vw;
-  position: absolute;
-  top: 17vw;
-  left: 8vw;
-}
-
-.valori {
-  position: relative;
-  width: fit-content;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: rgba(7, 15, 28, 1);
-  font-size: 2vw;
-  letter-spacing: 0;
-  white-space: nowrap;
-}
-
-.ellipse {
-  left: 30%;
-  width: 4vw;
-  height: 2vw;
-  position: relative;
-  background-color: #C526B0;
-  border-radius: 10rem 10rem 0 0;
-}
-
-.linie {
-  position: relative;
-  width: 100vw;
-  top: 17.3vw;
-}
-
-.linie1 {
-  width: 96vw;
-  height: 0.2vw;
-  background-color: #3265B3;
-  position: relative;
-  left: 1vw;
-  top: 4vw;
-}
-
-.punct1 {
-  width: 1vw;
-  height: 1vw;
-  background-color: #3265B3;
-  border-radius: 50%;
-  position: absolute;
-  top: 3.6vw;
-  left: 1vw;
-}
-
-.punct2 {
-  width: 1vw;
-  height: 1vw;
-  background-color: #3265B3;
-  border-radius: 50%;
-  position: absolute;
-  top: 3.6vw;
-  left: 97vw;
 }
 
 /*evenimente*/
