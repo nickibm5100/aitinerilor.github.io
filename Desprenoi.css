@@ -903,7 +903,7 @@ body, html {
   width: 22.1vw;
   height: 22.1vw;
   top: 0;
-  left: 0;
+  left: 0vw;
   object-fit: cover;
   border-radius: 4.8vw;
 }
