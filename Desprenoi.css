@@ -4,45 +4,663 @@ body, html {
   overflow-x: hidden;
 }
 
+@media only screen and (max-width: 430px) {
+/*header*/
 .desprenoi {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  align-items: left;
   gap: 4vw;
   position: relative;
   background-color: #ffffff;
-  height: 279vw;
+  height: 1017vw;
+}
+
+.bgnavbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 10vw;
+  background-color: #E3EFFE;
+  z-index: 10;
+}
+
+.bglogo {
+  position: fixed;
+  border-radius: 0 0 4vw 0;
+  top: 0;
+  left: 0;
+  width: 25vw;
+  height: 10vw;
+  background-color: #E3EFFE;
+  z-index: -1;
+}
+
+.bgburger {
+  position: fixed;
+  border-radius: 0 0 0 4vw;
+  top: 0;
+  right: 0;
+  width: 11vw;
+  height: 10vw;
+  background-color: #E3EFFE;
+  z-index: -1;
+}
+
+.mobile a.icon {
+  display: block;
+  width: 5vw;
+  height: 10vw;
+  position: fixed;
+  left: 89vw;
+  top: 0;
+  text-align: center;
+  color: white;
+  padding-top: 2vw;
+  padding-left: 5vw;
+  padding-right: 6vw;
+  padding-bottom: 6vw;
+  font-size: 9vw;
+  border-radius: 0 0 0 30%;
+  z-index: 10;
+}
+
+.mobile .linkuri #myLinks {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  background-color: #E3EFFE;
+  font-family: "Raleway-Medium", Helvetica;
+  width: 84vw;
+  height: 14vw;
+  border-radius: 0 0 30% 0;
+  font-size: 5vw;
+}
+
+.navcomp {
+  display: none;
+}
+
+.fa {
+  position: relative;
+  top: -2.5vw;
+  right: 2vw;
+  display:inline-block;
+  font:normal normal normal 14px/1;
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  filter: invert(39%) sepia(15%) saturate(2704%) hue-rotate(178deg) brightness(91%) contrast(90%);
+}
+
+.fa-bars {
+  width: 6vw;
+  height: 9vw;
+}
+
+.linkuri {
+  position: fixed;
+  left: 26vw;
+  top: 2vw;
+  z-index: 10;
+}
+
+.redirect {
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 2vw;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 1vw;
+  color: #000000;
+}
+
+.logo {
+  position: fixed;
+  left: 2vw;
+  top: 1vw;
+  display: inline-flex;
+  align-items: center;
+  height: 8vw;
+  z-index: 11;
+}
+
+.logoait1 {
+  position: relative;
+  width: 7vw;
+  object-fit: cover;
+}
+
+.titluindex {
+  position: relative;
+  width: 10vw;
+  top: 0.1vw;
+  left: 0.3vw;
+  text-align: left;
+  margin-top: -1px;
+  font-family: "League Spartan-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 1.7vw;
+  letter-spacing: 0.01vw;
+  line-height: 1.6vw;
+}
+/*endheader*/
+/*descrieredn*/
+.detalii {
+  position: absolute;
+  width: 100vw;
+  height: 45.5vw;
+  top: 21vw;
+  left: 0;
+}
+
+.dreptunghi{
+  width: 100vw;
+  height: 169vw;
+  background-color: #E3EFFE;
+}
+
+.triunghis{
+  border-top: 84.5vw solid transparent;
+  border-left: 12vw solid #ffffff;
+  border-bottom: 84.5vw solid transparent;
+  position: relative;
+  top: -170vw;
+}
+
+.triunghid{
+  border-top: 84.5vw solid transparent;
+  border-right: 12vw solid #ffffff;
+  border-bottom: 84.5vw solid transparent;
+  position: relative;
+  top: -340vw;
+}
+
+.logoait {
+  position: absolute;
+  width: 30.3vw;
+  height: 36vw;
+  top: 150.6vw;
+  left: 33.8vw;
+  object-fit: cover;
+}
+
+.titludn {
+  text-align: center;
+  position: absolute;
+  width: 57vw;
+  top: 14vw;
+  left: 22vw;
+  font-family: "Raleway-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 6vw;
+  line-height: 150%;
+  font-style: normal;
+}
+
+.prezentare {
+  text-align: center;
+  position: absolute;
+  width: 76vw;
+  top: 52.3vw;
+  left: 12vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(7, 15, 28, 1);
+  font-size: 5vw;
+  line-height: 120%;
+  font-style: normal;
+}
+
+.galerie1 {
+  position: relative;
+  width: 100vw;
+  height: 330vw;
+  top: 220vw;
+}
+
+.galerie2 {
+  display: none;
+}
+/*enddescriere*/
+/*listamembri*/
+.membri {
+  position: relative;
+  width: 100vw;
+  height: 100vw;
+  top: 235vw;
+}
+
+.membrititlu {
+  text-align: center;
+  position: absolute;
+  width: 60vw;
+  left: 20vw;
+  font-family: "Raleway-Bold", Helvetica;
+  font-weight: 700;
+  color: rgba(50, 101, 179, 1);
+  font-size: 6vw;
+  line-height: 150%;
+  font-style: normal;
+}
+/*slide*/
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  left: 1vw;
+}
+
+.mySlides{
+  display:none;
+}
+
+.sageatastanga:hover, .sageatadreapta:hover {
+  background-color: #5986c9;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.numerotare {
+  position: absolute;
+  width: fit-content;
+  top: 97.3vw;
+  left: 47.9vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.6vw;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+  
+.sageatastanga {
+  cursor: pointer;
+  position: absolute;
+  padding: 0.4vw;
+  top: 96.8vw;
+  left: 45.5vw;
+  height: 3.3vw;
+  width: 2vw;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.sageatadreapta {
+  cursor: pointer;
+  position: absolute;
+  padding: 0.4vw;
+  top: 96.8vw;
+  left: 50.6vw;
+  height: 3.3vw;
+  width: 2vw;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.ss{
+  height: 2.5vw;
+  position: absolute;
+}
+
+.sd{
+  height: 2.5vw;
+  position: absolute;
+}
+/*endslide*/
+
+.tabel{
+  position: relative;
+  top: 40vw;
+  left: 1vw;
+}
+
+.membruframe {
+  padding: 2vw;
+  position: relative;
+  width: 23.7vw;
+  height: 39.8vw;
+}
+
+.membruimg {
+  position: absolute;
+  width: 22.1vw;
+  height: 22.1vw;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  border-radius: 4.8vw;
+}
+
+.descriere {
+  position: absolute;
+  top: 23.7vw;
+  left: 0;
+}
+
+.nume {
+  position: absolute;
+  width: 22vw;
+  font-family: "Raleway-SemiBold", Helvetica;
+  font-weight: 600;
+  color: rgba(197, 38, 176, 1);
+  font-size: 2.4vw;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.functie{
+  position: absolute;
+  width: 21vw;
+  top: 3.2vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(7, 15, 28, 1);
+  font-size: 1.5vw;
+  line-height: 2vw;
+}
+
+.linie {
+  width: 21.9vw;
+  top: 11vw;
+  position: absolute;
+  height: 0.1vw;
+  object-fit: cover;
+  background-color: #000000;
+}
+
+.retele {
+  position: absolute;
+  width: 15vw;
+  height: 2vw;
+  top: 12.2vw;
+}
+
+.IG{
+  position: relative;
+}
+
+.EM{
+  position: relative;
+  left: 0.8vw;
+}
+
+.FB{
+  position: relative;
+  left: 1.7vw;
+}
+
+.TT{
+  position: relative;
+  left: 2.5vw;
+}
+/*endlistamembri*/
+/*footer*/
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: 217vw;
+  top: 800vw;
+  background-color: rgba(50, 101, 179, 1);
+}
+
+.slogan {
+  top: 3vw;
+  left: 4vw;
+  width: 38.3vw;
+  height: 26vw;
+  position: absolute;
+}
+
+.slogantxt {
+  position: absolute;
+  width: 38vw;
+  top: 16vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(227, 239, 254, 1);
+  font-size: 3vw;
+}
+
+.logo2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 1vw;
+  position: absolute;
+}
+
+.logo3 {
+  position: relative;
+  width: 13vw;
+  object-fit: cover;
+}
+
+.aititlufoot {
+  width: 13vw;
+  font-family: "League Spartan-Bold", Helvetica;
+  color: #ffffff;
+  font-size: 2vw;
+  letter-spacing: 0.1vw;
+  line-height: 2vw;
+  position: relative;
+  font-weight: 700;
+}
+
+.footercontent {
+  position: absolute;
+  width: 72vw;
+  height: 23vw;
+  left: 4vw;
+  top: 23vw;
+}
+
+.navigare {
+  width: 11vw;
+  height: 23vw;
+  top: 15vw;
+  position: absolute;
+}
+
+.titlufooter {
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 5vw;
+  line-height: 150%;
+  white-space: nowrap;
+  position: absolute;
+  font-style: normal;
+}
+
+.framenavigare {
+  position: relative;
+  top: 10vw;
+}
+
+.framenavigare dt{
+  height: 6vw;
+}
+
+.framenavigare dl{
+  margin: 0;
+}
+
+.framenavigare a{
+  position: relative;
+  width: fit-content;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 4vw;
+  text-decoration: none;
+}
+
+.follow {
+  position: absolute;
+  width: 21vw;
+  height: 19vw;
+  top: 70vw;
+}
+
+.dlfollowimg {
+  margin-top: 10vw;
+}
+
+.dlfollowtxt {
+  position: absolute;
+  margin-top: 3vw;
+  top: 6.4vw;
+  left: 4vw;
+}
+
+.dtfollowimg {
+  height: 9vw;
+}
+
+.dtfollowtxt {
+  height: 9vw;
+}
+
+.follow a{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  left: 3vw;
+  width: 9vw;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 4vw;
+}
+
+.followimg {
+  position: relative;
+  width: 4vw;
+  height: 4vw;
+}
+
+.contact {
+  position: absolute;
+  width: 30vw;
+  height: 20vw;
+  top: 120vw;
+}
+
+.dlcontactimg {
+  margin-top: 12vw;
+}
+
+.dlcontactxt {
+  position: absolute;
+  margin-top: 5vw;
+  top: 6vw;
+  left: 4vw;
+}
+
+.dtcontactimg {
+  height: 9vw;
+}
+
+.dtcontactxt {
+  height: 9vw;
+}
+
+.contact a{
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  left: 4vw;
+  width: 51vw;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 4vw;
+}
+
+.linie3 {
+  width: 97vw;
+  height: 0.3vw;
+  background-color: #FFFFFF;
+  position: relative;
+  top: 195vw;
+  left: 1vw;
+}
+
+.disclaimer {
+  position: absolute;
+  width: 72vw;
+  top: 197vw;
+  left: 15vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 4vw;
+}
+
+.gradient1{
+  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
+  border-radius: 50%;
+  width: 40vw;
+  height: 40vw;
+  position: absolute;
+  top: 519vw;
+  left: -15vw;
+}
+
+.gradient2{
+  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
+  border-radius: 50%;
+  width: 40vw;
+  height: 40vw;
+  position: absolute;
+  top: 162vw;
+  left: 60vw;
+}
+/*endfooter*/
+}
+
+@media only screen and (min-width: 431px) {
+.desprenoi {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  position: relative;
+  background-color: #ffffff;
+  height: 285vw;
 }
 
 /*header*/
-.header{
-  height: 56vw;
+.mobile {
+  display: none;
 }
 
-.meniu {
-  position: absolute;
-  width: 100vw;
-  height: 10vw;
-  top: 0;
-  left: 0;
+.mobile a.icon {
+  display: none;
 }
 
-.navbar {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 36px;
-  position: absolute;
-  top: 3vw;
-  left: 0;
+.mobile .linkuri #myLinks {
+  display: none;
 }
 
-.topbar{
-  position: absolute;
-  left: 0;
-  top: -4vw;
-  width: 100vw;
-  text-align: center;
-  table-layout: fixed;
+.meniu #myLinks {
+  display: none;
 }
 
 .logo {
@@ -73,17 +691,6 @@ body, html {
   line-height: 0.7vw;
 }
 
-.active {
-  position: relative;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: #3265b3;
-  font-size: 1.5vw;
-  padding: 1vw;
-  white-space: nowrap;
-  vertical-align: middle;
-}
-
 .static{
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
@@ -103,12 +710,7 @@ body, html {
   border-radius: 0.5vw;
   transition: 0.3s ease;
 }
-
-.search{
-  width: 2vw;
-  height: 8vw;
-}
-
+/*endheader*/
 /*descrieredn*/
 .detalii {
   position: absolute;
@@ -175,18 +777,23 @@ body, html {
   font-style: normal;
 }
 
-.galerie {
+.galerie1 {
+  display: none;
+}
+
+.galerie2 {
   position: relative;
+  top: 60vw;
   width: 100vw;
   height: 78vw;
 }
-
+/*enddescriere*/
 /*listamembri*/
 .membri {
   position: relative;
   width: 100vw;
   height: 100vw;
-  top: -1vw;
+  top: 60vw;
 }
 
 .membrititlu {
@@ -363,21 +970,54 @@ body, html {
   position: relative;
   left: 2.5vw;
 }
-
+/*endlistamembri*/
 /*footer*/
 .footer {
   position: absolute;
   width: 100vw;
   height: 36vw;
-  bottom: 0;
+  top: 249vw;
   background-color: rgba(50, 101, 179, 1);
 }
 
-.footer1 {
+.slogan {
+  width: 16.3vw;
+  height: 14vw;
   position: absolute;
-  width: 100vw;
-  top: 3vw;
-  left: 1vw;
+}
+
+.slogantxt {
+  position: absolute;
+  width: 17vw;
+  top: 8vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: rgba(227, 239, 254, 1);
+  font-size: 1.3vw;
+}
+
+.logo2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4vw;
+  position: absolute;
+}
+
+.logo3 {
+  position: relative;
+  width: 6vw;
+  object-fit: cover;
+}
+
+.aititlufoot {
+  width: 10vw;
+  font-family: "League Spartan-Bold", Helvetica;
+  color: #ffffff;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+  line-height: 1vw;
+  position: relative;
+  font-weight: 700;
 }
 
 .footercontent {
@@ -422,11 +1062,35 @@ body, html {
   text-decoration: none;
 }
 
+.framenavigare {
+  position: relative;
+  top: 4vw;
+}
+
 .follow {
   position: absolute;
   width: 21vw;
   height: 19vw;
   left: 16vw;
+}
+
+.dlfollowimg {
+  margin-top: 4vw;
+}
+
+.dlfollowtxt {
+  position: absolute;
+  margin-top: 3vw;
+  top: 3vw;
+  left: 1vw;
+}
+
+.dtfollowimg {
+  height: 6vw;
+}
+
+.dtfollowtxt {
+  height: 6vw;
 }
 
 .follow a{
@@ -456,6 +1120,25 @@ body, html {
   left: 41vw;
 }
 
+.dlcontactimg {
+  margin-top: 4vw;
+}
+
+.dlcontactxt {
+  position: absolute;
+  margin-top: 5vw;
+  top: 1vw;
+  left: 1vw;
+}
+
+.dtcontactimg {
+  height: 8vw;
+}
+
+.dtcontactxt {
+  height: 8vw;
+}
+
 .contact a{
   display: inline-flex;
   align-items: center;
@@ -470,52 +1153,12 @@ body, html {
   font-size: 1.6vw;
 }
 
-.slogan {
-  width: 16.3vw;
-  height: 14vw;
-  position: absolute;
-}
-
-.slogantxt {
-  position: absolute;
-  width: 17vw;
-  top: 8vw;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: rgba(227, 239, 254, 1);
-  font-size: 1.3vw;
-}
-
-.logo2 {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4vw;
-  position: absolute;
-}
-
-.logo3 {
-  position: relative;
-  width: 6vw;
-  object-fit: cover;
-}
-
-.aititlufoot {
-  width: 10vw;
-  font-family: "League Spartan-Bold", Helvetica;
-  color: #ffffff;
-  font-size: 1vw;
-  letter-spacing: 0.1vw;
-  line-height: 1vw;
-  position: relative;
-  font-weight: 700;
-}
-
 .linie3 {
   width: 97vw;
   height: 0.01vw;
   background-color: #FFFFFF;
   position: relative;
-  top: 30vw;
+  top: 29vw;
   left: 1vw;
 }
 
@@ -528,4 +1171,93 @@ body, html {
   color: #ffffff;
   font-size: 1.2vw;
   white-space: nowrap;
+}
+
+.gradient1{
+  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
+  border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  position: absolute;
+  top: 45vw;
+  left: -15vw;
+}
+
+.gradient2{
+  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
+  border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  position: absolute;
+  top: 133vw;
+  left: 70vw;
+}
+/*endfooter*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*nochanges*/
+
+
+.navbar {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 36px;
+  position: absolute;
+  top: 3vw;
+  left: 0;
+}
+
+.topbar{
+  position: absolute;
+  left: 0;
+  top: -4vw;
+  width: 100vw;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.active {
+  position: relative;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #3265b3;
+  font-size: 1.5vw;
+  padding: 1vw;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.search{
+  width: 2vw;
+  height: 8vw;
+}
+
+.denumirea {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer1 {
+  position: absolute;
+  width: 100vw;
+  top: 2vw;
+  left: 1vw;
 }

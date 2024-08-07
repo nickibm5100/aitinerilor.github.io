@@ -14,7 +14,7 @@ body, html {
 }
 
 @media only screen and (max-width: 430px) {
-  
+/*header*/
 .bgnavbar {
   position: fixed;
   top: 0;
@@ -101,7 +101,7 @@ body, html {
 
 .linkuri {
   position: fixed;
-  left: 27vw;
+  left: 26vw;
   top: 2vw;
   z-index: 10;
 }
@@ -147,7 +147,8 @@ body, html {
   letter-spacing: 0.01vw;
   line-height: 1.6vw;
 }
-
+/*endheader*/
+/*top*/
 .top {
   position: relative;
   width: 100vw;
@@ -177,7 +178,8 @@ body, html {
   letter-spacing: 0;
   line-height: 4vw;
 }
-
+/*endtop*/
+/*poze*/
 .begin {
   position: absolute;
   width: 100vw;
@@ -231,7 +233,8 @@ body, html {
   object-fit: cover;
   border-radius: 4vw;
 }
-
+/*endpoze*/
+/*valori*/
 .valorile {
   position: relative;
   width: 100vw;
@@ -322,7 +325,8 @@ body, html {
   top: 0vw;
   left: -0.25vw;
 }
-
+/*endvalori*/
+/*evenimente*/
 .evenimente {
   position: relative;
   width: 100vw;
@@ -417,7 +421,8 @@ body, html {
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
-
+/*endevenimente*/
+/*stats*/
 .proiectestats {
   position: relative;
   width: 100vw;
@@ -471,7 +476,8 @@ body, html {
   white-space: nowrap;
   text-align: center;
 }
-
+/*endstats*/
+/*testimoniale*/
 .testimoniale {
   position: relative;
   width: 100vw;
@@ -490,48 +496,6 @@ body, html {
   font-size: 6vw;
   font-style: normal;
 }
-
-/*slide*/
-* {box-sizing:border-box}
-
-.slideshow-container {
-  max-width: 100%;
-  height: 100vw;
-  position: relative;
-  left: 1vw;
-  top: 20vw;
-}
-
-.mySlides{
-  display:none;
-}
-
-.sageatastanga:hover, .sageatadreapta:hover {
-  background-color: #5986c9;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-.numerotare {
-  position: absolute;
-  top: 160vw;
-  left: 43vw;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 6vw;
-  letter-spacing: 0;
-  white-space: nowrap;
-}
-/*end-slide*/
 
 .fotca {
   border-radius: 5vw;
@@ -619,6 +583,47 @@ body, html {
   border-radius: 0.5vw;
   user-select: none;
 }
+/*endtestimoniale*/
+/*slide*/
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 100%;
+  height: 100vw;
+  position: relative;
+  left: 1vw;
+  top: 20vw;
+}
+
+.mySlides{
+  display:none;
+}
+
+.sageatastanga:hover, .sageatadreapta:hover {
+  background-color: #5986c9;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.numerotare {
+  position: absolute;
+  top: 160vw;
+  left: 43vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 6vw;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
 
 .sageatadreapta {
   cursor: pointer;
@@ -642,7 +647,8 @@ body, html {
   height: 8vw;
   position: absolute;
 }
-
+/*endslide*/
+/*newsletter*/
 .newsletter {
   display: none;
 }
@@ -660,7 +666,8 @@ body, html {
   width: 100vw;
   height: 248vw;
 }
-
+/*endnewsletter*/
+/*footer*/
 .footer {
   position: absolute;
   width: 100vw;
@@ -882,50 +889,11 @@ body, html {
   top: 162vw;
   left: 60vw;
 }
+/*endfooter*/
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 431px) {
+/*header*/
 .mobile {
   display: none;
 }
@@ -989,7 +957,8 @@ body, html {
   border-radius: 0.5vw;
   transition: 0.3s ease;
 }
-
+/*endheader*/
+/*top*/
 .top {
   position: relative;
   width: 100vw;
@@ -1018,7 +987,8 @@ body, html {
   letter-spacing: 0;
   line-height: 3vw;
 }
-
+/*endtop*/
+/*poze*/
 .begin {
   position: absolute;
   width: 100vw;
@@ -1066,7 +1036,8 @@ body, html {
   left: 66vw;
   object-fit: cover;
 }
-
+/*endpoze*/
+/*valori*/
 .valorile {
   position: relative;
   width: 100vw;
@@ -1152,7 +1123,8 @@ body, html {
   position: absolute;
   left: 97vw;
 }
-
+/*endvalori*/
+/*evenimente*/
 .evenimente {
   position: relative;
   width: 100vw;
@@ -1243,7 +1215,8 @@ body, html {
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
-
+/*endevenimente*/
+/*stats*/
 .proiectestats {
   position: relative;
   width: 100vw;
@@ -1297,7 +1270,8 @@ body, html {
   white-space: nowrap;
   text-align: center;
 }
-
+/*endstats*/
+/*testimoniale*/
 .testimoniale {
   position: relative;
   width: 100vw;
@@ -1316,47 +1290,6 @@ body, html {
   font-size: 3vw;
   font-style: normal;
 }
-
-/*slide*/
-* {box-sizing:border-box}
-
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  left: 1vw;
-  top: 5vw;
-}
-
-.mySlides{
-  display:none;
-}
-
-.sageatastanga:hover, .sageatadreapta:hover {
-  background-color: #5986c9;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-.numerotare {
-  position: absolute;
-  top: 6.4vw;
-  left: 84.3vw;
-  font-family: "Raleway-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 1.6vw;
-  letter-spacing: 0;
-  white-space: nowrap;
-}
-/*end-slide*/
 
 .fotca {
   border-radius: 5vw;
@@ -1431,6 +1364,46 @@ body, html {
   height: 19vw;
   top: 25.4vw;
 }
+/*endtestimoniale*/
+/*slide*/
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  left: 1vw;
+  top: 5vw;
+}
+
+.mySlides{
+  display:none;
+}
+
+.sageatastanga:hover, .sageatadreapta:hover {
+  background-color: #5986c9;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.numerotare {
+  position: absolute;
+  top: 6.4vw;
+  left: 84.3vw;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 1.6vw;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
 
 .sageatastanga {
   cursor: pointer;
@@ -1467,10 +1440,8 @@ body, html {
   height: 2.5vw;
   position: absolute;
 }
-
+/*end-slide*/
 /*newsletter*/
-
-
 .newsletter {
   position: absolute;
   z-index: 1;
@@ -1596,7 +1567,8 @@ body, html {
   fill: white;
   transition-duration: 0.4s;
 }
-
+/*endnewsletter*/
+/*footer*/
 .newsletterfooter {
   position: relative;
   width: 100vw;
@@ -1823,28 +1795,8 @@ body, html {
   top: 133vw;
   left: 70vw;
 }
+/*endfooter*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*nochanges*/
 .meniu {
