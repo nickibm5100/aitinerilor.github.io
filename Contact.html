@@ -1,34 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="Ro-ro">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
     <link rel="shortcut icon" href="Elemente/iconita.ico">
     <link rel="stylesheet" href="Contact.css" />
     <link rel="stylesheet" href="font.css" />
-    <title>Contact</title>
   </head>
   <body>
     <div class="contacte">
       <div class="hero-section">
 
         <div class="meniu">
-          <!--<div class="mobile">
-            <div id="myLinks">
+          <div class="mobile">
             <a href="/"><div class="logo">
               <img class="logoait1" src="Elemente/LogoAIT1.svg" />
               <div class="titluindex">ASOCIAȚIA INTERNAȚIONALĂ A TINERILOR</div>
+              <div class="bglogo"></div>
             </div></a>
+            <div id="myLinks" style="display: none;">
+            <div class="bgnavbar"></div>
             <div class="linkuri">
-            <a href="Desprenoi.html">|Despre noi</a>
-            <a href="Proiecte.html">|Proiecte</a>
-            <a href="Evenimente.html">|Evenimente</a>
-            <a href="Transparenta.html">|Transparență</a>
-            <a href="Contact.html">|Contact</a>
+            <a class="redirect" href="/">Acasă</a>
+            <a class="redirect" href="Desprenoi.html">Despre noi</a>
+            <a class="redirect" href="Proiecte.html">Proiecte</a>
+            <a class="redirect" href="Evenimente.html">Evenimente</a>
+            <a class="redirect" href="Transparenta.html">Transparență</a>
           </div></div>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+            <div class="bgburger"></div>
+            <i class="fa fa-bars"><img src="Elemente/burgermenubar.svg"></img></i>
           </a>
         </div>
-        </div>-->
           <div class="navbar">
             <table class="topbar">
               <tr class="navcomp">
@@ -41,11 +45,9 @@
             <td><div class="static"><a href="Desprenoi.html">Despre noi</a></div></td>
             <td><div class="static"><a href="Proiecte.html">Proiecte</a></div></td>
             <td><div class="static"><a href="Evenimente.html">Evenimente</a></div></td>
-            <td><div class="static"><a href="Transparenta.html">Transparență</a></div></td>
-            <td><div class="active"><a href="Contact.html">Contact</a></div></td>
-          
-          <td>
-          <img class="search" src="Elemente/Vector.svg" /></td>
+            <td><div class="active"><a href="Transparenta.html">Transparență</a></div></td>
+            <td><div class="static"><a href="Contact.html">Contact</a></div></td>
+            <td><img class="search" src="Elemente/Vector.svg" /></td>
         
         </tr>
         </table>
@@ -57,37 +59,27 @@
 
         <div class="titlucontact">CONTACTEAZĂ ASOCIAȚIA INTERNAȚIONALĂ A TINERILOR</div>
         <div class="contactati">
-
-    <table style="width: 100vw;">
-      <tr>
-        <td style="width: 27vw;">
           <div class="telefon">
             <img class="telif" src="Elemente/Vector8.1.svg" />
             <a href="tel:+37368993410"><p class="numarul">+ 373 68 993 410</p></a>
           </div>
-        </td>
-        <td style="width: 37vw;">
           <div class="emailul">
             <img class="emil" src="Elemente/Vector7.1.svg" />
             <a href="mailto:aitrmoldova2019@gmail.com" target="_blank"><div class="denumire">aitrmoldova2019@gmail.com</div></a>
           </div>
-        </td>
-        <td>
           <div class="locatie">
             <img class="adresa" src="Elemente/Harta1.svg" />
             <a href="https://maps.app.goo.gl/ncaRnykLkJxEtPPD8" target="_blank"><p class="chisinau">mun. Chişinău, str. Mihail Sadoveanu nr. 2, bl.5, ap. 65</p></a>
           </div>
-        </td>
-      </tr>
-    </table>
-
         </div>
       </div>
 
 <!--newsletter-->
  <div class="newsletterfooter">
+
   <div class="newsletter">
-      <img class="fotonews" src="Elemente/Rectangle6.svg" />
+      <img class="fotonews1" src="Elemente/Rectangle6.svg" />
+      <img class="fotonews2" src="Elemente/Rectangle7.svg" />
       <div class="chestionar">
           <div class="fundalnews"></div>
           <div class="formtitlu">Abonare la Newsletter</div>
@@ -98,7 +90,7 @@
             }
           </style>
 
-          <form class="form">
+          <form class="form1">
             <table>
               <tr>
               <td>
@@ -121,7 +113,6 @@
           </td>
         </tr>
           </table>
-          
 
           <button class="submit">
             <div class="submitxt">Trimite</div>
@@ -130,6 +121,35 @@
               </svg></div>
           </button>
         </form>
+
+        <form class="form2">
+        <table>
+          <tr>
+          <div class="titluform">Numele</div>
+          <input type="text" name="nume:" class="textform" autocomplete="off" placeholder="ex. Cebanu" required>
+          </tr>
+          <tr>
+          <div class="titluform">Prenumele</div>
+          <input type="text" name="prenume:" class="textform" autocomplete="off" placeholder="ex. Alina" required>
+          </tr>
+          <tr>
+          <div class="titluform">Adresa de e-mail</div>
+          <input type="email" name="email:" class="textform" autocomplete="off" placeholder="ex. alinacebanu1@gmail.com" required>
+          </tr>
+          <tr>
+          <div class="titluform">Nr. Telefon</div>
+          <input type="number" name="numar:" class="textform" autocomplete="off" placeholder="ex: 012345678">
+          </tr>
+        </table>
+
+        <button class="submit">
+          <div class="submitxt">Trimite</div>
+          <div><svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9521 7.88164C21.116 8.04571 21.208 8.2681 21.208 8.49998C21.208 8.73185 21.116 8.95425 20.9521 9.11831L13.9521 16.1183C13.872 16.2043 13.7754 16.2732 13.6681 16.3211C13.5607 16.3689 13.4449 16.3946 13.3274 16.3967C13.2099 16.3987 13.0932 16.3771 12.9842 16.3331C12.8753 16.2891 12.7763 16.2236 12.6932 16.1405C12.6101 16.0574 12.5446 15.9585 12.5006 15.8495C12.4566 15.7406 12.435 15.6239 12.4371 15.5064C12.4392 15.3889 12.4649 15.273 12.5127 15.1657C12.5605 15.0583 12.6295 14.9617 12.7154 14.8816L18.2221 9.37498L1.66711 9.37498C1.43505 9.37498 1.21248 9.28279 1.04839 9.11869C0.884296 8.9546 0.79211 8.73204 0.79211 8.49998C0.79211 8.26791 0.884296 8.04535 1.04839 7.88126C1.21248 7.71716 1.43505 7.62498 1.66711 7.62498L18.2221 7.62498L12.7154 2.11831C12.6295 2.0382 12.5605 1.9416 12.5127 1.83427C12.4649 1.72694 12.4392 1.61107 12.4371 1.49359C12.435 1.3761 12.4566 1.2594 12.5006 1.15044C12.5446 1.04149 12.6101 0.942519 12.6932 0.859431C12.7763 0.776342 12.8753 0.71084 12.9842 0.666832C13.0932 0.622824 13.2099 0.601213 13.3274 0.603286C13.4449 0.605359 13.5607 0.631074 13.6681 0.678898C13.7754 0.726722 13.872 0.795674 13.9521 0.881642L20.9521 7.88164Z" />
+            </svg></div>
+        </button>
+      </form>
+
       </div>
   </div>
 
@@ -142,10 +162,10 @@
     <div class="footercontent">
       <div class="navigare">
         <div class="titlufooter">NAVIGARE</div>
-        <div style="position: relative; top: 4vw;" class="framenavigare">
+        <div class="framenavigare">
           <dl>
             <dt><a href="/">Acasă</a></dt>
-            <dt><a href="Desprenoi.html">Despre noi</a></dt>
+            <dt style="width: 20vw;"><a href="Desprenoi.html">Despre noi</a></dt>
             <dt><a href="Proiecte.html">Proiecte</a></dt>
             <dt><a href="Evenimente.html">Evenimente</a></dt>
             <dt><a href="Transparenta.html">Transparență</a></dt>
@@ -158,18 +178,18 @@
       <div class="follow">
         <div class="titlufooter">URMĂREȘTE AITINERILOR</div>
         
-          <dl style="margin-top: 4vw;">
-            <dt style="height: 6vw;"><img class="followimg" src="Elemente/evaFacebookFill2.svg" /></dt>
-            <dt style="height: 6vw;"><img class="followimg" src="Elemente/Vector11.svg" /></dt>
-            <dt style="height: 6vw;"><img class="followimg" src="Elemente/Vector12.svg" /></dt>
-            <dt style="height: 6vw;"><img class="followimg" src="Elemente/Vector13.svg" /></dt>
+          <dl class="dlfollowimg">
+            <dt class="dtfollowimg"><img class="followimg" src="Elemente/evaFacebookFill2.svg" /></dt>
+            <dt class="dtfollowimg"><img class="followimg" src="Elemente/Vector11.svg" /></dt>
+            <dt class="dtfollowimg"><img class="followimg" src="Elemente/Vector12.svg" /></dt>
+            <dt class="dtfollowimg"><img class="followimg" src="Elemente/Vector13.svg" /></dt>
           </dl>
 
-          <dl style="position: absolute; margin-top: 3vw; top: 3vw; left: 1vw;">
-            <dt style="height: 6vw;"><a href="https://www.facebook.com/AITinerilor" target="_blank">Facebook</a></dt>
-            <dt style="height: 6vw;"><a href="https://www.instagram.com/aitinerilor/" target="_blank">Instagram</a></dt>
-            <dt style="height: 6vw;"><a href="https://www.tiktok.com/@aitinerilor" target="_blank">TikTok</a></dt>
-            <dt style="height: 6vw;"><a href="https://t.me/+iDn1eR44Ww8wY2My" target="_blank">Telegram</a></dt>
+          <dl class="dlfollowtxt">
+            <dt class="dtfollowtxt"><a href="https://www.facebook.com/AITinerilor" target="_blank">Facebook</a></dt>
+            <dt class="dtfollowtxt"><a href="https://www.instagram.com/aitinerilor/" target="_blank">Instagram</a></dt>
+            <dt class="dtfollowtxt"><a href="https://www.tiktok.com/@aitinerilor" target="_blank">TikTok</a></dt>
+            <dt class="dtfollowtxt"><a href="https://t.me/+iDn1eR44Ww8wY2My" target="_blank">Telegram</a></dt>
           </dl>
           
         </div>
@@ -177,16 +197,16 @@
 
       <div class="contact">
         <div class="titlufooter">CONTACTEAZĂ-NE</div>
-        <dl style="margin-top: 4vw;">
-          <dt style="height: 8vw;"><img class="followimg" src="Elemente/Vector8.svg" /></dt>
-          <dt style="height: 8vw;"><img class="followimg" src="Elemente/Vector7.svg" /></dt>
-          <dt style="height: 8vw;"><img class="followimg" src="Elemente/Harta.svg" /></dt>
+        <dl class="dlcontactimg">
+          <dt class="dtcontactimg"><img class="followimg" src="Elemente/Vector8.svg" /></dt>
+          <dt class="dtcontactimg"><img class="followimg" src="Elemente/Vector7.svg" /></dt>
+          <dt class="dtcontactimg"><img class="followimg" src="Elemente/Harta.svg" /></dt>
         </dl>
 
-        <dl style="position: absolute; margin-top: 5vw; top: 1vw; left: 1vw;">
-          <dt style="height: 8vw;"><a href="tel:+37368993410">+ 373 68 993 410</a></dt>
-          <dt style="height: 8vw;"><a href="mailto:aitrmoldova2019@gmail.com" target="_blank">aitrmoldova2019@gmail.com</a></dt>
-          <dt style="height: 8vw;"><a href="https://maps.app.goo.gl/ncaRnykLkJxEtPPD8" target="_blank">mun. Chişinău, str. Mihail Sadoveanu nr. 2, bl.5, ap. 65 </a></dt>
+        <dl class="dlcontactxt">
+          <dt class="dtcontactxt"><a href="tel:+37368993410">+ 373 68 993 410</a></dt>
+          <dt class="dtcontactxt"><a href="mailto:aitrmoldova2019@gmail.com" target="_blank">aitrmoldova2019@gmail.com</a></dt>
+          <dt class="dtcontactxt"><a href="https://maps.app.goo.gl/ncaRnykLkJxEtPPD8" target="_blank">mun. Chişinău, str. Mihail Sadoveanu nr. 2, bl.5, ap. 65 </a></dt>
         </dl>
 
       </div>
@@ -203,5 +223,6 @@
   <p class="disclaimer">© Toate drepturile sunt rezervate. Asociația Internațională a Tinerilor A.O.</p>
 </div>
     </div>
+    <script src="meniuextend.js"></script>
   </body>
 </html>
