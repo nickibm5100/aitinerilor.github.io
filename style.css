@@ -590,6 +590,10 @@ body, html {
   background-color: #5986c9;
 }
 
+.sageatastanga1:hover, .sageatadreapta1:hover {
+  background-color: #5986c9;
+}
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
