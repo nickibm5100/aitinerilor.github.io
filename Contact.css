@@ -256,7 +256,7 @@ body, html {
   position: relative;
   top: 80vw;
   width: 100vw;
-  height: 92vw;
+  height: 91vw;
 }
 
 .newsletter {
@@ -398,6 +398,13 @@ body, html {
   height: 217vw;
   top: 115vw;
   background-color: rgba(50, 101, 179, 1);
+}
+
+.footer1 {
+  position: absolute;
+  width: 100vw;
+  top: 2vw;
+  left: 1vw;
 }
 
 .slogan {
@@ -625,7 +632,7 @@ body, html {
   gap: 4vw;
   position: relative;
   background-color: rgba(227, 239, 254, 1);
-  height: 136vw;
+  height: 128vw;
 }
 
 /*header*/
@@ -940,9 +947,16 @@ body, html {
 .footer {
   position: absolute;
   width: 100vw;
-  height: 36vw;
-  top: 50vw;
+  height: 54.45vw;
+  top: 32vw;
   background-color: rgba(50, 101, 179, 1);
+}
+
+.footer1 {
+  position: absolute;
+  width: 100vw;
+  top: 23vw;
+  left: 1vw;
 }
 
 .slogan {
@@ -1123,13 +1137,13 @@ body, html {
   height: 0.01vw;
   background-color: #FFFFFF;
   position: relative;
-  top: 29vw;
+  top: 49vw;
   left: 1vw;
 }
 
 .disclaimer {
   position: absolute;
-  top: 31vw;
+  top: 50vw;
   left: 30vw;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
@@ -1184,13 +1198,6 @@ body, html {
   position: relative;
   width: 100vw;
   height: 80vw;
-}
-
-.footer1 {
-  position: absolute;
-  width: 100vw;
-  top: 2vw;
-  left: 1vw;
 }
 
 .navbar {

@@ -702,7 +702,7 @@ body, html {
 }
 
 .coperta {
-  width: 34.339vw;
+  width: 30.339vw;
   position: absolute;
   height: 30.339vw;
   object-fit: cover;
@@ -905,7 +905,7 @@ body, html {
   position: absolute;
   width: 100vw;
   height: 36vw;
-  top: 50vw;
+  bottom: 0;
   background-color: rgba(50, 101, 179, 1);
 }
 

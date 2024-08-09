@@ -247,16 +247,33 @@ body, html {
   line-height: 150%;
   font-style: normal;
 }
+
+.inima {
+  position: absolute;
+  top:-54vw;
+  left: 36vw;
+  width: 9vw;
+}
+
 /*slide*/
 * {box-sizing:border-box}
 
-.slideshow-container {
+.slideshow-container1 {
   max-width: 100%;
   position: relative;
-  left: 1vw;
+  left: 7vw;
+  top: 43vw;
 }
 
-.mySlides{
+.slideshow-container {
+  display: none;
+}
+
+.mySlides1{
+  display:none;
+}
+
+.mySlides2{
   display:none;
 }
 
@@ -274,15 +291,14 @@ body, html {
   to {opacity: 1}
 }
 
-.numerotare {
+.numerotare1 {
   position: absolute;
-  width: fit-content;
-  top: 97.3vw;
-  left: 47.9vw;
+  top: 159vw;
+  left: 36vw;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
   color: #000000;
-  font-size: 1.6vw;
+  font-size: 6vw;
   letter-spacing: 0;
   white-space: nowrap;
 }
@@ -291,12 +307,12 @@ body, html {
   cursor: pointer;
   position: absolute;
   padding: 0.4vw;
-  top: 96.8vw;
-  left: 45.5vw;
-  height: 3.3vw;
-  width: 2vw;
+  top: 159vw;
+  left: 30vw;
+  height: 9.3vw;
+  width: 5vw;
   transition: 0.6s ease;
-  border-radius: 3px;
+  border-radius: 0.5vw;
   user-select: none;
 }
 
@@ -304,22 +320,22 @@ body, html {
   cursor: pointer;
   position: absolute;
   padding: 0.4vw;
-  top: 96.8vw;
-  left: 50.6vw;
-  height: 3.3vw;
-  width: 2vw;
+  top: 159vw;
+  left: 53vw;
+  height: 9.3vw;
+  width: 5vw;
   transition: 0.6s ease;
-  border-radius: 3px;
+  border-radius: 0.5vw;
   user-select: none;
 }
 
 .ss{
-  height: 2.5vw;
+  height: 8vw;
   position: absolute;
 }
 
 .sd{
-  height: 2.5vw;
+  height: 8vw;
   position: absolute;
 }
 /*endslide*/
@@ -339,8 +355,8 @@ body, html {
 
 .membruimg {
   position: absolute;
-  width: 22.1vw;
-  height: 22.1vw;
+  width: 86.1vw;
+  height: 86.1vw;
   top: 0;
   left: 0;
   object-fit: cover;
@@ -349,7 +365,7 @@ body, html {
 
 .descriere {
   position: absolute;
-  top: 23.7vw;
+  top: 95vw;
   left: 0;
 }
 
@@ -359,25 +375,25 @@ body, html {
   font-family: "Raleway-SemiBold", Helvetica;
   font-weight: 600;
   color: rgba(197, 38, 176, 1);
-  font-size: 2.4vw;
+  font-size: 9.4vw;
   letter-spacing: 0;
   white-space: nowrap;
 }
 
 .functie{
   position: absolute;
-  width: 21vw;
-  top: 3.2vw;
+  width: 80vw;
+  top: 13vw;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
   color: rgba(7, 15, 28, 1);
-  font-size: 1.5vw;
-  line-height: 2vw;
+  font-size: 6.3vw;
+  line-height: 6vw;
 }
 
 .linie {
-  width: 21.9vw;
-  top: 11vw;
+  width: 85vw;
+  top: 41vw;
   position: absolute;
   height: 0.1vw;
   object-fit: cover;
@@ -385,29 +401,32 @@ body, html {
 }
 
 .retele {
+  gap: 10vw;
+  display: inline-flex;
   position: absolute;
   width: 15vw;
   height: 2vw;
-  top: 12.2vw;
+  top: 44vw;
 }
 
 .IG{
   position: relative;
+  width: 10vw;
 }
 
 .EM{
   position: relative;
-  left: 0.8vw;
+  width: 11vw;
 }
 
 .FB{
   position: relative;
-  left: 1.7vw;
+  width: 6vw;
 }
 
 .TT{
   position: relative;
-  left: 2.5vw;
+  width: 9vw;
 }
 /*endlistamembri*/
 /*footer*/
@@ -808,6 +827,13 @@ body, html {
   font-style: normal;
 }
 
+.inima {
+  position: absolute;
+  top:-14vw;
+  left: 9vw;
+  width: 3vw;
+}
+
 /*slide*/
 * {box-sizing:border-box}
 
@@ -817,7 +843,15 @@ body, html {
   left: 1vw;
 }
 
-.mySlides{
+.slideshow-container1 {
+  display: none;
+}
+
+.mySlides1{
+  display:none;
+}
+
+.mySlides2{
   display:none;
 }
 
