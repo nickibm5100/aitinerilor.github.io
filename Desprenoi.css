@@ -248,13 +248,6 @@ body, html {
   font-style: normal;
 }
 
-.inima {
-  position: absolute;
-  top:-54vw;
-  left: 36vw;
-  width: 9vw;
-}
-
 /*slide*/
 * {box-sizing:border-box}
 
@@ -825,13 +818,6 @@ body, html {
   font-size: 3vw;
   line-height: 150%;
   font-style: normal;
-}
-
-.inima {
-  position: absolute;
-  top:-14vw;
-  left: 9vw;
-  width: 3vw;
 }
 
 /*slide*/
