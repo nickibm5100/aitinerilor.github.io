@@ -5,6 +5,7 @@ body, html {
   -webkit-text-size-adjust: none;
 }
 
+@media only screen and (max-width: 430px) {
 .index {
   display: flex;
   flex-direction: column;
@@ -13,8 +14,7 @@ body, html {
   background-color: #ffffff;
 }
 
-@media only screen and (max-width: 430px) {
-/*header*/
+  /*header*/
 .bgnavbar {
   position: fixed;
   top: 0;
@@ -152,7 +152,7 @@ body, html {
 .top {
   position: relative;
   width: 100vw;
-  height: 113vw;
+  height: 116vw;
   background-color: rgba(227, 239, 254, 1);
 }
 
@@ -192,7 +192,7 @@ body, html {
   position: absolute;
   width: 100vw;
   height: 59vw;
-  top: 34vw;
+  top: 45vw;
   left: 2.5vw;
 }
 
@@ -239,11 +239,12 @@ body, html {
   position: relative;
   width: 100vw;
   height: 125vw;
+  top: 10vw;
 }
 
 .valoriletxt {
   position: absolute;
-  left: 1vw;
+  left: 4vw;
   width: 63vw;
   font-family: "Raleway-Bold", Helvetica;
   font-weight: 700;
@@ -255,17 +256,17 @@ body, html {
 .network {
   position: absolute;
   width: 31vw;
-  top: 8vw;
-  left: 59vw;
+  top: 21vw;
+  left: 57vw;
   object-fit: cover;
 }
 
 .valori1 {
   display: grid;
   align-content: center;
-  gap: 11vw;
+  gap: 18vw;
   position: absolute;
-  top: 33vw;
+  top: 46vw;
   left: 8vw;
 }
 
@@ -273,57 +274,60 @@ body, html {
   display: inline-flex;
   position: relative;
   top: 3vw;
-  left: 8vw;
+  left: 14vw;
   width: fit-content;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
   color: rgba(7, 15, 28, 1);
-  font-size: 4vw;
+  font-size: 6vw;
   letter-spacing: 0;
   white-space: nowrap;
+  font-variant: small-caps;
 }
 
 .ellipse {
+  top: -1vw;
   left: 30%;
-  width: 3vw;
-  height: 5vw;
+  width: 5vw;
+  height: 9vw;
   position: absolute;
-  left: -6vw;
+  left: -12vw;
   background-color: #C526B0;
   border-radius: 0 10rem 10rem 0;
 }
 
 .linie {
   position: relative;
-  height: 78vw;
-  top: 31vw;
+  height: 116vw;
+  top: 40vw;
   left: 10vw;
 }
 
 .linie1 {
-  height: 77vw;
-  width: 0.5vw;
+  height: 125vw;
+  width: 0.7vw;
+  top: 1vw;
   background-color: #3265B3;
   position: relative;
 }
 
 .punct1 {
-  width: 1vw;
-  height: 1vw;
+  width: 2vw;
+  height: 2vw;
   background-color: #3265B3;
   border-radius: 50%;
   position: absolute;
-  left: -0.25vw;
+  left: -0.65vw;
 }
 
 .punct2 {
-  width: 1vw;
-  height: 1vw;
+  width: 2vw;
+  height: 2vw;
   background-color: #3265B3;
   border-radius: 50%;
   position: absolute;
   top: 0vw;
-  left: -0.25vw;
+  left: -0.65vw;
 }
 /*endvalori*/
 /*evenimente*/
@@ -331,11 +335,12 @@ body, html {
   position: relative;
   width: 100vw;
   height: 245vw;
+  top: 69vw;
 }
 
 .evenimentetxt {
   position: absolute;
-  left: 1vw;
+  left: 3vw;
   font-family: "Raleway-Bold", Helvetica;
   font-weight: 700;
   color: rgba(50, 101, 179, 1);
@@ -424,6 +429,7 @@ body, html {
 /*endevenimente*/
 /*stats*/
 .proiectestats {
+  top: 75vw;
   position: relative;
   width: 100vw;
   height: 100vw;
@@ -432,6 +438,7 @@ body, html {
 .dreptunghi {
   display: grid;
   position: relative;
+  gap: 10vw;
   width: 91vw;
   height: 69vw;
   top: 31vw;
@@ -441,7 +448,7 @@ body, html {
   position: absolute;
   width: 63vw;
   top: -8vw;
-  left: 1vw;
+  left: 4vw;
   font-family: "Raleway-Bold", Helvetica;
   font-weight: 700;
   color: rgba(50, 101, 179, 1);
@@ -452,14 +459,14 @@ body, html {
 .categorie {
   display: flex;
   flex-direction: column;
-  width: 90vw;
-  height: 14vw;
+  width: 73vw;
+  height: 18vw;
   align-items: center;
   justify-content: center;
   padding: 1vw 2.5vw;
   margin: 0 4vw 0 2vw;
   position: relative;
-  left: 3vw;
+  left: 10vw;
   top: -1vw;
   background-color: rgba(50, 101, 179, 1);
   border-radius: 4vw;
@@ -479,6 +486,7 @@ body, html {
 /*endstats*/
 /*testimoniale*/
 .testimoniale {
+  top: 96vw;
   position: relative;
   width: 100vw;
   height: 205vw;
@@ -611,7 +619,7 @@ body, html {
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
   color: #000000;
-  font-size: 6vw;
+  font-size: 5vw;
   letter-spacing: 0;
   white-space: nowrap;
 }
@@ -649,7 +657,7 @@ body, html {
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
   color: #000000;
-  font-size: 6vw;
+  font-size: 5vw;
   letter-spacing: 0;
   white-space: nowrap;
 }
@@ -707,6 +715,7 @@ body, html {
   position: relative;
   width: 100vw;
   height: 248vw;
+  top: 96vw;
 }
 /*endnewsletter*/
 /*footer*/
@@ -714,7 +723,7 @@ body, html {
   position: absolute;
   width: 100vw;
   height: 229vw;
-  top: 19vw;
+  top: 26vw;
   background-color: rgba(50, 101, 179, 1);
 }
 
@@ -778,7 +787,7 @@ body, html {
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
   color: #ffffff;
-  font-size: 5vw;
+  font-size: 4vw;
   line-height: 150%;
   white-space: nowrap;
   position: absolute;
@@ -787,7 +796,7 @@ body, html {
 
 .framenavigare {
   position: relative;
-  top: 10vw;
+  top: 8vw;
 }
 
 .framenavigare dt{
@@ -857,16 +866,16 @@ body, html {
   position: absolute;
   width: 30vw;
   height: 20vw;
-  top: 100vw;
+  top: 103vw;
 }
 
 .dlcontactimg {
-  margin-top: 12vw;
+  margin-top: 10vw;
 }
 
 .dlcontactxt {
   position: absolute;
-  margin-top: 5vw;
+  margin-top: 3vw;
   top: 6vw;
   left: 4vw;
 }
@@ -903,38 +912,27 @@ body, html {
 
 .disclaimer {
   position: absolute;
-  width: 72vw;
+  width: 61vw;
   top: 209vw;
-  left: 15vw;
+  left: 19vw;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
   color: #ffffff;
-  font-size: 4vw;
-}
-
-.gradient1{
-  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
-  border-radius: 50%;
-  width: 40vw;
-  height: 40vw;
-  position: absolute;
-  top: 519vw;
-  left: -15vw;
-}
-
-.gradient2{
-  background-image: radial-gradient(closest-side, rgba(197,38,176,0.4), rgba(197,38,176,0));
-  border-radius: 50%;
-  width: 40vw;
-  height: 40vw;
-  position: absolute;
-  top: 162vw;
-  left: 60vw;
+  font-size: 3vw;
+  text-align: center;
 }
 /*endfooter*/
 }
 
 @media only screen and (min-width: 431px) {
+.index {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  position: relative;
+  background-color: #ffffff;
+}
+
 /*header*/
 .mobile {
   display: none;
@@ -967,7 +965,7 @@ body, html {
 
 .titluindex {
   position: relative;
-  width: 5vw;
+  width: 6vw;
   top: 0.1vw;
   left: 0.3vw;
   text-align: left;
@@ -1004,7 +1002,7 @@ body, html {
 .top {
   position: relative;
   width: 100vw;
-  height: 58vw;
+  height: 57.6vw;
   background-color: rgba(227, 239, 254, 1);
 }
 
@@ -1061,6 +1059,7 @@ body, html {
   top: 25.2vw;
   left: 0;
   object-fit: cover;
+  z-index: 1;
 }
 
 .foto3 {
@@ -1084,16 +1083,17 @@ body, html {
   position: relative;
   width: 100vw;
   height: 25vw;
+  top: 6vw;
 }
 
 .valoriletxt {
   position: absolute;
   left: 1vw;
-  width: 50vw;
+  width: 60vw;
   font-family: "Raleway-Bold", Helvetica;
   font-weight: 700;
   color: rgba(50, 101, 179, 1);
-  font-size: 3vw;
+  font-size: 4vw;
   font-style: normal;
 }
 
@@ -1171,6 +1171,7 @@ body, html {
   position: relative;
   width: 100vw;
   height: 50vw;
+  top: 11vw;
 }
 
 .evenimentetxt {
@@ -1187,10 +1188,10 @@ body, html {
 
 .chenare {
   position: relative;
-  width: 48vw;
-  height: 35vw;
+  width: 47vw;
+  height: 32vw;
   left: 0.5vw;
-  margin-right: 0.3vw;
+  margin-right: 1.5vw;
   border-radius: 1vw;
   overflow: hidden;
   border: 0.01vw solid;
@@ -1221,7 +1222,7 @@ body, html {
 .previzualizare {
   position: absolute;
   width: 20vw;
-  top: 10vw;
+  top: 7vw;
   left: 25vw;
   font-family: "Raleway-Medium", Helvetica;
   font-weight: 500;
@@ -1262,6 +1263,7 @@ body, html {
   position: relative;
   width: 100vw;
   height: 20vw;
+  top: 19vw
 }
 
 .dreptunghi {
@@ -1270,7 +1272,7 @@ body, html {
   width: 91vw;
   height: 8vw;
   top: 11vw;
-  left: 2.8vw;
+  left: 5vw;
 }
 
 .proiectetxt {
@@ -1281,7 +1283,7 @@ body, html {
   font-family: "Raleway-Bold", Helvetica;
   font-weight: 700;
   color: rgba(50, 101, 179, 1);
-  font-size: 3.3vw;
+  font-size: 4vw;
   font-style: normal;
 }
 
@@ -1316,19 +1318,20 @@ body, html {
 .testimoniale {
   position: relative;
   width: 100vw;
-  height: 54.5vw;
+  height: 64.5vw;
   background-color: rgba(227, 239, 254, 1);
+  top: 26vw;
 }
 
 .pareri {
   position: absolute;
-  width: 38.5vw;
+  width: 46.5vw;
   top: -0.3vw;
   left: 1vw;
   font-family: "Raleway-Bold", Helvetica;
   font-weight: 700;
   color: rgba(50, 101, 179, 1);
-  font-size: 3vw;
+  font-size: 4vw;
   font-style: normal;
 }
 
@@ -1345,8 +1348,8 @@ body, html {
 .persoana {
   position: absolute;
   height: 2vw;
-  top: 44.4vw;
-  left: 49vw;
+  top: 45.8vw;
+  left: 48.3vw;
   font-family: "Raleway-Bold", Helvetica;
   font-weight: 700;
   color: #c526b0;
@@ -1358,8 +1361,8 @@ body, html {
   position: absolute;
   height: 2vw;
   width: 43vw;
-  top: 46.2vw;
-  left: 49vw;
+  top: 47.7vw;
+  left: 48.3vw;
   font-family: "Raleway-Bold", Helvetica;
   font-weight: 700;
   color: rgba(7, 15, 28, 1);
@@ -1413,14 +1416,14 @@ body, html {
   max-width: 100%;
   position: relative;
   left: 1vw;
-  top: 5vw;
+  top: 8vw;
 }
 
 .slideshow-container1 {
   max-width: 100%;
   position: relative;
   left: 1vw;
-  top: 6vw;
+  top: 8vw;
 }
 
 .mySlides2{
@@ -1462,7 +1465,7 @@ body, html {
   position: absolute;
   padding: 0.4vw;
   top: 5.8vw;
-  left: 82.1vw;
+  left: 80.4vw;
   height: 3.3vw;
   width: 2vw;
   transition: 0.6s ease;
@@ -1475,7 +1478,7 @@ body, html {
   position: absolute;
   padding: 0.4vw;
   top: 5.8vw;
-  left: 87vw;
+  left: 89vw;
   height: 3.3vw;
   width: 2vw;
   transition: 0.6s ease;
@@ -1488,7 +1491,7 @@ body, html {
   position: absolute;
   padding: 0.4vw;
   top: 35.8vw;
-  left: 45.5vw;
+  left: 43.5vw;
   height: 3.3vw;
   width: 2vw;
   transition: 0.6s ease;
@@ -1501,7 +1504,7 @@ body, html {
   position: absolute;
   padding: 0.4vw;
   top: 35.8vw;
-  left: 50.5vw;
+  left: 52.5vw;
   height: 3.3vw;
   width: 2vw;
   transition: 0.6s ease;
@@ -1566,7 +1569,7 @@ body, html {
   position: absolute;
   width: 22vw;
   top: 3vw;
-  left: 23.26vw;
+  left: 26.26vw;
   font-family: "Raleway-SemiBold", Helvetica;
   font-weight: 600;
   color: rgba(7, 15, 28, 1);
@@ -1575,7 +1578,7 @@ body, html {
 
 .form{
   position: relative;
-  top: 6vw;
+  top: 7vw;
   left: 7vw;
 }
 
@@ -1584,7 +1587,7 @@ body, html {
 }
 
 .titluform{
-  margin-left: 2.8vw;
+  margin: 0 0 0.5vw 2.8vw;
   color: #000000;
   position: relative;
   width: 24vw;
@@ -1598,6 +1601,7 @@ body, html {
 
 .textform {
   margin-left: 2.8vw;
+  padding: 1vw;
   color: #818893;
   position: relative;
   width: 24.1vw;
@@ -1621,7 +1625,7 @@ body, html {
   padding: 1.2vw 3vw;
   position: absolute;
   color: #ffffff;
-  top: 23.7vw;
+  top: 22.7vw;
   left: 22vw;
   background-color: rgba(197, 38, 176, 1);
   border-radius: 0 1.5vw 1.5vw 1.5vw;
@@ -1663,13 +1667,14 @@ body, html {
   position: relative;
   width: 100vw;
   height: 92vw;
+  top: 26vw;
 }
 
 .footer {
   position: absolute;
   width: 100vw;
   height: 73vw;
-  top: 19vw;
+  top: 24vw;
   background-color: rgba(50, 101, 179, 1);
 }
 
@@ -1872,7 +1877,7 @@ body, html {
   width: 30vw;
   height: 30vw;
   position: absolute;
-  top: 45vw;
+  top: 39vw;
   left: -15vw;
 }
 
@@ -1934,10 +1939,10 @@ body, html {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 3vw;
+  gap: 6vw;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 6vw;
+  left: 2vw;
 }
 
 .footer1 {
